@@ -63,3 +63,25 @@ Transcriptional regulation, particularly through p53, plays a crucial role in NS
 These signaling pathways and their interactions form a complex network that drives NSCLC pathogenesis. Understanding these pathways is crucial for developing targeted therapies and overcoming drug resistance in NSCLC treatment.
 
 For a comprehensive overview of all these pathways and their interactions, refer to the original KEGG Non-Small Cell Lung Cancer pathway diagram linked at the beginning of this document.
+
+## Citation
+
+[Data, information, knowledge and principle: back to metabolism in KEGG](https://academic.oup.com/nar/article/42/D1/D199/1047899)
+
+```txt
+@article{10.1093/nar/gkt1076,
+    author = {Kanehisa, Minoru and Goto, Susumu and Sato, Yoko and Kawashima, Masayuki and Furumichi, Miho and Tanabe, Mao},
+    title = "{Data, information, knowledge and principle: back to metabolism in KEGG}",
+    journal = {Nucleic Acids Research},
+    volume = {42},
+    number = {D1},
+    pages = {D199-D205},
+    year = {2013},
+    month = {11},
+    abstract = "{In the hierarchy of data, information and knowledge, computational methods play a major role in the initial processing of data to extract information, but they alone become less effective to compile knowledge from information. The Kyoto Encyclopedia of Genes and Genomes (KEGG) resource (http://www.kegg.jp/ or http://www.genome.jp/kegg/) has been developed as a reference knowledge base to assist this latter process. In particular, the KEGG pathway maps are widely used for biological interpretation of genome sequences and other high-throughput data. The link from genomes to pathways is made through the KEGG Orthology system, a collection of manually defined ortholog groups identified by K numbers. To better automate this interpretation process the KEGG modules defined by Boolean expressions of K numbers have been expanded and improved. Once genes in a genome are annotated with K numbers, the KEGG modules can be computationally evaluated revealing metabolic capacities and other phenotypic features. The reaction modules, which represent chemical units of reactions, have been used to analyze design principles of metabolic networks and also to improve the definition of K numbers and associated annotations. For translational bioinformatics, the KEGG MEDICUS resource has been developed by integrating drug labels (package inserts) used in society.}",
+    issn = {0305-1048},
+    doi = {10.1093/nar/gkt1076},
+    url = {https://doi.org/10.1093/nar/gkt1076},
+    eprint = {https://academic.oup.com/nar/article-pdf/42/D1/D199/3561927/gkt1076.pdf},
+}
+```
