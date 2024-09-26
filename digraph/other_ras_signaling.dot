@@ -1,0 +1,21 @@
+digraph OtherRasSignaling {
+    rankdir=LR;
+    node [shape=box, style=filled, fillcolor="#B0E0E6"];
+
+    // Key nodes from the image
+    KRAS [label="K-Ras", shape=box, fillcolor="#FFC0CB"];  // Oncogenic mutation in NSCLC
+    RASSF1 [label="RASSF1", shape=box, fillcolor="#FFC0CB"];  // Tumor suppressor, often lost in NSCLC
+    NORE1A [label="NORE1A", shape=box, fillcolor="#B0E0E6"];
+    MST1 [label="MST1", shape=box, fillcolor="#B0E0E6"];  // Promotes apoptosis
+    CyclinD1 [label="Cyclin D1", shape=box, fillcolor="#B0E0E6"];  // Promotes proliferation
+    Apoptosis [label="Reduced Apoptosis", shape=box, fillcolor="#B0E0E6"];  // Final effect
+    Proliferation [label="Proliferation", shape=box, fillcolor="#B0E0E6"];  // Final effect
+
+    // Interactions
+    KRAS -> RASSF1 [label="Activates"];
+    RASSF1 -> NORE1A [label="Forms Complex"];
+    NORE1A -> MST1 [label="Activates"];
+    MST1 -> Apoptosis [label="Promotes"];
+    RASSF1 -> CyclinD1 [label="Inhibits", style=dashed];  // Loss of RASSF1 releases inhibition of Cyclin D1
+    CyclinD1 -> Proliferation [label="Promotes"];
+}

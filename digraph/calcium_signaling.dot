@@ -1,0 +1,34 @@
+digraph CalciumSignaling {
+    rankdir=LR;
+    node [shape=box, style=filled, fillcolor="#B0E0E6"];
+
+    // Key nodes involved in calcium signaling
+    EGFR [label="EGFR", shape=box, fillcolor="#FFC0CB"];  // Upstream receptor
+    EML4_ALK [label="EML4-ALK", shape=box, fillcolor="#FFC0CB"];  // Oncogenic fusion protein
+    PLCG [label="PLCγ", shape=box, fillcolor="#B0E0E6"];  // Generates IP3 and DAG
+    ER [label="Endoplasmic Reticulum (ER)", shape=box, fillcolor="#B0E0E6"];  // Stores Ca²+
+    IP3 [label="IP3", shape=box, fillcolor="#B0E0E6"];  // Releases Ca²+ from ER
+    DAG [label="DAG", shape=box, fillcolor="#B0E0E6"];  // Works with Ca²+ to activate PKC
+    Ca2plus [label="Ca²+", shape=box, fillcolor="#B0E0E6"];  // Released from ER
+    PKC [label="PKC", shape=box, fillcolor="#B0E0E6"];  // Activated by Ca²+ and DAG
+    Raf [label="Raf", shape=box, fillcolor="#B0E0E6"];  // Interconnected MAPK signaling
+    MEK [label="MEK", shape=box, fillcolor="#B0E0E6"];  // Interconnected MAPK signaling
+    ERK [label="ERK", shape=box, fillcolor="#B0E0E6"];  // Leads to Cyclin D1 activation
+    CyclinD1 [label="Cyclin D1", shape=box, fillcolor="#B0E0E6"];  // Promotes Proliferation
+    Proliferation [label="Proliferation", shape=box, fillcolor="#B0E0E6"];  // Final effect
+
+    // Interactions
+    EGFR -> PLCG [label="Activates"];
+    EML4_ALK -> PLCG [label="Activates"];
+    PLCG -> IP3 [label="Generates"];
+    PLCG -> DAG [label="Generates"];
+    IP3 -> ER [label="Interacts with"];
+    ER -> Ca2plus [label="Releases Ca²+"];
+    Ca2plus -> PKC [label="Activates"];
+    DAG -> PKC [label="Activates"];
+    PKC -> Raf [label="Activates"];
+    Raf -> MEK [label="Phosphorylates"];
+    MEK -> ERK [label="Phosphorylates"];
+    ERK -> CyclinD1 [label="Activates"];
+    CyclinD1 -> Proliferation [label="Promotes"];
+}

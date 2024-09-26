@@ -1,0 +1,15 @@
+digraph JakStatSignaling {
+    rankdir=LR;
+    node [shape=box, style=filled, fillcolor="#B0E0E6"];
+
+    // Key nodes from the image
+    EML4_ALK [label="EML4-ALK", shape=box, fillcolor="#FFC0CB"];  // Oncogenic driver in NSCLC
+    JAK3 [label="JAK3", shape=box, fillcolor="#B0E0E6"];  // Activated by EML4-ALK
+    STAT3 [label="STAT3", shape=box, fillcolor="#B0E0E6"];  // Activated by JAK3
+    Cell_Survival [label="Cell Survival", shape=box, fillcolor="#B0E0E6"];
+
+    // Interactions from the image
+    EML4_ALK -> JAK3 [label="Activation"];
+    JAK3 -> STAT3 [label="Phosphorylation"];
+    STAT3 -> Cell_Survival [label="Promotes"];
+}

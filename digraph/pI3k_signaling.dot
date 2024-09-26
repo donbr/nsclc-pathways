@@ -1,0 +1,25 @@
+digraph Pi3kSignaling {
+    rankdir=LR;
+    node [shape=box, style=filled, fillcolor="#B0E0E6"];
+
+    // DataNodes (purple-highlighted elements from the KEGG image)
+    EGFR [fillcolor="#FFC0CB"];
+    MET [fillcolor="#FFC0CB"];
+    KRAS [fillcolor="#FFC0CB"];
+    PI3K;
+    PIP3;
+    AKT;
+    BAD;
+    EML4_ALK [fillcolor="#FFC0CB"];
+    Apoptosis;
+
+    // Interactions
+    EGFR -> PI3K [label="Activation"];
+    MET -> PI3K [label="Activation"];
+    EML4_ALK -> PI3K [label="Activation"];
+    KRAS -> PI3K [label="Activation"];
+    PI3K -> PIP3 [label="Activation"];
+    PIP3 -> AKT [label="Activation"];
+    AKT -> BAD [label="Phosphorylation", style=bold, color="blue"];
+    BAD -> Apoptosis [label="Anti-apoptosis", style=bold, color="blue"];
+}

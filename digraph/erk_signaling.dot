@@ -1,0 +1,37 @@
+digraph ErkSignaling {
+    rankdir=LR;
+    node [shape=box, style=filled, fillcolor="#B0E0E6"];
+
+    // Key nodes highlighted in purple and those representing abnormal (red)
+    EGF [label="EGF", shape=box, fillcolor="#B0E0E6"];  // Growth factor
+    EGFR [label="EGFR", shape=box, fillcolor="#FFC0CB"];  // Frequently mutated in NSCLC
+    ERBB2 [label="ERBB2", shape=box, fillcolor="#B0E0E6"];  // RTK
+    MET [label="MET", shape=box, fillcolor="#FFC0CB"];  // RTK
+    Grb2 [label="Grb2", shape=box, fillcolor="#B0E0E6"];  // Adaptor protein
+    Sos [label="Sos", shape=box, fillcolor="#B0E0E6"];  // Adaptor protein
+    KRAS [label="KRAS", shape=box, fillcolor="#FFC0CB"];  // Frequently mutated in NSCLC (Cancerous/Abnormal)
+    EML4_ALK [label="EML4-ALK", shape=box, fillcolor="#FFC0CB"];  // Oncogenic fusion (Cancerous/Abnormal)
+    KIF5B_RET [label="KIF5B-RET", shape=box, fillcolor="#FFC0CB"];  // Oncogenic fusion (Cancerous/Abnormal)
+    Raf [label="Raf", shape=box, fillcolor="#B0E0E6"];  // RAF kinase
+    MEK [label="MEK", shape=box, fillcolor="#B0E0E6"];  // MEK kinase
+    ERK [label="ERK", shape=box, fillcolor="#B0E0E6"];  // ERK kinase
+    DNA [label="DNA", shape=box, fillcolor="#B0E0E6"];  // DNA, transcription target
+    CyclinD1 [label="Cyclin D1", shape=box, fillcolor="#B0E0E6"];  // Promotes cell cycle progression
+    Proliferation [label="Proliferation", shape=box, fillcolor="#B0E0E6"];  // Final effect
+
+    // Interactions
+    EGF -> EGFR [label="Activates"];
+    EGFR -> Grb2 [label="Recruits"];
+    ERBB2 -> Grb2 [label="Recruits"];
+    MET -> Grb2 [label="Recruits"];
+    Grb2 -> Sos [label="Binds"];
+    Sos -> KRAS [label="Activates"];
+    KRAS -> Raf [label="Activates"];
+    EML4_ALK -> KRAS [label="Activates"];
+    KIF5B_RET -> KRAS [label="Activates"];
+    Raf -> MEK [label="Phosphorylation"];
+    MEK -> ERK [label="Phosphorylation"];
+    ERK -> DNA [label="Activates Transcription"];
+    ERK -> CyclinD1 [label="Upregulates"];
+    CyclinD1 -> Proliferation [label="Promotes"];
+}

@@ -1,0 +1,16 @@
+digraph CellCycle {
+    rankdir=LR;
+    node [shape=box, style=filled, fillcolor="#B0E0E6"];
+
+    // Key nodes from the image
+    p16INK4a [label="p16INK4a", shape=box, fillcolor="#FFC0CB"];  // Tumor suppressor, inhibits CDK4/6
+    CDK4_6_CyclinD [label="CDK4/6-Cyclin D Complex", shape=box, fillcolor="#B0E0E6"];  // Promotes cell cycle progression
+    Rb [label="Rb (Retinoblastoma)", shape=box, fillcolor="#B0E0E6"];  // Inhibited by phosphorylation
+    E2F [label="E2F", shape=box, fillcolor="#B0E0E6"];  // Promotes G1/S transition
+
+    // Interactions from the image
+    p16INK4a -> CDK4_6_CyclinD [label="Inhibits"];  // p16INK4a inhibits the CDK4/6-Cyclin D complex
+    CDK4_6_CyclinD -> Rb [label="Phosphorylates"];  // CDK4/6-Cyclin D complex phosphorylates Rb
+    Rb -> E2F [label="Inhibits"];  // Rb inhibits E2F
+    E2F -> "G1/S Progression" [label="Promotes"];  // E2F promotes progression to S-phase
+}

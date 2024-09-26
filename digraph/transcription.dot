@@ -1,0 +1,35 @@
+digraph Transcription {
+    rankdir=LR;
+    node [shape=box, style=filled, fillcolor="#B0E0E6"];
+
+    // Key nodes from the image
+    DNADamage [label="DNA Damage", shape=box, fillcolor="#B0E0E6"];
+    p53 [label="p53", shape=box, fillcolor="#FFC0CB"];  // p53 is often mutated in NSCLC
+    DNA [label="DNA", shape=box, fillcolor="#B0E0E6"];
+    p21 [label="p21", shape=box, fillcolor="#B0E0E6"];  // Cell cycle arrest
+    GADD45 [label="GADD45", shape=box, fillcolor="#B0E0E6"];  // DNA repair
+    Bax [label="Bax", shape=box, fillcolor="#B0E0E6"];  // Pro-apoptotic
+    Bak [label="Bak", shape=box, fillcolor="#B0E0E6"];  // Pro-apoptotic
+    p48 [label="p48", shape=box, fillcolor="#B0E0E6"];  // DNA repair
+    POLK [label="POLK", shape=box, fillcolor="#B0E0E6"];  // DNA replication/repair
+    UncontrolledProliferation [label="Uncontrolled Proliferation", shape=box, fillcolor="#B0E0E6"];
+    IncreasedSurvival [label="Increased Survival", shape=box, fillcolor="#B0E0E6"];
+    GenomicInstability [label="Genomic Instability", shape=box, fillcolor="#B0E0E6"];
+
+    // Interactions from the image
+    DNADamage -> p53 [label="Activates"];
+    p53 -> DNA [label="Binds"];
+    DNA -> p21 [label="Activates"];
+    DNA -> GADD45 [label="Activates"];
+    DNA -> Bax [label="Activates"];
+    DNA -> Bak [label="Activates"];
+    DNA -> p48 [label="Activates"];
+    DNA -> POLK [label="Activates"];
+    
+    // Outcomes
+    p21 -> UncontrolledProliferation [label="Loss of p53 leads to"];
+    Bax -> IncreasedSurvival [label="Loss of p53 leads to"];
+    Bak -> IncreasedSurvival [label="Loss of p53 leads to"];
+    GADD45 -> GenomicInstability [label="Loss of p53 leads to"];
+    POLK -> GenomicInstability [label="Loss of p53 leads to"];
+}
