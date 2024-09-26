@@ -18,7 +18,8 @@ This study aims to provide a comprehensive overview of the key signaling pathway
 
 We conducted an extensive literature review and pathway analysis using data from public databases, including KEGG, WikiPathways, STRING, and STITCH.
 
-The analysis focused on six key pathways:
+The analysis focused on six key pathways from the [WikiPathways Non-Small Cell Lung Cancer pathway (click to view image)](nsclc_wikipathways.png):
+
 - PI3K-Akt
 - Ras
 - Calcium
