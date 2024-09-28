@@ -326,7 +326,6 @@ These efforts may lead to more effective targeted therapies and improved outcome
 | DNA Damage Response     | DDB2, GADD45A, GADD45B, GADD45G, POLK                                            |
 | Retinoic Acid Pathway   | CRABP1, CRABP2, RXRA, RXRB, RXRG                                                 |
 
-
 ### Table 4: Key Metabolites in Non-Small Cell Lung Cancer (NSCLC) Pathways
 
 | Category              | Metabolites                                                                   |
