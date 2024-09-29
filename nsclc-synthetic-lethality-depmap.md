@@ -16,7 +16,7 @@ This study focuses on identifying potent drugs with low **EC50 values** (indicat
 
 ### 2.1 Data Source
 
-We utilized the **Hugging Face Datasets** repository, specifically the secondary screen dose-response curve parameters dataset, to retrieve drug efficacy data across various cancer cell lines. The dataset contains information on drug names, their molecular targets, mechanisms of action (MOA), and **EC50** values, which reflect the potency of each drug. The EC50 value is the concentration required to reduce cell viability by 50%, with lower values indicating higher potency.
+We utilized a Hugging Face dataset based on the PRISM Repurposing 19Q4 Dataset to retrieve drug efficacy data across a diverse range of cancer cell lines. This dataset provides crucial information, including drug names, molecular targets, mechanisms of action (MOA), and EC50 values, which reflect the potency of each drug.  The EC50 value represents the concentration of a drug that produces 50% of its maximum effect on cell viability. Lower EC50 values indicate higher drug potency, as they reflect that less drug is needed to achieve a significant effect.  Using this dataset allows us to analyze drug efficacy in the context of synthetic lethality in RB1- and TP53-deficient lung cancer cells, helping prioritize candidate compounds for further investigation.
 
 ### 2.2 Query Design
 
