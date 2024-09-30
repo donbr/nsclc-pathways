@@ -110,7 +110,7 @@ This approach of leveraging large-scale drug screening data to identify syntheti
 
 ## Appendix
 
-### Alternate Query approaches
+### Draft Query approach
 
 **Filter on MTS010 Screen ID - Draft**
 
@@ -183,3 +183,17 @@ WHERE screen_id = 'MTS010'
 GROUP BY name, target, moa
 ORDER BY avg_ec50 ASC;
 ```
+
+## Citation
+
+DepMap, Broad; Corsello, Steven; Kocak, Mustafa; Golub, Todd (2019). PRISM Repurposing 19Q4 Dataset. figshare. Dataset.
+
+Current dataset: [https://doi.org/10.6084/m9.figshare.9393293.v4](https://doi.org/10.6084/m9.figshare.9393293.v4)
+
+General guidance: [https://doi.org/10.1101/730119](https://doi.org/10.1101/730119)
+
+NOTE:  some important comments from the prism_repurposing_secondary README file.
+
+TLDR:  to ensure the highest quality data when using this dataset filter on for high quality data filter on `screen_id`="MTS010"
+
+The secondary PRISM Repurposing dataset contains the results of pooled-cell line chemical-perturbation viability screens for 1,448 compounds screened against 489 cell lines in an 8-step, 4-fold dilution, starting from 10uM. Technical redos for 147 previously screened oncology compounds have been added as of 11/22/2019. This data is identified using a `screen_id` of "MTS010".  It is recommended to use MTS010 when available. MTS010 was not included in the analysis for Corsello et al. 2019, DOI:10.1101/730119.
