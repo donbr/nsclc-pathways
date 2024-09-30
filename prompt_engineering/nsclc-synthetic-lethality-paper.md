@@ -6,67 +6,6 @@ Synthetic lethality, a genetic phenomenon where the simultaneous perturbation of
 
 ## 1. Introduction
 
-1.1 Background on synthetic lethality
-1.2 Importance in cancer research
-1.3 Overview of combinatorial therapies
-1.4 Focus on NSCLC
-
-## 2. Mechanisms of Synthetic Lethality
-
-2.1 Genetic basis of synthetic lethality
-2.2 Key pathways involved
-2.3 Synthetic lethality in the context of cancer mutations
-
-## 3. Synthetic Lethal Interactions in Cancer
-
-3.1 PARP inhibition in BRCA-deficient cancers
-3.2 TP53 mutations and synthetic lethal partners
-3.3 Other prominent synthetic lethal pairs in cancer
-
-## 4. Combinatorial Therapies Exploiting Synthetic Lethality
-
-4.1 Rationale for combination approaches
-4.2 Overview of promising combinations
-   4.2.1 MDM2 inhibitors + PARP inhibitors
-   4.2.2 p53 reactivators + immune checkpoint inhibitors
-   4.2.3 Wee1 inhibitors + ATR inhibitors
-   4.2.4 Other notable combinations
-4.3 Case study: Combinatorial approaches in NSCLC
-
-## 5. Screening for Synthetic Lethal Interactions
-
-5.1 High-throughput genetic screens
-5.2 Chemical screening approaches
-5.3 Computational prediction methods
-
-## 6. Challenges and Opportunities
-
-6.1 Translating findings to the clinic
-6.2 Dealing with tumor heterogeneity and evolution
-6.3 Biomarker development for patient stratification
-6.4 Minimizing toxicity in combination therapies
-
-## 7. Future Directions
-
-7.1 Integration with immunotherapy
-7.2 Personalized synthetic lethality profiling
-7.3 Novel drug delivery systems for combinations
-7.4 AI and machine learning in predicting synthetic lethality
-
-## 8. Conclusion
-
-## References
-
----
-
-# Synthetic Lethality and Combinatorial Therapies: A New Frontier in Precision Oncology
-
-## Abstract
-
-Synthetic lethality, a genetic phenomenon where the simultaneous perturbation of two genes leads to cell death, has emerged as a promising approach in cancer therapeutics. This paper reviews the current state of synthetic lethality research and its application in combinatorial therapies, with a focus on non-small cell lung cancer (NSCLC). We discuss key synthetic lethal interactions, promising drug combinations, and the challenges and opportunities in translating these findings to clinical practice. Furthermore, we explore how advances in high-throughput screening, computational biology, and personalized medicine are shaping the future of synthetic lethality-based cancer treatments.
-
-## 1. Introduction
-
 Cancer remains one of the leading causes of death worldwide, with non-small cell lung cancer (NSCLC) being particularly prevalent and challenging to treat. Despite significant advances in targeted therapies and immunotherapies, many patients still face poor prognoses due to drug resistance and tumor heterogeneity. In recent years, the concept of synthetic lethality has gained traction as a promising approach to develop more effective and selective cancer treatments.
 
 Synthetic lethality refers to a genetic interaction where the simultaneous perturbation of two genes results in cell death, while the disruption of either gene alone is compatible with cell viability. This phenomenon was first described in fruit flies by Calvin Bridges in 1922, but its potential in cancer therapeutics was not fully appreciated until the early 2000s.
@@ -180,6 +119,7 @@ Several combination approaches leveraging synthetic lethality have shown promise
 This combination targets p53 pathway reactivation and DNA damage repair simultaneously. In p53 wild-type cancers, MDM2 inhibitors can restore p53 function, while PARP inhibitors induce DNA damage. This combination has shown synergistic effects in various cancer types, including some NSCLC models.
 
 Example compounds:
+
 - MDM2 inhibitor: AMG 232 (KRT232)
 - PARP inhibitor: Olaparib
 
@@ -188,6 +128,7 @@ Example compounds:
 Combining p53 reactivators with immune checkpoint inhibitors aims to enhance the immunogenicity of tumors while unleashing the immune response. This approach is particularly interesting for NSCLC, where immune checkpoint inhibitors have already shown significant clinical benefit.
 
 Example compounds:
+
 - p53 reactivator: APR-246 (PRIMA-1MET)
 - Immune checkpoint inhibitor: Pembrolizumab
 
@@ -196,6 +137,7 @@ Example compounds:
 This combination targets two critical components of the DNA damage response and cell cycle regulation. It has shown particular promise in p53-mutant cancers, where cells rely heavily on these checkpoints for survival under replication stress.
 
 Example compounds:
+
 - Wee1 inhibitor: AZD1775 (Adavosertib)
 - ATR inhibitor: AZD6738
 

@@ -286,6 +286,11 @@ These efforts may lead to more effective targeted therapies and improved outcome
 
 ## Appendix
 
+### Supporting Research
+
+- [KEGG NSCLC Signaling Pathways](nsclc-signaling-pathways-kegg.md)
+- [Synthetic Lethality and Combination Therapies in TP53-Deficient Lung Cancer](nsclc-synthetic-lethality-depmap-v2.md)
+
 ### Table 1: Frequent Mutations in Non-Small Cell Lung Cancer (NSCLC)
 
 | Gene      | Mutation Type              | Frequency | Effect                                           | Consequence                                            |
@@ -339,17 +344,17 @@ These efforts may lead to more effective targeted therapies and improved outcome
 
 | Therapy Type      | Target                         | Examples                                               |
 |-------------------|--------------------------------|--------------------------------------------------------|
-| EGFR Inhibitors   | EGFR mutations                 | Not specified in WikiPathways WP4255 image             |
-| ALK Inhibitors    | EML4-ALK fusion                | Not specified in WikiPathways WP4255 image              |
+| EGFR Inhibitors   | EGFR mutations                 | Not specified             |
+| ALK Inhibitors    | EML4-ALK fusion                | Not specified             |
 | MEK Inhibitors    | Ras signaling pathway          | selumetinib, cobimetinib, trametinib, binimetinib, pimasertib       |
 | Retinoic Acid     | Restore RARB function          | Retinoic acid                                          |
 | Other Compounds   | Various (targets not specified) | omacetaxine mepesuccinate                  |
 
-Note: Specific mechanisms and indications for these therapies were not provided in the original information.
+Note: Specific mechanisms and indications for some therapies were not provided in the NSCLC WikiPathway documentation.
 
 ## Citations
 
-[Non-small cell lung cancer - WP4255](https://www.wikipathways.org/instance/WP4255)
+[WikiPathways Non-small cell lung cancer - WP4255](https://www.wikipathways.org/instance/WP4255)
 
 ```txt
 @article{10.1093/nar/gkad960,
@@ -409,5 +414,25 @@ Note: Specific mechanisms and indications for these therapies were not provided 
     doi = {10.1093/nar/gkt1076},
     url = {https://doi.org/10.1093/nar/gkt1076},
     eprint = {https://academic.oup.com/nar/article-pdf/42/D1/D199/3561927/gkt1076.pdf},
+}
+```
+
+[BioGRID: a general repository for interaction datasets](https://academic.oup.com/nar/article/34/suppl_1/D535/1133554)
+
+```txt
+@article{10.1093/nar/gkj109,
+    author = {Stark, Chris and Breitkreutz, Bobby-Joe and Reguly, Teresa and Boucher, Lorrie and Breitkreutz, Ashton and Tyers, Mike},
+    title = "{BioGRID: a general repository for interaction datasets}",
+    journal = {Nucleic Acids Research},
+    volume = {34},
+    number = {suppl_1},
+    pages = {D535-D539},
+    year = {2006},
+    month = {01},
+    abstract = "{Access to unified datasets of protein and genetic interactions is critical for interrogation of gene/protein function and analysis of global network properties. BioGRID is a freely accessible database of physical and genetic interactions available at http://www.thebiogrid.org. BioGRID release version 2.0 includes \&gt;116 000 interactions from Saccharomyces cerevisiae, Caenorhabditis elegans, Drosophila melanogaster and Homo sapiens. Over 30 000 interactions have recently been added from 5778 sources through exhaustive curation of the Saccharomyces cerevisiae primary literature. An internally hyper-linked web interface allows for rapid search and retrieval of interaction data. Full or user-defined datasets are freely downloadable as tab-delimited text files and PSI-MI XML. Pre-computed graphical layouts of interactions are available in a variety of file formats. User-customized graphs with embedded protein, gene and interaction attributes can be constructed with a visualization system called Osprey that is dynamically linked to the BioGRID.}",
+    issn = {0305-1048},
+    doi = {10.1093/nar/gkj109},
+    url = {https://doi.org/10.1093/nar/gkj109},
+    eprint = {https://academic.oup.com/nar/article-pdf/34/suppl\_1/D535/3925435/gkj109.pdf},
 }
 ```
