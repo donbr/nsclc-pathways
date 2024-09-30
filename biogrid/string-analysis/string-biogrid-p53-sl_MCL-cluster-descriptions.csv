@@ -1,0 +1,9 @@
+#clustering method,cluster number,cluster color,hex color,gene count,primary description,secondary description,tertiary description,protein names
+MCL,1,Red,#ff0000,20,ErbB signaling pathway,Regulation of signaling by CBL,"Mixed, incl. Signaling by Erythropoietin, and Insulin receptor complex","PIK3R2, SH2D2A, FLT4, CRKL, GAB1, KDR, PTK2, MTOR, EGFR, PIK3R3, PIK3CB, PIK3CD, ID1, EFNA4, SHC4, GJA5, ANXA11, UMOD, TPCN2, STEAP4"
+MCL,2,Brown,#ffc165,8,Blood group antigen,"Hemoglobin complex, and Ammonium Transporter Family",-,"GYPC, RHAG, BSG, CD47, RHD, RHCE, GYPA, GYPB"
+MCL,3,Olive,#8eb200,4,TP53 regulates transcription of several additional cell death genes whose specific roles in p53-dependent apoptosis remain uncertain,-,-,"TP53, FBXO22, CCT6B, BCL2L14"
+MCL,4,Green,#84ff65,4,Platelet Adhesion to exposed collagen,Integrin,-,"GP6, ITGA2, CD69, ITGB7"
+MCL,5,Lime Green,#00b247,4,Congenital myasthenic syndrome,"Acetylcholine-gated channel complex, and Myasthenia gravis",-,"PRIMA1, RAPSN, COLQ, DOK7"
+MCL,6,Cyan,#65feff,3,-,-,-,"GFPT2, SATL1, EIF2B3"
+MCL,7,Blue,#0047b2,3,Fanconi Anemia Pathway,-,-,"CDC7, ATRIP, FAAP24"
+MCL,8,Purple,#8465ff,2,-,-,-,"UBA6, UFM1"
