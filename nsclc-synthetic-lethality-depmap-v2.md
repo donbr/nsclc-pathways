@@ -114,6 +114,8 @@ This approach of leveraging large-scale drug screening data to identify syntheti
 
 **Filter on MTS010 Screen ID - Draft**
 
+- while researching what ended up being a known issue with the PRISM dataset we pivoted away from focusing exclusively on on TP53 synthetic lethality.
+
 [MTS010 Query on Hugging Face](https://huggingface.co/datasets/donb-hf/secondary-screen-dose-response-curve-parameters?sql_console=true&sql=SELECT+name%2C+target%2C+moa%2C+AVG%28ec50%29+as+avg_ec50%2C+COUNT%28*%29+as+occurrence%2C+%0A+++++++MIN%28ec50%29+as+min_ec50%2C+MAX%28ec50%29+as+max_ec50%0AFROM+train%0AWHERE+screen_id+%3D+%27MTS010%27%0A++AND+ccle_name+LIKE+%27%25_LUNG%27%0A++AND+target+IS+NOT+NULL%0A++AND+ec50+%3E+0%0A++AND+ec50+%3C+10000%0A++AND+r2+%3E+0.8%0A++AND+passed_str_profiling+%3D+True%0A++AND+%28%0A++++--+DNA+Damage+Response+and+Cell+Cycle+Regulation%0A++++moa+LIKE+%27%25CHK+inhibitor%25%27+OR%0A++++moa+LIKE+%27%25PARP+inhibitor%25%27+OR%0A++++moa+LIKE+%27%25WEE1+kinase+inhibitor%25%27+OR%0A++++moa+LIKE+%27%25CDK+inhibitor%25%27+OR%0A++++moa+LIKE+%27%25Aurora+kinase+inhibitor%25%27+OR%0A++++moa+LIKE+%27%25PLK+inhibitor%25%27+OR%0A++++moa+LIKE+%27%25cell+cycle+inhibitor%25%27+OR%0A++++%0A++++--+Apoptosis+and+Cell+Death%0A++++moa+LIKE+%27%25BCL+inhibitor%25%27+OR%0A++++moa+LIKE+%27%25caspase+activator%25%27+OR%0A++++moa+LIKE+%27%25proteasome+inhibitor%25%27+OR%0A++++%0A++++--+Epigenetic+Regulation%0A++++moa+LIKE+%27%25HDAC+inhibitor%25%27+OR%0A++++moa+LIKE+%27%25DNA+methyltransferase+inhibitor%25%27+OR%0A++++moa+LIKE+%27%25bromodomain+inhibitor%25%27+OR%0A++++%0A++++--+Signaling+Pathways%0A++++moa+LIKE+%27%25AKT+inhibitor%25%27+OR%0A++++moa+LIKE+%27%25mTOR+inhibitor%25%27+OR%0A++++moa+LIKE+%27%25PI3K+inhibitor%25%27+OR%0A++++moa+LIKE+%27%25MEK+inhibitor%25%27+OR%0A++++moa+LIKE+%27%25EGFR+inhibitor%25%27+OR%0A++++moa+LIKE+%27%25tyrosine+kinase+inhibitor%25%27+OR%0A++++moa+LIKE+%27%25STAT+inhibitor%25%27+OR%0A++++moa+LIKE+%27%25JAK+inhibitor%25%27+OR%0A++++moa+LIKE+%27%25NFkB+pathway+inhibitor%25%27+OR%0A++++%0A++++--+DNA+Replication+and+Repair%0A++++moa+LIKE+%27%25DNA+synthesis+inhibitor%25%27+OR%0A++++moa+LIKE+%27%25topoisomerase+inhibitor%25%27+OR%0A++++%0A++++--+Metabolic+Inhibition%0A++++moa+LIKE+%27%25dihydrofolate+reductase+inhibitor%25%27+OR%0A++++moa+LIKE+%27%25thymidylate+synthase+inhibitor%25%27+OR%0A++++%0A++++--+Stress+Response%0A++++moa+LIKE+%27%25HSP+inhibitor%25%27+OR%0A++++moa+LIKE+%27%25HSP+antagonist%25%27+OR%0A++++moa+LIKE+%27%25hypoxia+inducible+factor+inhibitor%25%27+OR%0A++++moa+LIKE+%27%25oxidative+stress+inducer%25%27+OR%0A++++%0A++++--+Mitotic+Spindle+and+Cytoskeleton%0A++++moa+LIKE+%27%25kinesin+inhibitor%25%27+OR%0A++++moa+LIKE+%27%25tubulin+polymerization+inhibitor%25%27+OR%0A++++%0A++++--+Other+Relevant+Mechanisms%0A++++moa+LIKE+%27%25MDM+inhibitor%25%27+OR%0A++++moa+LIKE+%27%25nedd+activating+enzyme+inhibitor%25%27%0A++%29%0AGROUP+BY+name%2C+target%2C+moa%0AORDER+BY+avg_ec50+ASC%3B)
 
 ```sql
@@ -182,6 +184,54 @@ WHERE screen_id = 'MTS010'
   )
 GROUP BY name, target, moa
 ORDER BY avg_ec50 ASC;
+```
+
+### A Word Cloud Visualization
+
+![depmap_word_cloud](images\depmap\depmap_word_cloud.png)
+
+#### Word Cloud code
+
+```python
+import pandas as pd
+from wordcloud import WordCloud
+import matplotlib.pyplot as plt
+
+# Load the CSV data
+file_path = '/content/synthetic_lethality_mts010.csv'
+df = pd.read_csv(file_path)
+
+# Invert avg_ec50 for word frequency (weight in the word cloud)
+df['inverse_ec50'] = 1 / df['avg_ec50']
+
+# Create a dictionary for word cloud frequencies (name -> inverse_ec50)
+word_freq = dict(zip(df['name'], df['inverse_ec50']))
+
+# Assign colors to specific MOA categories
+moa_colors = {
+    'EGFR inhibitor': '#1f77b4',  # Blue
+    'CDK inhibitor': '#ff7f0e',   # Orange
+    'HSP inhibitor': '#2ca02c',   # Green
+    'HDAC inhibitor': '#d62728',  # Red
+    'MEK inhibitor': '#9467bd',   # Purple
+    'mTOR inhibitor': '#8c564b',  # Brown
+}
+
+# Function to return color based on the word's MOA
+def color_func(word, font_size, position, orientation, random_state=None, **kwargs):
+    # Find the MOA for the given word
+    moa = df[df['name'] == word]['moa'].values[0]
+    # Return the corresponding color (default to black if MOA not found)
+    return moa_colors.get(moa, '#000000')
+
+# Generate the word cloud with frequencies
+wordcloud_colored = WordCloud(width=800, height=400, background_color='white', relative_scaling=0.5).generate_from_frequencies(word_freq)
+
+# Apply the custom color function and plot the word cloud
+plt.figure(figsize=(10, 6))
+plt.imshow(wordcloud_colored.recolor(color_func=color_func, random_state=3), interpolation='bilinear')
+plt.axis('off')
+plt.show()
 ```
 
 ## Citation
