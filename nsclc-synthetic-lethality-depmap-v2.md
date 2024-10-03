@@ -188,7 +188,7 @@ ORDER BY avg_ec50 ASC;
 
 ### A Word Cloud Visualization
 
-![depmap_word_cloud](images\depmap\depmap_word_cloud.png)
+![depmap_word_cloud](images/depmap/depmap_word_cloud.png)
 
 #### Word Cloud code
 
