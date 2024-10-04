@@ -291,7 +291,7 @@ These efforts may lead to more effective targeted therapies and improved outcome
 - [KEGG NSCLC Signaling Pathways](nsclc-signaling-pathways-kegg.md)
 - [STRING API queries](string-db-api-cancer-cell-queries.md)
 - [BioGrid Synthetic Lethality](./biogrid/README.md)
-- [Using Prompt Engineering for ideation on Synthetic Lethality](prompt_engineering\nsclc-synthetic-lethality-paper.md)
+- [Using Prompt Engineering for ideation on Synthetic Lethality](prompt_engineering/nsclc-synthetic-lethality-paper.md)
 - [Using DepMap to identify potential Synthetic Lethality and Combination Therapies](nsclc-synthetic-lethality-depmap-v2.md)
 
 ### Table 1: Frequent Mutations in Non-Small Cell Lung Cancer (NSCLC)
