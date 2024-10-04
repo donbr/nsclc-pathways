@@ -25,6 +25,7 @@ Our SQL query was designed to extract drugs that target key pathways associated 
 3. Biologically relevant concentrations (EC50 < 10 μM)
 4. High-quality dose-response curves (r2 > 0.8)
 5. Compounds that passed STR profiling (passed_str_profiling = True)
+6. High-quality screened data (screen_id = MTS010)
 
 The query calculated average EC50 values, counted occurrences across cell lines, and provided minimum and maximum EC50 values for each drug. Results were ordered by average EC50 to prioritize the most potent compounds.
 
