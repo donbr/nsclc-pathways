@@ -188,7 +188,7 @@ ORDER BY avg_ec50 ASC;
 
 ### A Word Cloud Visualization
 
-![depmap_word_cloud](images/depmap/depmap_word_cloud.png)
+![depmap_word_cloud](images/depmap/depmap_word_cloud_log.png)
 
 #### Word Cloud code
 
@@ -201,11 +201,11 @@ import matplotlib.pyplot as plt
 file_path = '/content/synthetic_lethality_mts010.csv'
 df = pd.read_csv(file_path)
 
-# Invert avg_ec50 for word frequency (weight in the word cloud)
-df['inverse_ec50'] = 1 / df['avg_ec50']
+# Apply logarithmic transformation
+df['pEC50'] = -np.log10(df['avg_ec50'])
 
-# Create a dictionary for word cloud frequencies (name -> inverse_ec50)
-word_freq = dict(zip(df['name'], df['inverse_ec50']))
+# Create a dictionary for word cloud frequencies (name -> pEC50)
+word_freq = dict(zip(df['name'], df['pEC50']))
 
 # Assign colors to specific MOA categories
 moa_colors = {
