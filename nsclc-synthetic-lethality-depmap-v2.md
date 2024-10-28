@@ -191,7 +191,7 @@ ORDER BY avg_ec50 ASC;
 
 ![depmap_word_cloud](images/depmap/depmap_word_cloud_log.png)
 
-I found this Nature article a month after doing the pathway related analysis above.  One of the first articles I found on synthetic lethality that focused on pathways and not just CRISPR knockouts.
+I found the Nature article below a month after doing the pathway related analysis above.  One of the first articles I found on synthetic lethality that focused on pathways and not just CRISPR knockouts.
 
 [Development of synthetic lethality in cancer: molecular and cellular classification](https://pmc.ncbi.nlm.nih.gov/articles/PMC7573576/pdf/41392_2020_Article_358.pdf)
 
