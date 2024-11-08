@@ -29,6 +29,8 @@ The analysis focused on six key pathways from the [WikiPathways Non-Small Cell L
 
 We also examined frequent mutations, key metabolites, and gene products associated with these pathways in NSCLC.
 
+The complete Wikipedia pathway information can be found here:  [www.wikipathways.org/pathways/WP4255.html](https://www.wikipathways.org/pathways/WP4255.html)
+
 ## Results
 
 ### Key Signaling Pathways in NSCLC
