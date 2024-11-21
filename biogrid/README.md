@@ -1,6 +1,6 @@
 # BioGRID
 
-- consider this as a temporary placeholder that will likely be deleted based on more recent research
+- consider this as a milestone on my learning journey to undersand synthetic lethality.
 
 - as an initial search for synthetic lethality I recommend using the [STRING "Geneset by Pathway / Process / Disease / Publication"](https://string-db.org/cgi/input?input_page_active_form=single_term) option from the initial search screen.
   - use a search terms similar to "TP53 synthetic lethality"
