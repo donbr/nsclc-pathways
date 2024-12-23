@@ -115,7 +115,7 @@ This approach of leveraging large-scale drug screening data to identify syntheti
 
 **Filter on MTS010 Screen ID - Draft**
 
-- while researching what ended up being a known issue with the PRISM dataset we pivoted away from focusing exclusively on on TP53 synthetic lethality.
+- while researching what ended up being a known issue with the PRISM dataset we pivoted away from focusing exclusively on TP53 synthetic lethality to examining related pathways.
 
 [MTS010 Query on Hugging Face](https://huggingface.co/datasets/donb-hf/secondary-screen-dose-response-curve-parameters?sql_console=true&sql=SELECT+name%2C+target%2C+moa%2C+AVG%28ec50%29+as+avg_ec50%2C+COUNT%28*%29+as+occurrence%2C+%0A+++++++MIN%28ec50%29+as+min_ec50%2C+MAX%28ec50%29+as+max_ec50%0AFROM+train%0AWHERE+screen_id+%3D+%27MTS010%27%0A++AND+ccle_name+LIKE+%27%25_LUNG%27%0A++AND+target+IS+NOT+NULL%0A++AND+ec50+%3E+0%0A++AND+ec50+%3C+10000%0A++AND+r2+%3E+0.8%0A++AND+passed_str_profiling+%3D+True%0A++AND+%28%0A++++--+DNA+Damage+Response+and+Cell+Cycle+Regulation%0A++++moa+LIKE+%27%25CHK+inhibitor%25%27+OR%0A++++moa+LIKE+%27%25PARP+inhibitor%25%27+OR%0A++++moa+LIKE+%27%25WEE1+kinase+inhibitor%25%27+OR%0A++++moa+LIKE+%27%25CDK+inhibitor%25%27+OR%0A++++moa+LIKE+%27%25Aurora+kinase+inhibitor%25%27+OR%0A++++moa+LIKE+%27%25PLK+inhibitor%25%27+OR%0A++++moa+LIKE+%27%25cell+cycle+inhibitor%25%27+OR%0A++++%0A++++--+Apoptosis+and+Cell+Death%0A++++moa+LIKE+%27%25BCL+inhibitor%25%27+OR%0A++++moa+LIKE+%27%25caspase+activator%25%27+OR%0A++++moa+LIKE+%27%25proteasome+inhibitor%25%27+OR%0A++++%0A++++--+Epigenetic+Regulation%0A++++moa+LIKE+%27%25HDAC+inhibitor%25%27+OR%0A++++moa+LIKE+%27%25DNA+methyltransferase+inhibitor%25%27+OR%0A++++moa+LIKE+%27%25bromodomain+inhibitor%25%27+OR%0A++++%0A++++--+Signaling+Pathways%0A++++moa+LIKE+%27%25AKT+inhibitor%25%27+OR%0A++++moa+LIKE+%27%25mTOR+inhibitor%25%27+OR%0A++++moa+LIKE+%27%25PI3K+inhibitor%25%27+OR%0A++++moa+LIKE+%27%25MEK+inhibitor%25%27+OR%0A++++moa+LIKE+%27%25EGFR+inhibitor%25%27+OR%0A++++moa+LIKE+%27%25tyrosine+kinase+inhibitor%25%27+OR%0A++++moa+LIKE+%27%25STAT+inhibitor%25%27+OR%0A++++moa+LIKE+%27%25JAK+inhibitor%25%27+OR%0A++++moa+LIKE+%27%25NFkB+pathway+inhibitor%25%27+OR%0A++++%0A++++--+DNA+Replication+and+Repair%0A++++moa+LIKE+%27%25DNA+synthesis+inhibitor%25%27+OR%0A++++moa+LIKE+%27%25topoisomerase+inhibitor%25%27+OR%0A++++%0A++++--+Metabolic+Inhibition%0A++++moa+LIKE+%27%25dihydrofolate+reductase+inhibitor%25%27+OR%0A++++moa+LIKE+%27%25thymidylate+synthase+inhibitor%25%27+OR%0A++++%0A++++--+Stress+Response%0A++++moa+LIKE+%27%25HSP+inhibitor%25%27+OR%0A++++moa+LIKE+%27%25HSP+antagonist%25%27+OR%0A++++moa+LIKE+%27%25hypoxia+inducible+factor+inhibitor%25%27+OR%0A++++moa+LIKE+%27%25oxidative+stress+inducer%25%27+OR%0A++++%0A++++--+Mitotic+Spindle+and+Cytoskeleton%0A++++moa+LIKE+%27%25kinesin+inhibitor%25%27+OR%0A++++moa+LIKE+%27%25tubulin+polymerization+inhibitor%25%27+OR%0A++++%0A++++--+Other+Relevant+Mechanisms%0A++++moa+LIKE+%27%25MDM+inhibitor%25%27+OR%0A++++moa+LIKE+%27%25nedd+activating+enzyme+inhibitor%25%27%0A++%29%0AGROUP+BY+name%2C+target%2C+moa%0AORDER+BY+avg_ec50+ASC%3B)
 
@@ -190,6 +190,10 @@ ORDER BY avg_ec50 ASC;
 ### A Word Cloud Visualization
 
 ![depmap_word_cloud](images/depmap/depmap_word_cloud_log.png)
+
+I found the Nature article below a month after doing the pathway related analysis above.  One of the first articles I found on synthetic lethality that focused on pathways and not just CRISPR knockouts.
+
+[Development of synthetic lethality in cancer: molecular and cellular classification](https://pmc.ncbi.nlm.nih.gov/articles/PMC7573576/pdf/41392_2020_Article_358.pdf)
 
 #### Word Cloud code
 
