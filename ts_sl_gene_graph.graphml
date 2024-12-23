@@ -1,0 +1,3513 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d43" for="edge" attr.name="relationship_type" attr.type="string"/>
+<key id="d42" for="node" attr.name="bioparadigms_slc" attr.type="string"/>
+<key id="d41" for="node" attr.name="rna_central_id" attr.type="string"/>
+<key id="d40" for="node" attr.name="merops" attr.type="string"/>
+<key id="d39" for="node" attr.name="date_symbol_changed" attr.type="string"/>
+<key id="d38" for="node" attr.name="curator_notes" attr.type="string"/>
+<key id="d37" for="node" attr.name="cd" attr.type="string"/>
+<key id="d36" for="node" attr.name="ccds_id" attr.type="string"/>
+<key id="d35" for="node" attr.name="prev_name" attr.type="string"/>
+<key id="d34" for="node" attr.name="gencc" attr.type="string"/>
+<key id="d33" for="node" attr.name="cosmic" attr.type="string"/>
+<key id="d32" for="node" attr.name="pubmed_id" attr.type="string"/>
+<key id="d31" for="node" attr.name="date_name_changed" attr.type="string"/>
+<key id="d30" for="node" attr.name="gene_group_id" attr.type="string"/>
+<key id="d29" for="node" attr.name="gene_group" attr.type="string"/>
+<key id="d28" for="node" attr.name="alias_name" attr.type="string"/>
+<key id="d27" for="node" attr.name="uuid" attr.type="string"/>
+<key id="d26" for="node" attr.name="mane_select" attr.type="string"/>
+<key id="d25" for="node" attr.name="agr" attr.type="string"/>
+<key id="d24" for="node" attr.name="enzyme_id" attr.type="string"/>
+<key id="d23" for="node" attr.name="iuphar" attr.type="string"/>
+<key id="d22" for="node" attr.name="orphanet" attr.type="string"/>
+<key id="d21" for="node" attr.name="omim_id" attr.type="string"/>
+<key id="d20" for="node" attr.name="lsdb" attr.type="string"/>
+<key id="d19" for="node" attr.name="rgd_id" attr.type="string"/>
+<key id="d18" for="node" attr.name="mgd_id" attr.type="string"/>
+<key id="d17" for="node" attr.name="uniprot_ids" attr.type="string"/>
+<key id="d16" for="node" attr.name="refseq_accession" attr.type="string"/>
+<key id="d15" for="node" attr.name="ena" attr.type="string"/>
+<key id="d14" for="node" attr.name="ucsc_id" attr.type="string"/>
+<key id="d13" for="node" attr.name="vega_id" attr.type="string"/>
+<key id="d12" for="node" attr.name="ensembl_gene_id" attr.type="string"/>
+<key id="d11" for="node" attr.name="entrez_id" attr.type="string"/>
+<key id="d10" for="node" attr.name="date_modified" attr.type="string"/>
+<key id="d9" for="node" attr.name="date_approved_reserved" attr.type="string"/>
+<key id="d8" for="node" attr.name="prev_symbol" attr.type="string"/>
+<key id="d7" for="node" attr.name="alias_symbol" attr.type="string"/>
+<key id="d6" for="node" attr.name="location" attr.type="string"/>
+<key id="d5" for="node" attr.name="status" attr.type="string"/>
+<key id="d4" for="node" attr.name="locus_type" attr.type="string"/>
+<key id="d3" for="node" attr.name="locus_group" attr.type="string"/>
+<key id="d2" for="node" attr.name="name" attr.type="string"/>
+<key id="d1" for="node" attr.name="hgnc_id" attr.type="string"/>
+<key id="d0" for="node" attr.name="gene_type" attr.type="string"/>
+<graph edgedefault="directed"><node id="TYMS">
+  <data key="d0">SL_GENE</data>
+  <data key="d1">HGNC:12441</data>
+  <data key="d2">thymidylate synthetase</data>
+  <data key="d3">protein-coding gene</data>
+  <data key="d4">gene with protein product</data>
+  <data key="d5">Approved</data>
+  <data key="d6">18p11.32</data>
+  <data key="d7">Tsase,TMS,HsT422</data>
+  <data key="d8">TS</data>
+  <data key="d9">1990-09-10</data>
+  <data key="d10">2023-01-20</data>
+  <data key="d11">7298</data>
+  <data key="d12">ENSG00000176890</data>
+  <data key="d13">OTTHUMG00000131473</data>
+  <data key="d14">uc010dka.2</data>
+  <data key="d15">X02308</data>
+  <data key="d16">NM_001071</data>
+  <data key="d17">P04818</data>
+  <data key="d18">MGI:98878</data>
+  <data key="d19">RGD:3921</data>
+  <data key="d20">LRG_783|http://ftp.ebi.ac.uk/pub/databases/lrgex/LRG_783.xml</data>
+  <data key="d21">188350</data>
+  <data key="d22">241969.0</data>
+  <data key="d23">objectId:2642</data>
+  <data key="d24">2.1.1.45</data>
+  <data key="d25">HGNC:12441</data>
+  <data key="d26">ENST00000323274.15,NM_001071.4</data>
+  <data key="d27">c667dcf6-a2c1-48a7-ae57-aa4cc4023a2e</data>
+</node>
+<node id="LKB1">
+  <data key="d0">TS_GENE</data>
+</node>
+<node id="NF1">
+  <data key="d0">TS_GENE</data>
+  <data key="d1">HGNC:7765</data>
+  <data key="d2">neurofibromin 1</data>
+  <data key="d3">protein-coding gene</data>
+  <data key="d4">gene with protein product</data>
+  <data key="d5">Approved</data>
+  <data key="d6">17q11.2</data>
+  <data key="d28">neurofibromatosis,von Recklinghausen disease,Watson disease</data>
+  <data key="d29">Armadillo like helical domain containing</data>
+  <data key="d30">1492</data>
+  <data key="d9">1986-01-01</data>
+  <data key="d31">2008-07-31</data>
+  <data key="d10">2023-01-20</data>
+  <data key="d11">4763</data>
+  <data key="d12">ENSG00000196712</data>
+  <data key="d13">OTTHUMG00000132871</data>
+  <data key="d14">uc002hgh.3</data>
+  <data key="d16">NM_000267</data>
+  <data key="d17">P21359</data>
+  <data key="d32">1715669</data>
+  <data key="d18">MGI:97306</data>
+  <data key="d19">RGD:3168</data>
+  <data key="d20">Global Variome shared LOVD|https://databases.lovd.nl/shared/genes/NF1,LRG_214|http://ftp.ebi.ac.uk/pub/databases/lrgex/LRG_214.xml</data>
+  <data key="d33">NF1</data>
+  <data key="d21">613113</data>
+  <data key="d22">123772.0</data>
+  <data key="d25">HGNC:7765</data>
+  <data key="d26">ENST00000358273.9,NM_001042492.3</data>
+  <data key="d34">HGNC:7765</data>
+  <data key="d27">9f7fb9b1-7284-4e41-9d37-0e153ef5b2dc</data>
+</node>
+<node id="NF2">
+  <data key="d0">TS_GENE</data>
+  <data key="d1">HGNC:7773</data>
+  <data key="d2">NF2, moesin-ezrin-radixin like (MERLIN) tumor suppressor</data>
+  <data key="d3">protein-coding gene</data>
+  <data key="d4">gene with protein product</data>
+  <data key="d5">Approved</data>
+  <data key="d6">22q12.2</data>
+  <data key="d7">merlin,ACN,SCH,BANF,merlin-1</data>
+  <data key="d28">moesin-ezrin-radixin like,schwannomin,bilateral acoustic neurofibromatosis</data>
+  <data key="d35">neurofibromin 2 (bilateral acoustic neuroma),neurofibromin 2 (merlin)</data>
+  <data key="d29">A-kinase anchoring proteins,FERM domain containing</data>
+  <data key="d30">396,1293</data>
+  <data key="d9">1992-01-01</data>
+  <data key="d31">2021-10-07</data>
+  <data key="d10">2023-03-15</data>
+  <data key="d11">4771</data>
+  <data key="d12">ENSG00000186575</data>
+  <data key="d13">OTTHUMG00000030727</data>
+  <data key="d14">uc003age.5</data>
+  <data key="d15">L11353</data>
+  <data key="d16">NM_000268</data>
+  <data key="d17">P35240</data>
+  <data key="d32">10591208</data>
+  <data key="d18">MGI:97307</data>
+  <data key="d19">RGD:3169</data>
+  <data key="d20">Neurofibromatosis 2 (NF2) mutation database|http://www.hgmd.cf.ac.uk/nf2/,LRG_511|http://ftp.ebi.ac.uk/pub/databases/lrgex/LRG_511.xml</data>
+  <data key="d33">NF2</data>
+  <data key="d21">607379</data>
+  <data key="d22">123774.0</data>
+  <data key="d25">HGNC:7773</data>
+  <data key="d26">ENST00000338641.10,NM_000268.4</data>
+  <data key="d34">HGNC:7773</data>
+  <data key="d27">c1330781-7b55-4cd0-9aee-402272bb9d0f</data>
+</node>
+<node id="PBRM1">
+  <data key="d0">TS_GENE</data>
+  <data key="d1">HGNC:30064</data>
+  <data key="d2">polybromo 1</data>
+  <data key="d3">protein-coding gene</data>
+  <data key="d4">gene with protein product</data>
+  <data key="d5">Approved</data>
+  <data key="d6">3p21.1</data>
+  <data key="d7">BAF180,PB1,SMARCH1</data>
+  <data key="d29">Bromodomain containing,PBAF complex subunits</data>
+  <data key="d30">1232,1605</data>
+  <data key="d9">2007-03-29</data>
+  <data key="d10">2023-01-20</data>
+  <data key="d11">55193</data>
+  <data key="d12">ENSG00000163939</data>
+  <data key="d13">OTTHUMG00000152663</data>
+  <data key="d14">uc003des.3</data>
+  <data key="d15">BC015323</data>
+  <data key="d16">NM_018165</data>
+  <data key="d17">Q86U86</data>
+  <data key="d32">11078522,11483580</data>
+  <data key="d18">MGI:1923998</data>
+  <data key="d19">RGD:1565549</data>
+  <data key="d33">PBRM1</data>
+  <data key="d21">606083</data>
+  <data key="d22">434716.0</data>
+  <data key="d23">objectId:2738</data>
+  <data key="d25">HGNC:30064</data>
+  <data key="d26">ENST00000707071.1,NM_001405607.1</data>
+  <data key="d27">a7a5adfd-bb04-4454-9bae-abcb2d299e18</data>
+</node>
+<node id="PTEN">
+  <data key="d0">TS_GENE</data>
+  <data key="d1">HGNC:9588</data>
+  <data key="d2">phosphatase and tensin homolog</data>
+  <data key="d3">protein-coding gene</data>
+  <data key="d4">gene with protein product</data>
+  <data key="d5">Approved</data>
+  <data key="d6">10q23.31</data>
+  <data key="d7">MMAC1,TEP1,PTEN1</data>
+  <data key="d28">mutated in multiple advanced cancers 1,Phosphatidylinositol 3,4,5-trisphosphate 3-phosphatase and dual-specificity protein phosphatase PTEN</data>
+  <data key="d8">BZS,MHAM</data>
+  <data key="d29">C2 tensin-type domain containing,PTEN protein phosphatases,Phosphoinositide phosphatases</data>
+  <data key="d30">837,902,1079</data>
+  <data key="d9">1997-04-21</data>
+  <data key="d31">2008-07-31</data>
+  <data key="d10">2023-11-09</data>
+  <data key="d11">5728</data>
+  <data key="d12">ENSG00000171862</data>
+  <data key="d13">OTTHUMG00000018688</data>
+  <data key="d14">uc001kfb.4</data>
+  <data key="d15">U92436</data>
+  <data key="d16">NM_000314</data>
+  <data key="d36">CCDS31238</data>
+  <data key="d17">P60484</data>
+  <data key="d32">9090379</data>
+  <data key="d18">MGI:109583</data>
+  <data key="d19">RGD:61995</data>
+  <data key="d20">LRG_311|http://ftp.ebi.ac.uk/pub/databases/lrgex/LRG_311.xml</data>
+  <data key="d33">PTEN</data>
+  <data key="d21">601728</data>
+  <data key="d22">118128.0</data>
+  <data key="d23">objectId:2497</data>
+  <data key="d24">3.1.3.16,3.1.3.48,3.1.3.67</data>
+  <data key="d25">HGNC:9588</data>
+  <data key="d26">ENST00000371953.8,NM_000314.8</data>
+  <data key="d34">HGNC:9588</data>
+  <data key="d27">2f0f357d-a8fd-4e42-a808-05cfa3f0cfb3</data>
+</node>
+<node id="TP53">
+  <data key="d0">TS_GENE</data>
+  <data key="d1">HGNC:11998</data>
+  <data key="d2">tumor protein p53</data>
+  <data key="d3">protein-coding gene</data>
+  <data key="d4">gene with protein product</data>
+  <data key="d5">Approved</data>
+  <data key="d6">17p13.1</data>
+  <data key="d7">p53,LFS1</data>
+  <data key="d28">Li-Fraumeni syndrome</data>
+  <data key="d9">1986-01-01</data>
+  <data key="d31">2008-01-16</data>
+  <data key="d10">2023-01-20</data>
+  <data key="d11">7157</data>
+  <data key="d12">ENSG00000141510</data>
+  <data key="d13">OTTHUMG00000162125</data>
+  <data key="d14">uc060aur.1</data>
+  <data key="d15">AF307851</data>
+  <data key="d16">NM_000546</data>
+  <data key="d17">P04637</data>
+  <data key="d32">6396087,3456488,2047879</data>
+  <data key="d18">MGI:98834</data>
+  <data key="d19">RGD:3889</data>
+  <data key="d20">IARC TP53 Mutation Database|http://www-p53.iarc.fr/,p53 UMD TP53 mutation database|http://p53.fr/,Database of Germline p53 Mutations|http://www.lf2.cuni.cz/projects/germline_mut_p53.htm,MUTP53LOAD, Mutant p53 Loss Of Activity Database|http://www.umd.be:2072/,LRG_321|http://ftp.ebi.ac.uk/pub/databases/lrgex/LRG_321.xml</data>
+  <data key="d33">TP53</data>
+  <data key="d21">191170</data>
+  <data key="d22">120204.0</data>
+  <data key="d25">HGNC:11998</data>
+  <data key="d26">ENST00000269305.9,NM_000546.6</data>
+  <data key="d34">HGNC:11998</data>
+  <data key="d27">e0978285-ce58-482d-9414-dc11d3bc3c3b</data>
+</node>
+<node id="TP53BP1">
+  <data key="d0">TS_GENE</data>
+  <data key="d1">HGNC:11999</data>
+  <data key="d2">tumor protein p53 binding protein 1</data>
+  <data key="d3">protein-coding gene</data>
+  <data key="d4">gene with protein product</data>
+  <data key="d5">Approved</data>
+  <data key="d6">15q15.3</data>
+  <data key="d7">53BP1,p202,TDRD30</data>
+  <data key="d35">tumor protein p53-binding protein, 1</data>
+  <data key="d29">Tudor domain containing</data>
+  <data key="d30">780</data>
+  <data key="d9">2000-06-24</data>
+  <data key="d31">2007-08-02</data>
+  <data key="d10">2023-01-20</data>
+  <data key="d11">7158</data>
+  <data key="d12">ENSG00000067369</data>
+  <data key="d13">OTTHUMG00000059757</data>
+  <data key="d14">uc001zrs.4</data>
+  <data key="d15">U09477</data>
+  <data key="d16">NM_001141979</data>
+  <data key="d17">Q12888</data>
+  <data key="d32">8016121,9748285</data>
+  <data key="d18">MGI:1351320</data>
+  <data key="d19">RGD:1308039</data>
+  <data key="d21">605230</data>
+  <data key="d25">HGNC:11999</data>
+  <data key="d26">ENST00000382044.9,NM_001141980.3</data>
+  <data key="d27">a38d2322-3b58-4248-9f67-eae077c94ab7</data>
+</node>
+<node id="UBE2T">
+  <data key="d0">SL_GENE</data>
+  <data key="d1">HGNC:25009</data>
+  <data key="d2">ubiquitin conjugating enzyme E2 T</data>
+  <data key="d3">protein-coding gene</data>
+  <data key="d4">gene with protein product</data>
+  <data key="d5">Approved</data>
+  <data key="d6">1q32.1</data>
+  <data key="d7">HSPC150,FANCT</data>
+  <data key="d35">ubiquitin-conjugating enzyme E2T</data>
+  <data key="d29">Ubiquitin conjugating enzymes E2,FA complementation groups</data>
+  <data key="d30">102,548</data>
+  <data key="d9">2005-03-21</data>
+  <data key="d31">2016-03-14</data>
+  <data key="d10">2023-01-20</data>
+  <data key="d11">29089</data>
+  <data key="d12">ENSG00000077152</data>
+  <data key="d13">OTTHUMG00000041392</data>
+  <data key="d14">uc001gxx.5</data>
+  <data key="d15">AF161499</data>
+  <data key="d16">NM_014176</data>
+  <data key="d36">CCDS1425</data>
+  <data key="d17">Q9NPD8</data>
+  <data key="d32">11042152,16916645,26046368</data>
+  <data key="d18">MGI:1914446</data>
+  <data key="d19">RGD:1310816</data>
+  <data key="d20">LRG_1169|http://ftp.ebi.ac.uk/pub/databases/lrgex/LRG_1169.xml</data>
+  <data key="d21">610538</data>
+  <data key="d22">432157.0</data>
+  <data key="d25">HGNC:25009</data>
+  <data key="d26">ENST00000646651.1,NM_014176.4</data>
+  <data key="d34">HGNC:25009</data>
+  <data key="d27">61086eaa-b2c9-481d-9e82-e2453928b135</data>
+</node>
+<node id="CDH1">
+  <data key="d0">TS_GENE</data>
+  <data key="d1">HGNC:1748</data>
+  <data key="d2">cadherin 1</data>
+  <data key="d3">protein-coding gene</data>
+  <data key="d4">gene with protein product</data>
+  <data key="d5">Approved</data>
+  <data key="d6">16q22.1</data>
+  <data key="d7">uvomorulin,CD324</data>
+  <data key="d28">E-Cadherin</data>
+  <data key="d8">UVO</data>
+  <data key="d35">cadherin 1, type 1, E-cadherin (epithelial)</data>
+  <data key="d29">CD molecules,Type I classical cadherins</data>
+  <data key="d30">471,1185</data>
+  <data key="d9">1986-01-01</data>
+  <data key="d31">2016-01-15</data>
+  <data key="d10">2023-01-20</data>
+  <data key="d11">999</data>
+  <data key="d12">ENSG00000039068</data>
+  <data key="d13">OTTHUMG00000137561</data>
+  <data key="d14">uc002ewg.2</data>
+  <data key="d15">L08599</data>
+  <data key="d16">NM_004360</data>
+  <data key="d17">P12830</data>
+  <data key="d32">9925936</data>
+  <data key="d18">MGI:88354</data>
+  <data key="d19">RGD:69279</data>
+  <data key="d20">LRG_301|http://ftp.ebi.ac.uk/pub/databases/lrgex/LRG_301.xml</data>
+  <data key="d33">CDH1</data>
+  <data key="d21">192090</data>
+  <data key="d22">119276.0</data>
+  <data key="d37">CD324</data>
+  <data key="d25">HGNC:1748</data>
+  <data key="d26">ENST00000261769.10,NM_004360.5</data>
+  <data key="d34">HGNC:1748</data>
+  <data key="d27">ed200e21-6dd4-46d1-b1f1-0817b32a884c</data>
+  <data key="d38">This entry has the approved symbol CDH1 which is also an alias symbol for the unrelated gene [FZR1](https://www.genenames.org/data/gene-symbol-report/#!/hgnc_id/HGNC:24824).</data>
+</node>
+<node id="BRIP1">
+  <data key="d0">SL_GENE</data>
+  <data key="d1">HGNC:20473</data>
+  <data key="d2">BRCA1 interacting DNA helicase 1</data>
+  <data key="d3">protein-coding gene</data>
+  <data key="d4">gene with protein product</data>
+  <data key="d5">Approved</data>
+  <data key="d6">17q23.2</data>
+  <data key="d7">OF,BACH1,FANCJ</data>
+  <data key="d28">BRCA1/BRCA2-associated helicase 1,FANCJ helicase,BRCA1-associated C-terminal helicase,BRCA1 interacting protein 1</data>
+  <data key="d35">BRCA1 interacting helicase 1,BRCA1 interacting protein C-terminal helicase 1</data>
+  <data key="d29">DEAH-box helicases,FA complementation groups,BRCA1 B complex</data>
+  <data key="d30">500,548,1335</data>
+  <data key="d9">2003-04-11</data>
+  <data key="d31">2024-09-05</data>
+  <data key="d10">2024-09-05</data>
+  <data key="d11">83990</data>
+  <data key="d12">ENSG00000136492</data>
+  <data key="d13">OTTHUMG00000179233</data>
+  <data key="d14">uc002izk.3</data>
+  <data key="d15">AF360549</data>
+  <data key="d16">NM_032043</data>
+  <data key="d36">CCDS11631</data>
+  <data key="d17">Q9BX63</data>
+  <data key="d32">11595410,11301010</data>
+  <data key="d18">MGI:2442836</data>
+  <data key="d19">RGD:1307659</data>
+  <data key="d20">Fanconi Anaemia Mutation Database|http://www2.rockefeller.edu/fanconi/,Global Variome shared LOVD|https://databases.lovd.nl/shared/genes/FANCJ,LRG_300|http://ftp.ebi.ac.uk/pub/databases/lrgex/LRG_300.xml</data>
+  <data key="d33">BRIP1</data>
+  <data key="d21">605882</data>
+  <data key="d22">119080.0</data>
+  <data key="d25">HGNC:20473</data>
+  <data key="d26">ENST00000259008.7,NM_032043.3</data>
+  <data key="d34">HGNC:20473</data>
+  <data key="d27">4d16db18-b95a-4dd5-b3fe-843c20923303</data>
+  <data key="d38">This entry has the alias symbol BACH1 which is also the approved symbol for the unrelated gene [BACH1](https://www.genenames.org/data/gene-symbol-report/#!/hgnc_id/HGNC:935)</data>
+</node>
+<node id="VHL">
+  <data key="d0">TS_GENE</data>
+  <data key="d1">HGNC:12687</data>
+  <data key="d2">von Hippel-Lindau tumor suppressor</data>
+  <data key="d3">protein-coding gene</data>
+  <data key="d4">gene with protein product</data>
+  <data key="d5">Approved</data>
+  <data key="d6">3p25.3</data>
+  <data key="d7">VHL1</data>
+  <data key="d35">von Hippel-Lindau syndrome,von Hippel-Lindau tumor suppressor, E3 ubiquitin protein ligase</data>
+  <data key="d9">1986-01-01</data>
+  <data key="d31">2016-03-02</data>
+  <data key="d10">2023-01-20</data>
+  <data key="d11">7428</data>
+  <data key="d12">ENSG00000134086</data>
+  <data key="d13">OTTHUMG00000128668</data>
+  <data key="d14">uc003bvc.4</data>
+  <data key="d15">L15409</data>
+  <data key="d16">NM_000551</data>
+  <data key="d17">P40337</data>
+  <data key="d32">9671762</data>
+  <data key="d18">MGI:103223</data>
+  <data key="d19">RGD:3960</data>
+  <data key="d20">UMD Locus Specific Databases|http://www.umd.be/,LRG_322|http://ftp.ebi.ac.uk/pub/databases/lrgex/LRG_322.xml</data>
+  <data key="d33">VHL</data>
+  <data key="d21">608537</data>
+  <data key="d22">120467.0</data>
+  <data key="d23">objectId:3204</data>
+  <data key="d25">HGNC:12687</data>
+  <data key="d26">ENST00000256474.3,NM_000551.4</data>
+  <data key="d34">HGNC:12687</data>
+  <data key="d27">50929358-41f1-430c-af5a-d727a5bd6a3e</data>
+</node>
+<node id="DDX19A">
+  <data key="d0">SL_GENE</data>
+  <data key="d1">HGNC:25628</data>
+  <data key="d2">DEAD-box helicase 19A</data>
+  <data key="d3">protein-coding gene</data>
+  <data key="d4">gene with protein product</data>
+  <data key="d5">Approved</data>
+  <data key="d6">16q22.1</data>
+  <data key="d7">FLJ11126</data>
+  <data key="d8">DDX19L</data>
+  <data key="d35">DEAD (Asp-Glu-Ala-As) box polypeptide 19-like,DEAD (Asp-Glu-Ala-Asp) box polypeptide 19A</data>
+  <data key="d29">DEAD-box helicases</data>
+  <data key="d30">499</data>
+  <data key="d9">2004-11-03</data>
+  <data key="d39">2005-07-13</data>
+  <data key="d31">2016-01-07</data>
+  <data key="d10">2023-01-20</data>
+  <data key="d11">55308</data>
+  <data key="d12">ENSG00000168872</data>
+  <data key="d13">OTTHUMG00000137579</data>
+  <data key="d14">uc002eyv.4</data>
+  <data key="d15">AF183422</data>
+  <data key="d16">NM_018332</data>
+  <data key="d36">CCDS10889,CCDS82009</data>
+  <data key="d17">Q9NUU7</data>
+  <data key="d32">26538395</data>
+  <data key="d18">MGI:99526</data>
+  <data key="d19">RGD:1303136</data>
+  <data key="d25">HGNC:25628</data>
+  <data key="d26">ENST00000302243.12,NM_018332.5</data>
+  <data key="d27">bbecc48f-1c66-4a76-a364-f1a2152f9faf</data>
+</node>
+<node id="ARID1A">
+  <data key="d0">TS_GENE</data>
+</node>
+<node id="RB1">
+  <data key="d0">TS_GENE</data>
+  <data key="d1">HGNC:9884</data>
+  <data key="d2">RB transcriptional corepressor 1</data>
+  <data key="d3">protein-coding gene</data>
+  <data key="d4">gene with protein product</data>
+  <data key="d5">Approved</data>
+  <data key="d6">13q14.2</data>
+  <data key="d7">RB,PPP1R130</data>
+  <data key="d28">prepro-retinoblastoma-associated protein,protein phosphatase 1, regulatory subunit 130</data>
+  <data key="d8">OSRC</data>
+  <data key="d35">osteosarcoma,retinoblastoma 1</data>
+  <data key="d29">Receptor ligands</data>
+  <data key="d30">542</data>
+  <data key="d9">1986-01-01</data>
+  <data key="d31">2016-05-24</data>
+  <data key="d10">2023-01-20</data>
+  <data key="d11">5925</data>
+  <data key="d12">ENSG00000139687</data>
+  <data key="d13">OTTHUMG00000016900</data>
+  <data key="d14">uc001vcb.4</data>
+  <data key="d15">M15400</data>
+  <data key="d16">NM_000321</data>
+  <data key="d36">CCDS31973</data>
+  <data key="d17">P06400</data>
+  <data key="d32">1857421,15057823</data>
+  <data key="d18">MGI:97874</data>
+  <data key="d19">RGD:3540</data>
+  <data key="d20">RB1-LSDB|http://rb1-lovd.d-lohmann.de/home.php?select_db=RB1,LRG_517|http://ftp.ebi.ac.uk/pub/databases/lrgex/LRG_517.xml</data>
+  <data key="d33">RB1</data>
+  <data key="d21">614041</data>
+  <data key="d22">118239.0</data>
+  <data key="d23">ligandId:5253</data>
+  <data key="d25">HGNC:9884</data>
+  <data key="d26">ENST00000267163.6,NM_000321.3</data>
+  <data key="d34">HGNC:9884</data>
+  <data key="d27">6303f2b5-2189-41b4-9ea1-7788d53ddf76</data>
+</node>
+<node id="PPP2R3C">
+  <data key="d0">SL_GENE</data>
+  <data key="d1">HGNC:17485</data>
+  <data key="d2">protein phosphatase 2 regulatory subunit B''gamma</data>
+  <data key="d3">protein-coding gene</data>
+  <data key="d4">gene with protein product</data>
+  <data key="d5">Approved</data>
+  <data key="d6">14q13.2</data>
+  <data key="d7">FLJ20644,G4-1,G5PR</data>
+  <data key="d8">C14orf10</data>
+  <data key="d35">chromosome 14 open reading frame 10,protein phosphatase 2 (formerly 2A), regulatory subunit B''</data>
+  <data key="d29">Protein phosphatase 2 regulatory subunits</data>
+  <data key="d30">696</data>
+  <data key="d9">2002-11-18</data>
+  <data key="d39">2007-01-22</data>
+  <data key="d31">2017-04-05</data>
+  <data key="d10">2023-01-20</data>
+  <data key="d11">55012</data>
+  <data key="d12">ENSG00000092020</data>
+  <data key="d13">OTTHUMG00000140224</data>
+  <data key="d14">uc001wss.4</data>
+  <data key="d15">AK000651</data>
+  <data key="d16">NM_017917</data>
+  <data key="d36">CCDS9654</data>
+  <data key="d17">Q969Q6</data>
+  <data key="d32">12167160,16129705</data>
+  <data key="d18">MGI:1930009</data>
+  <data key="d19">RGD:1309207</data>
+  <data key="d21">615902</data>
+  <data key="d25">HGNC:17485</data>
+  <data key="d26">ENST00000261475.10,NM_017917.4</data>
+  <data key="d34">HGNC:17485</data>
+  <data key="d27">6b7d7a79-09a3-422a-9a56-c20d10926390</data>
+</node>
+<node id="RPRD1B">
+  <data key="d0">SL_GENE</data>
+  <data key="d1">HGNC:16209</data>
+  <data key="d2">regulation of nuclear pre-mRNA domain containing 1B</data>
+  <data key="d3">protein-coding gene</data>
+  <data key="d4">gene with protein product</data>
+  <data key="d5">Approved</data>
+  <data key="d6">20q11.23</data>
+  <data key="d7">dJ1057B20.2,DKFZp434P0735,CREPT,FLJ44520,NET60,Kub5-Hera,K-H</data>
+  <data key="d28">cell-cycle related and expression-elevated protein in tumor,Ku70-binding protein 5-Hera</data>
+  <data key="d8">C20orf77</data>
+  <data key="d35">chromosome 20 open reading frame 77</data>
+  <data key="d9">2001-07-17</data>
+  <data key="d39">2008-07-28</data>
+  <data key="d31">2008-08-15</data>
+  <data key="d10">2023-01-20</data>
+  <data key="d11">58490</data>
+  <data key="d12">ENSG00000101413</data>
+  <data key="d13">OTTHUMG00000032434</data>
+  <data key="d14">uc002xho.5</data>
+  <data key="d15">AL109823</data>
+  <data key="d16">NM_021215</data>
+  <data key="d36">CCDS13301</data>
+  <data key="d17">Q9NQG5</data>
+  <data key="d32">22231121</data>
+  <data key="d18">MGI:1917720</data>
+  <data key="d19">RGD:1304782</data>
+  <data key="d21">614694</data>
+  <data key="d25">HGNC:16209</data>
+  <data key="d26">ENST00000373433.9,NM_021215.4</data>
+  <data key="d27">a742b1b7-2873-4a39-8c4c-67e7c1f2a904</data>
+</node>
+<node id="BPTF">
+  <data key="d0">SL_GENE</data>
+  <data key="d1">HGNC:3581</data>
+  <data key="d2">bromodomain PHD finger transcription factor</data>
+  <data key="d3">protein-coding gene</data>
+  <data key="d4">gene with protein product</data>
+  <data key="d5">Approved</data>
+  <data key="d6">17q24.2</data>
+  <data key="d7">FAC1,NURF301</data>
+  <data key="d8">FALZ</data>
+  <data key="d35">fetal Alzheimer antigen</data>
+  <data key="d29">PHD finger proteins,Bromodomain containing,NURF complex</data>
+  <data key="d30">88,1232,1363</data>
+  <data key="d9">1996-10-30</data>
+  <data key="d39">2006-12-01</data>
+  <data key="d31">2006-12-01</data>
+  <data key="d10">2023-01-20</data>
+  <data key="d11">2186</data>
+  <data key="d12">ENSG00000171634</data>
+  <data key="d13">OTTHUMG00000132254</data>
+  <data key="d14">uc002jgf.4</data>
+  <data key="d15">AY282495</data>
+  <data key="d16">NM_182641,NM_004459</data>
+  <data key="d36">CCDS11673</data>
+  <data key="d17">Q12830</data>
+  <data key="d32">8975731,10662542,16728976</data>
+  <data key="d18">MGI:2444008</data>
+  <data key="d19">RGD:1307039</data>
+  <data key="d21">601819</data>
+  <data key="d23">objectId:2723</data>
+  <data key="d25">HGNC:3581</data>
+  <data key="d26">ENST00000306378.11,NM_182641.4</data>
+  <data key="d34">HGNC:3581</data>
+  <data key="d27">2c7f1ac2-490e-47bc-a10e-e6c97401abd2</data>
+</node>
+<node id="KEAP1">
+  <data key="d0">TS_GENE</data>
+  <data key="d1">HGNC:23177</data>
+  <data key="d2">kelch like ECH associated protein 1</data>
+  <data key="d3">protein-coding gene</data>
+  <data key="d4">gene with protein product</data>
+  <data key="d5">Approved</data>
+  <data key="d6">19p13.2</data>
+  <data key="d7">KIAA0132,MGC10630,MGC1114,MGC20887,MGC4407,MGC9454,INrf2,KLHL19</data>
+  <data key="d28">kelch-like family member 19</data>
+  <data key="d29">Kelch like,BTB domain containing</data>
+  <data key="d30">617,861</data>
+  <data key="d9">2003-09-30</data>
+  <data key="d31">2015-11-23</data>
+  <data key="d10">2023-01-20</data>
+  <data key="d11">9817</data>
+  <data key="d12">ENSG00000079999</data>
+  <data key="d13">OTTHUMG00000180579</data>
+  <data key="d14">uc002mor.2</data>
+  <data key="d15">AF361886</data>
+  <data key="d16">NM_012289</data>
+  <data key="d36">CCDS12239</data>
+  <data key="d17">Q14145</data>
+  <data key="d18">MGI:1858732</data>
+  <data key="d19">RGD:621619</data>
+  <data key="d33">KEAP1</data>
+  <data key="d21">606016</data>
+  <data key="d23">objectId:2757</data>
+  <data key="d25">HGNC:23177</data>
+  <data key="d26">ENST00000171111.10,NM_203500.2</data>
+  <data key="d34">HGNC:23177</data>
+  <data key="d27">cf5bd1e5-c2a6-4408-9450-adb7a50232ce</data>
+</node>
+<node id="FANCA">
+  <data key="d0">SL_GENE</data>
+  <data key="d1">HGNC:3582</data>
+  <data key="d2">FA complementation group A</data>
+  <data key="d3">protein-coding gene</data>
+  <data key="d4">gene with protein product</data>
+  <data key="d5">Approved</data>
+  <data key="d6">16q24.3</data>
+  <data key="d7">FAA,FA-H,FAH</data>
+  <data key="d8">FACA,FANCH</data>
+  <data key="d35">Fanconi anemia complementation group A</data>
+  <data key="d29">FA complementation groups,FA core complex</data>
+  <data key="d30">548,1751</data>
+  <data key="d9">1995-12-22</data>
+  <data key="d31">2018-05-09</data>
+  <data key="d10">2023-01-20</data>
+  <data key="d11">2175</data>
+  <data key="d12">ENSG00000187741</data>
+  <data key="d13">OTTHUMG00000173049</data>
+  <data key="d14">uc002fou.2</data>
+  <data key="d15">Z83067</data>
+  <data key="d16">NM_000135</data>
+  <data key="d17">O15360</data>
+  <data key="d32">7581462,9382107</data>
+  <data key="d18">MGI:1341823</data>
+  <data key="d19">RGD:1311380</data>
+  <data key="d20">Fanconi Anaemia Mutation Database|http://www2.rockefeller.edu/fanconi/,Global Variome shared LOVD|https://databases.lovd.nl/shared/genes/FANCA,LRG_495|http://ftp.ebi.ac.uk/pub/databases/lrgex/LRG_495.xml</data>
+  <data key="d33">FANCA</data>
+  <data key="d21">607139</data>
+  <data key="d22">121693.0</data>
+  <data key="d25">HGNC:3582</data>
+  <data key="d26">ENST00000389301.8,NM_000135.4</data>
+  <data key="d34">HGNC:3582</data>
+  <data key="d27">6f7047de-b0cd-436c-9518-cf587cd5095e</data>
+</node>
+<node id="FANCD2">
+  <data key="d0">SL_GENE</data>
+  <data key="d1">HGNC:3585</data>
+  <data key="d2">FA complementation group D2</data>
+  <data key="d3">protein-coding gene</data>
+  <data key="d4">gene with protein product</data>
+  <data key="d5">Approved</data>
+  <data key="d6">3p25.3</data>
+  <data key="d7">FAD,FA-D2</data>
+  <data key="d8">FACD,FANCD</data>
+  <data key="d35">Fanconi anemia complementation group D2</data>
+  <data key="d29">FA complementation groups,Armadillo like helical domain containing</data>
+  <data key="d30">548,1492</data>
+  <data key="d9">1996-01-04</data>
+  <data key="d39">2001-10-05</data>
+  <data key="d31">2018-05-09</data>
+  <data key="d10">2023-01-20</data>
+  <data key="d11">2177</data>
+  <data key="d12">ENSG00000144554</data>
+  <data key="d13">OTTHUMG00000128670</data>
+  <data key="d14">uc003buw.4</data>
+  <data key="d15">AF340183</data>
+  <data key="d16">NM_001018115</data>
+  <data key="d36">CCDS2595,CCDS33696</data>
+  <data key="d17">Q9BXW9</data>
+  <data key="d32">7581463,11239453,18475298</data>
+  <data key="d18">MGI:2448480</data>
+  <data key="d19">RGD:1303172</data>
+  <data key="d20">Fanconi Anaemia Mutation Database|http://www2.rockefeller.edu/fanconi/,Global Variome shared LOVD|https://databases.lovd.nl/shared/genes/FANCD2,LRG_306|http://ftp.ebi.ac.uk/pub/databases/lrgex/LRG_306.xml</data>
+  <data key="d33">FANCD2</data>
+  <data key="d21">613984</data>
+  <data key="d22">121709.0</data>
+  <data key="d25">HGNC:3585</data>
+  <data key="d26">ENST00000675286.1,NM_001018115.3</data>
+  <data key="d34">HGNC:3585</data>
+  <data key="d27">3bdabdbb-31ef-43be-82f3-4a60761d76c5</data>
+</node>
+<node id="FANCF">
+  <data key="d0">SL_GENE</data>
+  <data key="d1">HGNC:3587</data>
+  <data key="d2">FA complementation group F</data>
+  <data key="d3">protein-coding gene</data>
+  <data key="d4">gene with protein product</data>
+  <data key="d5">Approved</data>
+  <data key="d6">11p14.3</data>
+  <data key="d7">FAF</data>
+  <data key="d35">Fanconi anemia complementation group F</data>
+  <data key="d29">FA complementation groups,FA core complex</data>
+  <data key="d30">548,1751</data>
+  <data key="d9">1998-08-26</data>
+  <data key="d31">2018-05-09</data>
+  <data key="d10">2023-01-20</data>
+  <data key="d11">2188</data>
+  <data key="d12">ENSG00000183161</data>
+  <data key="d13">OTTHUMG00000166070</data>
+  <data key="d14">uc001mql.2</data>
+  <data key="d16">NM_022725</data>
+  <data key="d36">CCDS7857</data>
+  <data key="d17">Q9NPI8</data>
+  <data key="d32">9382107</data>
+  <data key="d18">MGI:3689889</data>
+  <data key="d19">RGD:1561456</data>
+  <data key="d20">Fanconi Anaemia Mutation Database|http://www2.rockefeller.edu/fanconi/,Global Variome shared LOVD|https://databases.lovd.nl/shared/genes/FANCF,LRG_527|http://ftp.ebi.ac.uk/pub/databases/lrgex/LRG_527.xml</data>
+  <data key="d33">FANCF</data>
+  <data key="d21">613897</data>
+  <data key="d22">121719.0</data>
+  <data key="d25">HGNC:3587</data>
+  <data key="d26">ENST00000327470.6,NM_022725.4</data>
+  <data key="d34">HGNC:3587</data>
+  <data key="d27">0a7889fa-e413-427d-b8c5-efd2258ab48c</data>
+</node>
+<node id="MCM9">
+  <data key="d0">SL_GENE</data>
+  <data key="d1">HGNC:21484</data>
+  <data key="d2">minichromosome maintenance 9 homologous recombination repair factor</data>
+  <data key="d3">protein-coding gene</data>
+  <data key="d4">gene with protein product</data>
+  <data key="d5">Approved</data>
+  <data key="d6">6q22.31</data>
+  <data key="d7">MGC35304,dJ329L24.3,FLJ20170</data>
+  <data key="d8">MCMDC1,C6orf61</data>
+  <data key="d35">minichromosome maintenance deficient domain containing 1,chromosome 6 open reading frame 61,minichromosome maintenance complex component 9</data>
+  <data key="d29">MCM family</data>
+  <data key="d30">1085</data>
+  <data key="d9">2003-06-18</data>
+  <data key="d39">2007-04-04</data>
+  <data key="d31">2015-08-25</data>
+  <data key="d10">2023-01-20</data>
+  <data key="d11">254394</data>
+  <data key="d12">ENSG00000111877</data>
+  <data key="d13">OTTHUMG00000015468</data>
+  <data key="d14">uc063qzj.1</data>
+  <data key="d15">BC031658</data>
+  <data key="d16">NM_153255</data>
+  <data key="d36">CCDS5121,CCDS56447</data>
+  <data key="d17">Q9NXL9</data>
+  <data key="d32">16226853,15850810,16495042</data>
+  <data key="d18">MGI:1918817</data>
+  <data key="d19">RGD:1560557</data>
+  <data key="d21">610098</data>
+  <data key="d22">448630.0</data>
+  <data key="d25">HGNC:21484</data>
+  <data key="d26">ENST00000619706.5,NM_017696.3</data>
+  <data key="d34">HGNC:21484</data>
+  <data key="d27">ceb20fe9-9be6-416f-8fea-db98887324ca</data>
+</node>
+<node id="SDHB">
+  <data key="d0">SL_GENE</data>
+  <data key="d1">HGNC:10681</data>
+  <data key="d2">succinate dehydrogenase complex iron sulfur subunit B</data>
+  <data key="d3">protein-coding gene</data>
+  <data key="d4">gene with protein product</data>
+  <data key="d5">Approved</data>
+  <data key="d6">1p36.13</data>
+  <data key="d28">iron-sulfur subunit of complex II,succinate dehydrogenase [ubiquinone] iron-sulfur subunit</data>
+  <data key="d8">SDH1,SDH</data>
+  <data key="d35">succinate dehydrogenase complex, subunit B, iron sulfur (Ip),succinate dehydrogenase complex subunit B, iron sulfur (Ip)</data>
+  <data key="d29">Mitochondrial complex II: succinate dehydrogenase subunits</data>
+  <data key="d30">641</data>
+  <data key="d9">2001-06-22</data>
+  <data key="d31">2016-01-28</data>
+  <data key="d10">2023-01-20</data>
+  <data key="d11">6390</data>
+  <data key="d12">ENSG00000117118</data>
+  <data key="d13">OTTHUMG00000002289</data>
+  <data key="d14">uc001bae.5</data>
+  <data key="d15">U17248</data>
+  <data key="d16">NM_003000</data>
+  <data key="d36">CCDS176</data>
+  <data key="d17">P21912</data>
+  <data key="d18">MGI:1914930</data>
+  <data key="d19">RGD:1308598</data>
+  <data key="d20">SDHB @ LOVD|http://www.LOVD.nl/SDHB,Global Variome shared LOVD|https://databases.lovd.nl/shared/genes/SDHB,LRG_316|http://ftp.ebi.ac.uk/pub/databases/lrgex/LRG_316.xml</data>
+  <data key="d33">SDHB</data>
+  <data key="d21">185470</data>
+  <data key="d22">118554.0</data>
+  <data key="d24">1.3.99.1</data>
+  <data key="d25">HGNC:10681</data>
+  <data key="d26">ENST00000375499.8,NM_003000.3</data>
+  <data key="d34">HGNC:10681</data>
+  <data key="d27">ec70da14-9860-4a86-a9ff-cb8c76134b63</data>
+</node>
+<node id="BAP1">
+  <data key="d0">TS_GENE</data>
+  <data key="d1">HGNC:950</data>
+  <data key="d2">BRCA1 associated deubiquitinase 1</data>
+  <data key="d3">protein-coding gene</data>
+  <data key="d4">gene with protein product</data>
+  <data key="d5">Approved</data>
+  <data key="d6">3p21.1</data>
+  <data key="d7">hucep-6,KIAA0272,UCHL2</data>
+  <data key="d28">ubiquitin carboxy-terminal hydrolase L2</data>
+  <data key="d35">BRCA1 associated protein-1 (ubiquitin carboxy-terminal hydrolase),BRCA1 associated protein 1</data>
+  <data key="d29">Ubiquitin C-terminal hydrolases</data>
+  <data key="d30">998</data>
+  <data key="d9">1998-09-17</data>
+  <data key="d31">2024-07-04</data>
+  <data key="d10">2024-07-04</data>
+  <data key="d11">8314</data>
+  <data key="d12">ENSG00000163930</data>
+  <data key="d13">OTTHUMG00000158392</data>
+  <data key="d14">uc003ddx.5</data>
+  <data key="d15">AF045581</data>
+  <data key="d16">NM_001410772</data>
+  <data key="d36">CCDS2853,CCDS93284</data>
+  <data key="d17">Q92560</data>
+  <data key="d32">9528852,19117993,37009801</data>
+  <data key="d18">MGI:1206586</data>
+  <data key="d19">RGD:1311938</data>
+  <data key="d20">LRG_529|http://ftp.ebi.ac.uk/pub/databases/lrgex/LRG_529.xml</data>
+  <data key="d33">BAP1</data>
+  <data key="d21">603089</data>
+  <data key="d22">289543.0</data>
+  <data key="d40">C12.004</data>
+  <data key="d23">objectId:2332</data>
+  <data key="d24">3.4.19.12</data>
+  <data key="d25">HGNC:950</data>
+  <data key="d26">ENST00000460680.6,NM_004656.4</data>
+  <data key="d34">HGNC:950</data>
+  <data key="d27">7892f77f-9288-4878-86e0-14be27a6981c</data>
+  <data key="d38">This entry has the approved symbol BAP1 which is also an alias symbol for the unrelated genes [MAGI1](https://genenames.org/data/gene-symbol-report/#!/hgnc_id/HGNC:946) and [RNF2](https://genenames.org/data/gene-symbol-report/#!/hgnc_id/HGNC:10061)</data>
+</node>
+<node id="USPL1">
+  <data key="d0">SL_GENE</data>
+  <data key="d1">HGNC:20294</data>
+  <data key="d2">ubiquitin specific peptidase like 1</data>
+  <data key="d3">protein-coding gene</data>
+  <data key="d4">gene with protein product</data>
+  <data key="d5">Approved</data>
+  <data key="d6">13q12.3</data>
+  <data key="d7">bA121O19.1,D13S106E</data>
+  <data key="d8">C13orf22</data>
+  <data key="d35">chromosome 13 open reading frame 22</data>
+  <data key="d29">Ubiquitin specific peptidases,Ubiquitin specific peptidase like </data>
+  <data key="d30">366,988</data>
+  <data key="d9">2004-04-16</data>
+  <data key="d39">2005-11-24</data>
+  <data key="d31">2005-11-24</data>
+  <data key="d10">2024-03-15</data>
+  <data key="d11">10208</data>
+  <data key="d12">ENSG00000132952</data>
+  <data key="d13">OTTHUMG00000016675</data>
+  <data key="d14">uc001utc.3</data>
+  <data key="d15">X59131</data>
+  <data key="d16">NM_005800</data>
+  <data key="d17">Q5W0Q7</data>
+  <data key="d32">22878415,24413172,35383180</data>
+  <data key="d18">MGI:2442342</data>
+  <data key="d19">RGD:1310835</data>
+  <data key="d21">617470</data>
+  <data key="d25">HGNC:20294</data>
+  <data key="d26">ENST00000255304.9,NM_005800.5</data>
+  <data key="d27">7047f585-00e3-494c-8d44-8741f897e20c</data>
+</node>
+<node id="ATG9A">
+  <data key="d0">SL_GENE</data>
+  <data key="d1">HGNC:22408</data>
+  <data key="d2">autophagy related 9A</data>
+  <data key="d3">protein-coding gene</data>
+  <data key="d4">gene with protein product</data>
+  <data key="d5">Approved</data>
+  <data key="d6">2q35</data>
+  <data key="d7">FLJ22169</data>
+  <data key="d8">APG9L1</data>
+  <data key="d35">APG9 autophagy 9-like 1 (S. cerevisiae),ATG9 autophagy related 9 homolog A (S. cerevisiae)</data>
+  <data key="d29">Autophagy related</data>
+  <data key="d30">1022</data>
+  <data key="d9">2004-11-24</data>
+  <data key="d39">2005-09-11</data>
+  <data key="d31">2012-06-06</data>
+  <data key="d10">2023-07-17</data>
+  <data key="d11">79065</data>
+  <data key="d12">ENSG00000198925</data>
+  <data key="d13">OTTHUMG00000154557</data>
+  <data key="d14">uc002vkf.3</data>
+  <data key="d15">AK021732</data>
+  <data key="d16">NM_024085</data>
+  <data key="d36">CCDS42820</data>
+  <data key="d17">Q7Z3C6</data>
+  <data key="d32">29180427,33106659</data>
+  <data key="d18">MGI:2138446</data>
+  <data key="d19">RGD:1310450</data>
+  <data key="d21">612204</data>
+  <data key="d25">HGNC:22408</data>
+  <data key="d26">ENST00000361242.9,NM_001077198.3</data>
+  <data key="d27">d62e0fb7-e1f4-40e7-81d3-c7079955dc74</data>
+</node>
+<node id="C16orf72">
+  <data key="d0">SL_GENE</data>
+</node>
+<node id="COQ2">
+  <data key="d0">SL_GENE</data>
+  <data key="d1">HGNC:25223</data>
+  <data key="d2">coenzyme Q2, polyprenyltransferase</data>
+  <data key="d3">protein-coding gene</data>
+  <data key="d4">gene with protein product</data>
+  <data key="d5">Approved</data>
+  <data key="d6">4q21.23</data>
+  <data key="d7">CL640,FLJ26072</data>
+  <data key="d28">4-hydroxybenzoate polyprenyltransferase</data>
+  <data key="d35">coenzyme Q2 homolog, prenyltransferase (yeast)</data>
+  <data key="d9">2005-07-05</data>
+  <data key="d31">2016-03-21</data>
+  <data key="d10">2023-01-20</data>
+  <data key="d11">27235</data>
+  <data key="d12">ENSG00000173085</data>
+  <data key="d13">OTTHUMG00000160940</data>
+  <data key="d14">uc003hog.3</data>
+  <data key="d16">NM_015697</data>
+  <data key="d36">CCDS47090,CCDS87234</data>
+  <data key="d17">Q96H96</data>
+  <data key="d32">15153069,17332895</data>
+  <data key="d18">MGI:1919133</data>
+  <data key="d19">RGD:1306722</data>
+  <data key="d21">609825</data>
+  <data key="d22">120770.0</data>
+  <data key="d24">2.5.1.39</data>
+  <data key="d25">HGNC:25223</data>
+  <data key="d26">ENST00000647002.2,NM_001358921.2</data>
+  <data key="d34">HGNC:25223</data>
+  <data key="d27">f0f51982-f687-496e-8be8-b6502caf9a12</data>
+</node>
+<node id="FAM106A">
+  <data key="d0">SL_GENE</data>
+  <data key="d1">HGNC:25682</data>
+  <data key="d2">family with sequence similarity 106 member A</data>
+  <data key="d3">non-coding RNA</data>
+  <data key="d4">RNA, long non-coding</data>
+  <data key="d5">Approved</data>
+  <data key="d6">17p11.2</data>
+  <data key="d7">FLJ11800</data>
+  <data key="d35">family with sequence similarity 106, member A</data>
+  <data key="d29">Long non-coding RNAs with FAM root symbol</data>
+  <data key="d30">1993</data>
+  <data key="d9">2006-01-12</data>
+  <data key="d31">2015-11-18</data>
+  <data key="d10">2023-03-15</data>
+  <data key="d11">80039</data>
+  <data key="d12">ENSG00000273018</data>
+  <data key="d13">OTTHUMG00000179516</data>
+  <data key="d14">uc002gtz.3</data>
+  <data key="d15">AK021862</data>
+  <data key="d16">NR_170998</data>
+  <data key="d17">Q4KMX7</data>
+  <data key="d32">14702039</data>
+  <data key="d25">HGNC:25682</data>
+  <data key="d27">c060d96f-1677-4d6f-bce6-842d9b23ee49</data>
+  <data key="d41">URS000075F0DD</data>
+</node>
+<node id="FBXW11">
+  <data key="d0">SL_GENE</data>
+  <data key="d1">HGNC:13607</data>
+  <data key="d2">F-box and WD repeat domain containing 11</data>
+  <data key="d3">protein-coding gene</data>
+  <data key="d4">gene with protein product</data>
+  <data key="d5">Approved</data>
+  <data key="d6">5q35.1</data>
+  <data key="d7">KIAA0696,Fbw1b,BTRCP2,BTRC2,Hos,Fbw11</data>
+  <data key="d8">FBXW1B</data>
+  <data key="d35">F-box and WD-40 domain protein 1B,F-box and WD-40 domain protein 11</data>
+  <data key="d29">WD repeat domain containing,F-box and WD repeat domain containing</data>
+  <data key="d30">362,559</data>
+  <data key="d9">2000-09-27</data>
+  <data key="d39">2004-06-16</data>
+  <data key="d31">2007-02-08</data>
+  <data key="d10">2023-01-20</data>
+  <data key="d11">23291</data>
+  <data key="d12">ENSG00000072803</data>
+  <data key="d13">OTTHUMG00000163267</data>
+  <data key="d14">uc003mbl.2</data>
+  <data key="d15">AB014596</data>
+  <data key="d16">NM_012300</data>
+  <data key="d17">Q9UKB1</data>
+  <data key="d32">10531035,10694485</data>
+  <data key="d18">MGI:2144023</data>
+  <data key="d19">RGD:1309121</data>
+  <data key="d21">605651</data>
+  <data key="d25">HGNC:13607</data>
+  <data key="d26">ENST00000517395.6,NM_001378974.1</data>
+  <data key="d34">HGNC:13607</data>
+  <data key="d27">79ad3c1d-e16a-43f0-b26a-0e7af238b35e</data>
+</node>
+<node id="NDUFC1">
+  <data key="d0">SL_GENE</data>
+  <data key="d1">HGNC:7705</data>
+  <data key="d2">NADH:ubiquinone oxidoreductase subunit C1</data>
+  <data key="d3">protein-coding gene</data>
+  <data key="d4">gene with protein product</data>
+  <data key="d5">Approved</data>
+  <data key="d6">4q31.1</data>
+  <data key="d7">KFYI</data>
+  <data key="d28">complex I KFYI subunit</data>
+  <data key="d35">NADH dehydrogenase (ubiquinone) 1, subcomplex unknown, 1 (6kD, KFYI),NADH dehydrogenase (ubiquinone) 1, subcomplex unknown, 1, 6kDa</data>
+  <data key="d29">NADH:ubiquinone oxidoreductase supernumerary subunits</data>
+  <data key="d30">1150</data>
+  <data key="d9">1997-12-17</data>
+  <data key="d31">2015-11-20</data>
+  <data key="d10">2023-01-20</data>
+  <data key="d11">4717</data>
+  <data key="d12">ENSG00000109390</data>
+  <data key="d13">OTTHUMG00000133387</data>
+  <data key="d14">uc021xsd.1</data>
+  <data key="d15">AF047184</data>
+  <data key="d16">NM_002494</data>
+  <data key="d36">CCDS3746</data>
+  <data key="d17">O43677</data>
+  <data key="d32">9425316,9763677</data>
+  <data key="d18">MGI:1913627</data>
+  <data key="d19">RGD:1586362</data>
+  <data key="d21">603844</data>
+  <data key="d22">470758.0</data>
+  <data key="d25">HGNC:7705</data>
+  <data key="d26">ENST00000394223.2,NM_001184989.2</data>
+  <data key="d27">ddb038fe-8068-4bd2-90d7-75b1782ea418</data>
+</node>
+<node id="PMVK">
+  <data key="d0">SL_GENE</data>
+  <data key="d1">HGNC:9141</data>
+  <data key="d2">phosphomevalonate kinase</data>
+  <data key="d3">protein-coding gene</data>
+  <data key="d4">gene with protein product</data>
+  <data key="d5">Approved</data>
+  <data key="d6">1q21.3</data>
+  <data key="d7">PMK,PMKA,HUMPMKI</data>
+  <data key="d9">1999-07-09</data>
+  <data key="d10">2023-01-20</data>
+  <data key="d11">10654</data>
+  <data key="d12">ENSG00000163344</data>
+  <data key="d13">OTTHUMG00000037415</data>
+  <data key="d14">uc001ffq.4</data>
+  <data key="d15">L77213</data>
+  <data key="d16">NM_006556</data>
+  <data key="d36">CCDS1073</data>
+  <data key="d17">Q15126</data>
+  <data key="d32">8663599,10191291</data>
+  <data key="d18">MGI:1915853</data>
+  <data key="d19">RGD:1310812</data>
+  <data key="d21">607622</data>
+  <data key="d22">444563.0</data>
+  <data key="d23">objectId:641</data>
+  <data key="d24">2.7.4.2</data>
+  <data key="d25">HGNC:9141</data>
+  <data key="d26">ENST00000368467.4,NM_006556.4</data>
+  <data key="d34">HGNC:9141</data>
+  <data key="d27">abf4ee40-08d2-404d-9534-b17040e821b6</data>
+</node>
+<node id="PRDX1">
+  <data key="d0">SL_GENE</data>
+  <data key="d1">HGNC:9352</data>
+  <data key="d2">peroxiredoxin 1</data>
+  <data key="d3">protein-coding gene</data>
+  <data key="d4">gene with protein product</data>
+  <data key="d5">Approved</data>
+  <data key="d6">1p34.1</data>
+  <data key="d7">NKEFA</data>
+  <data key="d8">PAGA</data>
+  <data key="d29">Peroxiredoxins</data>
+  <data key="d30">953</data>
+  <data key="d9">1993-11-01</data>
+  <data key="d10">2023-01-20</data>
+  <data key="d11">5052</data>
+  <data key="d12">ENSG00000117450</data>
+  <data key="d13">OTTHUMG00000007738</data>
+  <data key="d14">uc001cob.4</data>
+  <data key="d15">BC021683</data>
+  <data key="d16">NM_181697</data>
+  <data key="d36">CCDS522</data>
+  <data key="d17">Q06830</data>
+  <data key="d32">8496166</data>
+  <data key="d18">MGI:99523</data>
+  <data key="d19">RGD:620039</data>
+  <data key="d21">176763</data>
+  <data key="d25">HGNC:9352</data>
+  <data key="d26">ENST00000319248.13,NM_181697.3</data>
+  <data key="d34">HGNC:9352</data>
+  <data key="d27">dae0cb94-2fca-4a53-b287-2e4b22ee8818</data>
+</node>
+<node id="PRKRA">
+  <data key="d0">SL_GENE</data>
+  <data key="d1">HGNC:9438</data>
+  <data key="d2">protein activator of interferon induced protein kinase EIF2AK2</data>
+  <data key="d3">protein-coding gene</data>
+  <data key="d4">gene with protein product</data>
+  <data key="d5">Approved</data>
+  <data key="d6">2q31.2</data>
+  <data key="d7">PACT,RAX,HSD14,DYT16</data>
+  <data key="d28">protein activator of the interferon-induced protein kinase,PKR-associated protein X</data>
+  <data key="d35">protein kinase, interferon-inducible double stranded RNA dependent activator</data>
+  <data key="d29">RISC loading complex subunits</data>
+  <data key="d30">1776</data>
+  <data key="d9">1999-12-07</data>
+  <data key="d31">2016-01-06</data>
+  <data key="d10">2023-05-10</data>
+  <data key="d11">8575</data>
+  <data key="d12">ENSG00000180228</data>
+  <data key="d13">OTTHUMG00000132576</data>
+  <data key="d14">uc002umf.3</data>
+  <data key="d15">AF072860</data>
+  <data key="d16">NM_003690</data>
+  <data key="d17">O75569</data>
+  <data key="d32">9687506,10336432</data>
+  <data key="d18">MGI:1344375</data>
+  <data key="d19">RGD:1306707</data>
+  <data key="d21">603424</data>
+  <data key="d22">213048.0</data>
+  <data key="d25">HGNC:9438</data>
+  <data key="d26">ENST00000325748.9,NM_003690.5</data>
+  <data key="d34">HGNC:9438</data>
+  <data key="d27">40d55a43-5513-4652-b997-ac272412633b</data>
+</node>
+<node id="SLC25A33">
+  <data key="d0">SL_GENE</data>
+  <data key="d1">HGNC:29681</data>
+  <data key="d2">solute carrier family 25 member 33</data>
+  <data key="d3">protein-coding gene</data>
+  <data key="d4">gene with protein product</data>
+  <data key="d5">Approved</data>
+  <data key="d6">1p36.22</data>
+  <data key="d7">MGC4399,BMSC-MCP,PNC1</data>
+  <data key="d35">solute carrier family 25, member 33,solute carrier family 25 (pyrimidine nucleotide carrier), member 33</data>
+  <data key="d29">Solute carrier family 25</data>
+  <data key="d30">2176</data>
+  <data key="d9">2006-09-21</data>
+  <data key="d31">2016-02-18</data>
+  <data key="d10">2023-01-20</data>
+  <data key="d11">84275</data>
+  <data key="d12">ENSG00000171612</data>
+  <data key="d13">OTTHUMG00000001322</data>
+  <data key="d14">uc001apw.4</data>
+  <data key="d15">AF495714</data>
+  <data key="d16">NM_032315</data>
+  <data key="d36">CCDS103</data>
+  <data key="d17">Q9BSK2</data>
+  <data key="d32">14715278,16949250</data>
+  <data key="d18">MGI:1917806</data>
+  <data key="d19">RGD:1583942</data>
+  <data key="d21">610816</data>
+  <data key="d42">SLC25A33</data>
+  <data key="d23">objectId:1084</data>
+  <data key="d25">HGNC:29681</data>
+  <data key="d26">ENST00000302692.7,NM_032315.3</data>
+  <data key="d27">95af2e7d-6184-4790-bfd9-a69681b7a25d</data>
+</node>
+<node id="UIMC1">
+  <data key="d0">SL_GENE</data>
+  <data key="d1">HGNC:30298</data>
+  <data key="d2">ubiquitin interaction motif containing 1</data>
+  <data key="d3">protein-coding gene</data>
+  <data key="d4">gene with protein product</data>
+  <data key="d5">Approved</data>
+  <data key="d6">5q35.2</data>
+  <data key="d7">RAP80</data>
+  <data key="d28">receptor associated protein 80</data>
+  <data key="d29">BRCA1 A complex</data>
+  <data key="d30">1328</data>
+  <data key="d9">2006-10-27</data>
+  <data key="d10">2023-01-20</data>
+  <data key="d11">51720</data>
+  <data key="d12">ENSG00000087206</data>
+  <data key="d13">OTTHUMG00000130852</data>
+  <data key="d14">uc063kao.1</data>
+  <data key="d15">AF349313</data>
+  <data key="d16">NM_016290</data>
+  <data key="d36">CCDS4408,CCDS83050</data>
+  <data key="d17">Q96RL1</data>
+  <data key="d32">12080054,19015238</data>
+  <data key="d18">MGI:103185</data>
+  <data key="d19">RGD:1307009</data>
+  <data key="d21">609433</data>
+  <data key="d25">HGNC:30298</data>
+  <data key="d26">ENST00000511320.6,NM_001199298.2</data>
+  <data key="d34">HGNC:30298</data>
+  <data key="d27">c65f2545-628a-4b28-957d-c2ad01415dc4</data>
+</node>
+<node id="UMPS">
+  <data key="d0">SL_GENE</data>
+  <data key="d1">HGNC:12563</data>
+  <data key="d2">uridine monophosphate synthetase</data>
+  <data key="d3">protein-coding gene</data>
+  <data key="d4">gene with protein product</data>
+  <data key="d5">Approved</data>
+  <data key="d6">3q21.2</data>
+  <data key="d28">orotate phosphoribosyl transferase and orotidine-5'-decarboxylase</data>
+  <data key="d29">MicroRNA protein coding host genes</data>
+  <data key="d30">1691</data>
+  <data key="d9">1986-01-01</data>
+  <data key="d31">2008-02-04</data>
+  <data key="d10">2023-01-20</data>
+  <data key="d11">7372</data>
+  <data key="d12">ENSG00000114491</data>
+  <data key="d13">OTTHUMG00000159431</data>
+  <data key="d14">uc003ehl.5</data>
+  <data key="d16">NM_000373</data>
+  <data key="d36">CCDS3029</data>
+  <data key="d17">P11172</data>
+  <data key="d32">2767686</data>
+  <data key="d18">MGI:1298388</data>
+  <data key="d19">RGD:1311908</data>
+  <data key="d21">613891</data>
+  <data key="d22">120414.0</data>
+  <data key="d24">2.4.2.10,4.1.1.23</data>
+  <data key="d25">HGNC:12563</data>
+  <data key="d26">ENST00000232607.7,NM_000373.4</data>
+  <data key="d34">HGNC:12563</data>
+  <data key="d27">a5555112-cf2f-42ea-bf1a-9c01029b96ae</data>
+</node>
+<node id="ARID2">
+  <data key="d0">SL_GENE</data>
+  <data key="d1">HGNC:18037</data>
+  <data key="d2">AT-rich interaction domain 2</data>
+  <data key="d3">protein-coding gene</data>
+  <data key="d4">gene with protein product</data>
+  <data key="d5">Approved</data>
+  <data key="d6">12q12</data>
+  <data key="d7">KIAA1557,DKFZp686G052,FLJ30619,BAF200,SMARCF3,ZIPZAP,p200</data>
+  <data key="d35">AT rich interactive domain 2 (ARID, RFX-like)</data>
+  <data key="d29">AT-rich interaction domain containing,Armadillo like helical domain containing,PBAF complex subunits</data>
+  <data key="d30">418,1492,1605</data>
+  <data key="d9">2004-01-28</data>
+  <data key="d31">2015-11-17</data>
+  <data key="d10">2023-07-12</data>
+  <data key="d11">196528</data>
+  <data key="d12">ENSG00000189079</data>
+  <data key="d13">OTTHUMG00000150487</data>
+  <data key="d14">uc001ros.2</data>
+  <data key="d15">DQ096628</data>
+  <data key="d16">NM_152641</data>
+  <data key="d36">CCDS31783</data>
+  <data key="d17">Q68CP9</data>
+  <data key="d32">16782067,21822264,22184115</data>
+  <data key="d18">MGI:1924294</data>
+  <data key="d19">RGD:1311105</data>
+  <data key="d33">ARID2</data>
+  <data key="d21">609539</data>
+  <data key="d22">469962.0</data>
+  <data key="d25">HGNC:18037</data>
+  <data key="d26">ENST00000334344.11,NM_152641.4</data>
+  <data key="d34">HGNC:18037</data>
+  <data key="d27">3424ec6a-36b4-40b5-bb03-75313a4fc445</data>
+</node>
+<node id="BIRC6">
+  <data key="d0">SL_GENE</data>
+  <data key="d1">HGNC:13516</data>
+  <data key="d2">baculoviral IAP repeat containing 6</data>
+  <data key="d3">protein-coding gene</data>
+  <data key="d4">gene with protein product</data>
+  <data key="d5">Approved</data>
+  <data key="d6">2p22.3</data>
+  <data key="d7">BRUCE</data>
+  <data key="d28">apollon</data>
+  <data key="d35">baculoviral IAP repeat-containing 6</data>
+  <data key="d29">Ubiquitin conjugating enzymes E2,Baculoviral IAP repeat containing,MicroRNA protein coding host genes</data>
+  <data key="d30">102,419,1691</data>
+  <data key="d9">2000-09-19</data>
+  <data key="d31">2011-01-25</data>
+  <data key="d10">2023-01-20</data>
+  <data key="d11">57448</data>
+  <data key="d12">ENSG00000115760</data>
+  <data key="d13">OTTHUMG00000150528</data>
+  <data key="d14">uc010ezu.4</data>
+  <data key="d15">AF265555</data>
+  <data key="d16">NM_016252</data>
+  <data key="d36">CCDS33175</data>
+  <data key="d17">Q9NR09</data>
+  <data key="d32">10544019</data>
+  <data key="d18">MGI:1276108</data>
+  <data key="d19">RGD:1307247</data>
+  <data key="d21">605638</data>
+  <data key="d40">I32.006</data>
+  <data key="d23">objectId:2796</data>
+  <data key="d25">HGNC:13516</data>
+  <data key="d26">ENST00000421745.7,NM_016252.4</data>
+  <data key="d27">2f1f1ebe-bf06-4ac2-89d7-34fc2c1ee83b</data>
+</node>
+<node id="BUB1">
+  <data key="d0">SL_GENE</data>
+  <data key="d1">HGNC:1148</data>
+  <data key="d2">BUB1 mitotic checkpoint serine/threonine kinase</data>
+  <data key="d3">protein-coding gene</data>
+  <data key="d4">gene with protein product</data>
+  <data key="d5">Approved</data>
+  <data key="d6">2q13</data>
+  <data key="d7">hBUB1,BUB1A</data>
+  <data key="d8">BUB1L</data>
+  <data key="d35">budding uninhibited by benzimidazoles 1 (yeast homolog),budding uninhibited by benzimidazoles 1 homolog (yeast)</data>
+  <data key="d9">1997-08-18</data>
+  <data key="d31">2016-01-15</data>
+  <data key="d10">2023-01-20</data>
+  <data key="d11">699</data>
+  <data key="d12">ENSG00000169679</data>
+  <data key="d13">OTTHUMG00000153638</data>
+  <data key="d14">uc002tgc.5</data>
+  <data key="d15">AF046078</data>
+  <data key="d16">NM_004336</data>
+  <data key="d17">O43683</data>
+  <data key="d32">9441741</data>
+  <data key="d18">MGI:1100510</data>
+  <data key="d19">RGD:1311707</data>
+  <data key="d21">602452</data>
+  <data key="d22">367084.0</data>
+  <data key="d23">objectId:1949</data>
+  <data key="d25">HGNC:1148</data>
+  <data key="d26">ENST00000302759.11,NM_004336.5</data>
+  <data key="d34">HGNC:1148</data>
+  <data key="d27">da597a4b-75a5-4d5b-92f0-98ca2f0a918d</data>
+</node>
+<node id="BZW1">
+  <data key="d0">SL_GENE</data>
+  <data key="d1">HGNC:18380</data>
+  <data key="d2">basic leucine zipper and W2 domains 1</data>
+  <data key="d3">protein-coding gene</data>
+  <data key="d4">gene with protein product</data>
+  <data key="d5">Approved</data>
+  <data key="d6">2q33.1</data>
+  <data key="d7">BZAP45,KIAA0005,5MP2</data>
+  <data key="d28">eIF5-mimic protein 2</data>
+  <data key="d9">2002-08-05</data>
+  <data key="d10">2023-01-20</data>
+  <data key="d11">9689</data>
+  <data key="d12">ENSG00000082153</data>
+  <data key="d13">OTTHUMG00000154560</data>
+  <data key="d14">uc002uwc.4</data>
+  <data key="d15">D13630</data>
+  <data key="d16">NM_014670</data>
+  <data key="d17">Q7L1Q6</data>
+  <data key="d32">10964520,11524015,27325740,29470543</data>
+  <data key="d18">MGI:1914132</data>
+  <data key="d19">RGD:735129</data>
+  <data key="d21">619252</data>
+  <data key="d25">HGNC:18380</data>
+  <data key="d26">ENST00000409600.6,NM_001207067.2</data>
+  <data key="d27">4dafb471-6cd6-4393-b1f0-247bcfb8221c</data>
+</node>
+<node id="C12orf44">
+  <data key="d0">SL_GENE</data>
+</node>
+<node id="C1orf228">
+  <data key="d0">SL_GENE</data>
+</node>
+<node id="CAB39">
+  <data key="d0">SL_GENE</data>
+  <data key="d1">HGNC:20292</data>
+  <data key="d2">calcium binding protein 39</data>
+  <data key="d3">protein-coding gene</data>
+  <data key="d4">gene with protein product</data>
+  <data key="d5">Approved</data>
+  <data key="d6">2q37.1</data>
+  <data key="d7">CGI-66,MO25</data>
+  <data key="d29">Armadillo like helical domain containing</data>
+  <data key="d30">1492</data>
+  <data key="d9">2004-07-02</data>
+  <data key="d10">2023-07-26</data>
+  <data key="d11">51719</data>
+  <data key="d12">ENSG00000135932</data>
+  <data key="d13">OTTHUMG00000133220</data>
+  <data key="d14">uc002vqx.4</data>
+  <data key="d15">AF113536</data>
+  <data key="d16">NM_016289</data>
+  <data key="d36">CCDS2478</data>
+  <data key="d17">Q9Y376</data>
+  <data key="d32">8418809,14730349</data>
+  <data key="d18">MGI:107438</data>
+  <data key="d19">RGD:1306390</data>
+  <data key="d21">612174</data>
+  <data key="d25">HGNC:20292</data>
+  <data key="d26">ENST00000258418.10,NM_016289.4</data>
+  <data key="d27">c4f4a894-9b0e-4f68-a0a0-f132937b4ac1</data>
+</node>
+<node id="CAPRIN1">
+  <data key="d0">SL_GENE</data>
+  <data key="d1">HGNC:6743</data>
+  <data key="d2">cell cycle associated protein 1</data>
+  <data key="d3">protein-coding gene</data>
+  <data key="d4">gene with protein product</data>
+  <data key="d5">Approved</data>
+  <data key="d6">11p13</data>
+  <data key="d7">caprin-1,RNG105</data>
+  <data key="d28">cytoplasmic activation/proliferation-associated protein-1</data>
+  <data key="d8">M11S1,GPIAP1</data>
+  <data key="d35">membrane component, chromosome 11, surface marker 1,GPI-anchored membrane protein 1</data>
+  <data key="d9">1995-12-18</data>
+  <data key="d39">2007-03-27</data>
+  <data key="d31">2007-03-27</data>
+  <data key="d10">2023-01-20</data>
+  <data key="d11">4076</data>
+  <data key="d12">ENSG00000135387</data>
+  <data key="d13">OTTHUMG00000166248</data>
+  <data key="d14">uc001mvh.2</data>
+  <data key="d15">BC001731</data>
+  <data key="d16">NM_005898</data>
+  <data key="d36">CCDS31453,CCDS31454</data>
+  <data key="d17">Q14444</data>
+  <data key="d32">7657653,16177067,17210633,14764709,15471883</data>
+  <data key="d18">MGI:1858234</data>
+  <data key="d19">RGD:1305707</data>
+  <data key="d21">601178</data>
+  <data key="d25">HGNC:6743</data>
+  <data key="d26">ENST00000341394.9,NM_005898.5</data>
+  <data key="d34">HGNC:6743</data>
+  <data key="d27">02292dd6-ce1e-4cb2-81e0-fdad6935531a</data>
+</node>
+<node id="CHMP6">
+  <data key="d0">SL_GENE</data>
+  <data key="d1">HGNC:25675</data>
+  <data key="d2">charged multivesicular body protein 6</data>
+  <data key="d3">protein-coding gene</data>
+  <data key="d4">gene with protein product</data>
+  <data key="d5">Approved</data>
+  <data key="d6">17q25.3</data>
+  <data key="d7">FLJ11749,VPS20</data>
+  <data key="d35">chromatin modifying protein 6</data>
+  <data key="d29">Charged multivesicular body proteins,ESCRT-III</data>
+  <data key="d30">482,1118</data>
+  <data key="d9">2005-04-04</data>
+  <data key="d31">2011-09-21</data>
+  <data key="d10">2023-08-02</data>
+  <data key="d11">79643</data>
+  <data key="d12">ENSG00000176108</data>
+  <data key="d13">OTTHUMG00000177645</data>
+  <data key="d14">uc002jyw.4</data>
+  <data key="d15">BC010108</data>
+  <data key="d16">NM_024591</data>
+  <data key="d36">CCDS11774</data>
+  <data key="d17">Q96FZ7</data>
+  <data key="d32">11559748,15511219</data>
+  <data key="d18">MGI:3583942</data>
+  <data key="d19">RGD:1565325</data>
+  <data key="d21">610901</data>
+  <data key="d25">HGNC:25675</data>
+  <data key="d26">ENST00000325167.9,NM_024591.5</data>
+  <data key="d27">e54cdca4-022a-4460-b389-11112c6b3016</data>
+</node>
+<node id="CNKSR2">
+  <data key="d0">SL_GENE</data>
+  <data key="d1">HGNC:19701</data>
+  <data key="d2">connector enhancer of kinase suppressor of Ras 2</data>
+  <data key="d3">protein-coding gene</data>
+  <data key="d4">gene with protein product</data>
+  <data key="d5">Approved</data>
+  <data key="d6">Xp22.12</data>
+  <data key="d7">KIAA0902,CNK2,KSR2</data>
+  <data key="d29">Pleckstrin homology domain containing,Sterile alpha motif domain containing,PDZ domain containing</data>
+  <data key="d30">682,760,1220</data>
+  <data key="d9">2004-05-27</data>
+  <data key="d10">2023-01-20</data>
+  <data key="d11">22866</data>
+  <data key="d12">ENSG00000149970</data>
+  <data key="d13">OTTHUMG00000021233</data>
+  <data key="d14">uc011mjo.3</data>
+  <data key="d15">AB020709</data>
+  <data key="d16">NM_014927</data>
+  <data key="d17">Q8WXI2</data>
+  <data key="d18">MGI:2661175</data>
+  <data key="d19">RGD:708454</data>
+  <data key="d20">Global Variome shared LOVD|https://databases.lovd.nl/shared/genes/CNKSR2</data>
+  <data key="d21">300724</data>
+  <data key="d22">449961.0</data>
+  <data key="d25">HGNC:19701</data>
+  <data key="d26">ENST00000379510.5,NM_014927.5</data>
+  <data key="d34">HGNC:19701</data>
+  <data key="d27">ede2a473-6529-4e99-b519-9a0547dc59f8</data>
+</node>
+<node id="CNOT4">
+  <data key="d0">SL_GENE</data>
+  <data key="d1">HGNC:7880</data>
+  <data key="d2">CCR4-NOT transcription complex subunit 4</data>
+  <data key="d3">protein-coding gene</data>
+  <data key="d4">gene with protein product</data>
+  <data key="d5">Approved</data>
+  <data key="d6">7q33</data>
+  <data key="d7">CLONE243,NOT4H</data>
+  <data key="d8">NOT4</data>
+  <data key="d35">CCR4-NOT transcription complex, subunit 4</data>
+  <data key="d29">Ring finger proteins,RNA binding motif containing,CCR4-NOT transcription complex</data>
+  <data key="d30">58,725,1023</data>
+  <data key="d9">1996-07-19</data>
+  <data key="d31">2015-11-12</data>
+  <data key="d10">2023-01-20</data>
+  <data key="d11">4850</data>
+  <data key="d12">ENSG00000080802</data>
+  <data key="d13">OTTHUMG00000155568</data>
+  <data key="d14">uc003vss.4</data>
+  <data key="d15">AF180475</data>
+  <data key="d16">NM_013316</data>
+  <data key="d17">O95628</data>
+  <data key="d32">10637334,18533727</data>
+  <data key="d18">MGI:1859026</data>
+  <data key="d19">RGD:1310318</data>
+  <data key="d21">604911</data>
+  <data key="d25">HGNC:7880</data>
+  <data key="d26">ENST00000541284.6,NM_001190850.2</data>
+  <data key="d27">95a23e0d-586c-4724-aeec-0d8ee426feda</data>
+</node>
+<node id="CTBP2">
+  <data key="d0">SL_GENE</data>
+  <data key="d1">HGNC:2495</data>
+  <data key="d2">C-terminal binding protein 2</data>
+  <data key="d3">protein-coding gene</data>
+  <data key="d4">gene with protein product</data>
+  <data key="d5">Approved</data>
+  <data key="d6">10q26.13</data>
+  <data key="d7">ribeye</data>
+  <data key="d29">MicroRNA protein coding host genes</data>
+  <data key="d30">1691</data>
+  <data key="d9">1997-08-22</data>
+  <data key="d10">2023-01-20</data>
+  <data key="d11">1488</data>
+  <data key="d12">ENSG00000175029</data>
+  <data key="d13">OTTHUMG00000019224</data>
+  <data key="d14">uc009yal.4</data>
+  <data key="d15">AF016507</data>
+  <data key="d16">NM_001083914</data>
+  <data key="d17">P56545</data>
+  <data key="d32">9479502,11864595</data>
+  <data key="d18">MGI:1201686</data>
+  <data key="d19">RGD:68372</data>
+  <data key="d21">602619</data>
+  <data key="d25">HGNC:2495</data>
+  <data key="d26">ENST00000337195.11,NM_001329.4</data>
+  <data key="d27">86798954-841e-4a6f-aa9b-c18457e3c861</data>
+</node>
+<node id="DHODH">
+  <data key="d0">SL_GENE</data>
+  <data key="d1">HGNC:2867</data>
+  <data key="d2">dihydroorotate dehydrogenase (quinone)</data>
+  <data key="d3">protein-coding gene</data>
+  <data key="d4">gene with protein product</data>
+  <data key="d5">Approved</data>
+  <data key="d6">16q22.2</data>
+  <data key="d35">dihydroorotate dehydrogenase</data>
+  <data key="d29">Flavoproteins</data>
+  <data key="d30">2258</data>
+  <data key="d9">1993-06-29</data>
+  <data key="d31">2011-09-05</data>
+  <data key="d10">2023-01-20</data>
+  <data key="d11">1723</data>
+  <data key="d12">ENSG00000102967</data>
+  <data key="d13">OTTHUMG00000178093</data>
+  <data key="d14">uc002fbp.4</data>
+  <data key="d16">NM_001361</data>
+  <data key="d36">CCDS42192</data>
+  <data key="d17">Q02127</data>
+  <data key="d32">8211381</data>
+  <data key="d18">MGI:1928378</data>
+  <data key="d19">RGD:68352</data>
+  <data key="d21">126064</data>
+  <data key="d22">225386.0</data>
+  <data key="d23">objectId:2604</data>
+  <data key="d24">1.3.5.2</data>
+  <data key="d25">HGNC:2867</data>
+  <data key="d26">ENST00000219240.9,NM_001361.5</data>
+  <data key="d34">HGNC:2867</data>
+  <data key="d27">e902248d-33d9-4655-a763-3860521e0c4e</data>
+</node>
+<node id="DHX35">
+  <data key="d0">SL_GENE</data>
+  <data key="d1">HGNC:15861</data>
+  <data key="d2">DEAH-box helicase 35</data>
+  <data key="d3">protein-coding gene</data>
+  <data key="d4">gene with protein product</data>
+  <data key="d5">Approved</data>
+  <data key="d6">20q11.23-q12</data>
+  <data key="d7">FLJ22759,KAIA0875</data>
+  <data key="d8">C20orf15,DDX35</data>
+  <data key="d35">DEAD/H (Asp-Glu-Ala-Asp/His) box polypeptide 35,DEAH (Asp-Glu-Ala-His) box polypeptide 35</data>
+  <data key="d29">DEAH-box helicases,Spliceosomal C complex</data>
+  <data key="d30">500,1510</data>
+  <data key="d9">2001-11-27</data>
+  <data key="d39">2003-06-13</data>
+  <data key="d31">2016-01-07</data>
+  <data key="d10">2023-01-20</data>
+  <data key="d11">60625</data>
+  <data key="d12">ENSG00000101452</data>
+  <data key="d13">OTTHUMG00000032463</data>
+  <data key="d14">uc002xjh.4</data>
+  <data key="d15">AK026412</data>
+  <data key="d16">NM_021931</data>
+  <data key="d36">CCDS13310,CCDS54463</data>
+  <data key="d17">Q9H5Z1</data>
+  <data key="d18">MGI:1918965</data>
+  <data key="d19">RGD:1311165</data>
+  <data key="d25">HGNC:15861</data>
+  <data key="d26">ENST00000252011.8,NM_021931.4</data>
+  <data key="d27">4dd0f447-2041-4808-9cb8-6f47551572df</data>
+</node>
+<node id="EBNA1BP2">
+  <data key="d0">SL_GENE</data>
+  <data key="d1">HGNC:15531</data>
+  <data key="d2">EBNA1 binding protein 2</data>
+  <data key="d3">protein-coding gene</data>
+  <data key="d4">gene with protein product</data>
+  <data key="d5">Approved</data>
+  <data key="d6">1p34.2</data>
+  <data key="d7">NOBP,EBP2,P40</data>
+  <data key="d35">EBNA1-binding protein 2</data>
+  <data key="d29">MicroRNA protein coding host genes</data>
+  <data key="d30">1691</data>
+  <data key="d9">2001-10-16</data>
+  <data key="d31">2001-11-28</data>
+  <data key="d10">2023-01-20</data>
+  <data key="d11">10969</data>
+  <data key="d12">ENSG00000117395</data>
+  <data key="d13">OTTHUMG00000007284</data>
+  <data key="d14">uc001cin.4</data>
+  <data key="d15">U86602</data>
+  <data key="d16">NM_001159936</data>
+  <data key="d36">CCDS478,CCDS53308</data>
+  <data key="d17">Q99848</data>
+  <data key="d32">10074103,11438656</data>
+  <data key="d18">MGI:1916322</data>
+  <data key="d19">RGD:1305762</data>
+  <data key="d21">614443</data>
+  <data key="d25">HGNC:15531</data>
+  <data key="d26">ENST00000236051.3,NM_006824.3</data>
+  <data key="d27">f1c19122-8546-4bba-9a35-b0e64c780cff</data>
+</node>
+<node id="ELMO2">
+  <data key="d0">SL_GENE</data>
+  <data key="d1">HGNC:17233</data>
+  <data key="d2">engulfment and cell motility 2</data>
+  <data key="d3">protein-coding gene</data>
+  <data key="d4">gene with protein product</data>
+  <data key="d5">Approved</data>
+  <data key="d6">20q13.12</data>
+  <data key="d7">CED12,ELMO-2,CED-12,KIAA1834,FLJ11656</data>
+  <data key="d35">engulfment and cell motility 2 (ced-12 homolog, C. elegans)</data>
+  <data key="d29">Engulfment and cell motility proteins</data>
+  <data key="d30">543</data>
+  <data key="d9">2001-12-13</data>
+  <data key="d31">2006-01-20</data>
+  <data key="d10">2023-01-20</data>
+  <data key="d11">63916</data>
+  <data key="d12">ENSG00000062598</data>
+  <data key="d13">OTTHUMG00000033070</data>
+  <data key="d14">uc002xru.2</data>
+  <data key="d15">AF398886</data>
+  <data key="d16">NM_022086</data>
+  <data key="d36">CCDS13398,CCDS82623</data>
+  <data key="d17">Q96JJ3</data>
+  <data key="d32">11595183</data>
+  <data key="d18">MGI:2153045</data>
+  <data key="d19">RGD:1305784</data>
+  <data key="d21">606421</data>
+  <data key="d22">465978.0</data>
+  <data key="d25">HGNC:17233</data>
+  <data key="d26">ENST00000290246.11,NM_133171.5</data>
+  <data key="d34">HGNC:17233</data>
+  <data key="d27">8df4ed04-328f-4ee0-a0b6-4920f02a368a</data>
+</node>
+<node id="FBXO42">
+  <data key="d0">SL_GENE</data>
+  <data key="d1">HGNC:29249</data>
+  <data key="d2">F-box protein 42</data>
+  <data key="d3">protein-coding gene</data>
+  <data key="d4">gene with protein product</data>
+  <data key="d5">Approved</data>
+  <data key="d6">1p36.13</data>
+  <data key="d7">KIAA1332,Fbx42</data>
+  <data key="d29">F-boxes other</data>
+  <data key="d30">560</data>
+  <data key="d9">2004-06-15</data>
+  <data key="d10">2023-01-20</data>
+  <data key="d11">54455</data>
+  <data key="d12">ENSG00000037637</data>
+  <data key="d13">OTTHUMG00000002218</data>
+  <data key="d14">uc001ayg.4</data>
+  <data key="d15">BC063864</data>
+  <data key="d16">NM_018994</data>
+  <data key="d36">CCDS30613</data>
+  <data key="d17">Q6P3S6</data>
+  <data key="d32">10718198</data>
+  <data key="d18">MGI:1924992</data>
+  <data key="d19">RGD:1304787</data>
+  <data key="d21">609109</data>
+  <data key="d25">HGNC:29249</data>
+  <data key="d26">ENST00000375592.8,NM_018994.3</data>
+  <data key="d27">71f7b405-bef0-49a9-9df2-4495231b6fe3</data>
+</node>
+<node id="G6PC">
+  <data key="d0">SL_GENE</data>
+</node>
+<node id="GAK">
+  <data key="d0">SL_GENE</data>
+  <data key="d1">HGNC:4113</data>
+  <data key="d2">cyclin G associated kinase</data>
+  <data key="d3">protein-coding gene</data>
+  <data key="d4">gene with protein product</data>
+  <data key="d5">Approved</data>
+  <data key="d6">4p16.3</data>
+  <data key="d7">DNAJC26</data>
+  <data key="d28">auxilin-2</data>
+  <data key="d29">DNAJ (HSP40) heat shock proteins,C2 tensin-type domain containing</data>
+  <data key="d30">584,837</data>
+  <data key="d9">1997-01-09</data>
+  <data key="d10">2023-01-20</data>
+  <data key="d11">2580</data>
+  <data key="d12">ENSG00000178950</data>
+  <data key="d13">OTTHUMG00000088301</data>
+  <data key="d14">uc003gbm.6</data>
+  <data key="d15">D88435</data>
+  <data key="d16">NM_005255</data>
+  <data key="d17">O14976</data>
+  <data key="d32">9299234</data>
+  <data key="d18">MGI:2442153</data>
+  <data key="d19">RGD:621589</data>
+  <data key="d21">602052</data>
+  <data key="d23">objectId:2027</data>
+  <data key="d25">HGNC:4113</data>
+  <data key="d26">ENST00000314167.9,NM_005255.4</data>
+  <data key="d27">e2827137-82f7-4864-9b8a-14107b34eec4</data>
+</node>
+<node id="GART">
+  <data key="d0">SL_GENE</data>
+  <data key="d1">HGNC:4163</data>
+  <data key="d2">phosphoribosylglycinamide formyltransferase, phosphoribosylglycinamide synthetase, phosphoribosylaminoimidazole synthetase</data>
+  <data key="d3">protein-coding gene</data>
+  <data key="d4">gene with protein product</data>
+  <data key="d5">Approved</data>
+  <data key="d6">21q22.11</data>
+  <data key="d7">GARS-AIRS-GART</data>
+  <data key="d28">GAR transformylase,glycinamide ribonucleotide synthetase-aminoimidazole ribonucleotide synthetase-glycinamide ribonucleotide transformylase,Glycinamide ribonucleotide formyltransferase,Trifunctional purine biosynthetic protein adenosine-3</data>
+  <data key="d8">PRGS,PGFT</data>
+  <data key="d29">Purinosome</data>
+  <data key="d30">1569</data>
+  <data key="d9">2001-06-22</data>
+  <data key="d10">2023-01-20</data>
+  <data key="d11">2618</data>
+  <data key="d12">ENSG00000159131</data>
+  <data key="d13">OTTHUMG00000065628</data>
+  <data key="d14">uc002yry.4</data>
+  <data key="d15">M32082</data>
+  <data key="d16">NM_000819</data>
+  <data key="d17">P22102</data>
+  <data key="d32">2050105</data>
+  <data key="d18">MGI:95654</data>
+  <data key="d19">RGD:1308717</data>
+  <data key="d21">138440</data>
+  <data key="d23">objectId:2612</data>
+  <data key="d24">2.1.2.2,6.3.3.1,6.3.4.13</data>
+  <data key="d25">HGNC:4163</data>
+  <data key="d26">ENST00000381815.9,NM_000819.5</data>
+  <data key="d27">7ef85e44-cf43-40b3-8e18-b17e0416e3d2</data>
+</node>
+<node id="GTPBP2">
+  <data key="d0">SL_GENE</data>
+  <data key="d1">HGNC:4670</data>
+  <data key="d2">GTP binding protein 2</data>
+  <data key="d3">protein-coding gene</data>
+  <data key="d4">gene with protein product</data>
+  <data key="d5">Approved</data>
+  <data key="d6">6p21.1</data>
+  <data key="d9">2000-07-31</data>
+  <data key="d10">2023-01-20</data>
+  <data key="d11">54676</data>
+  <data key="d12">ENSG00000172432</data>
+  <data key="d13">OTTHUMG00000014744</data>
+  <data key="d14">uc003ovs.5</data>
+  <data key="d15">AB024574</data>
+  <data key="d16">NM_001286216</data>
+  <data key="d17">Q9BX10</data>
+  <data key="d32">10833435,11054535</data>
+  <data key="d18">MGI:1860138</data>
+  <data key="d19">RGD:1306367</data>
+  <data key="d21">607434</data>
+  <data key="d25">HGNC:4670</data>
+  <data key="d26">ENST00000307126.10,NM_019096.5</data>
+  <data key="d34">HGNC:4670</data>
+  <data key="d27">d987dbca-8e52-4dad-a8ad-1619d19550ff</data>
+</node>
+<node id="IGFALS">
+  <data key="d0">SL_GENE</data>
+  <data key="d1">HGNC:5468</data>
+  <data key="d2">insulin like growth factor binding protein acid labile subunit</data>
+  <data key="d3">protein-coding gene</data>
+  <data key="d4">gene with protein product</data>
+  <data key="d5">Approved</data>
+  <data key="d6">16p13.3</data>
+  <data key="d7">ALS</data>
+  <data key="d35">insulin-like growth factor binding protein, acid labile subunit</data>
+  <data key="d9">1997-11-28</data>
+  <data key="d31">2015-11-23</data>
+  <data key="d10">2023-01-20</data>
+  <data key="d11">3483</data>
+  <data key="d12">ENSG00000099769</data>
+  <data key="d13">OTTHUMG00000128638</data>
+  <data key="d14">uc002cmy.4</data>
+  <data key="d15">M86826</data>
+  <data key="d16">NM_001146006</data>
+  <data key="d36">CCDS10446,CCDS53982</data>
+  <data key="d17">P35858</data>
+  <data key="d32">1379671,16114275</data>
+  <data key="d18">MGI:107973</data>
+  <data key="d19">RGD:68429</data>
+  <data key="d20">Global Variome shared LOVD|https://databases.lovd.nl/shared/genes/IGFALS</data>
+  <data key="d21">601489</data>
+  <data key="d22">159982.0</data>
+  <data key="d25">HGNC:5468</data>
+  <data key="d26">ENST00000215539.4,NM_004970.3</data>
+  <data key="d34">HGNC:5468</data>
+  <data key="d27">22c1142b-9019-4407-9b14-255ca573ed4d</data>
+</node>
+<node id="IKBKG">
+  <data key="d0">SL_GENE</data>
+  <data key="d1">HGNC:5961</data>
+  <data key="d2">inhibitor of nuclear factor kappa B kinase regulatory subunit gamma</data>
+  <data key="d3">protein-coding gene</data>
+  <data key="d4">gene with protein product</data>
+  <data key="d5">Approved</data>
+  <data key="d6">Xq28</data>
+  <data key="d7">IKK-gamma,NEMO,Fip3p,FIP-3,FIP3,ZC2HC9,IKKAP1,IKKG</data>
+  <data key="d28">NF-kappa-B essential modulator,IkB kinase-associated protein 1,I-kappa-B kinase subunit gamma,IkB kinase subunit gamma,14.7K (adenovirus E3 protein) interacting protein 3</data>
+  <data key="d8">IP2,IP1</data>
+  <data key="d35">incontinentia pigmenti,inhibitor of kappa light polypeptide gene enhancer in B-cells, kinase gamma,inhibitor of nuclear factor kappa B kinase subunit gamma</data>
+  <data key="d29">Zinc fingers C2HC-type,IKK complex</data>
+  <data key="d30">66,1817</data>
+  <data key="d9">1998-09-30</data>
+  <data key="d31">2019-02-14</data>
+  <data key="d10">2023-01-20</data>
+  <data key="d11">8517</data>
+  <data key="d12">ENSG00000269335</data>
+  <data key="d13">OTTHUMG00000024234</data>
+  <data key="d14">uc033fbv.2</data>
+  <data key="d15">AF074382</data>
+  <data key="d16">NM_003639</data>
+  <data key="d17">Q9Y6K9</data>
+  <data key="d32">9751060,10087442,11590134,11242109</data>
+  <data key="d18">MGI:1338074</data>
+  <data key="d19">RGD:735223</data>
+  <data key="d20">IKBKGbase: Mutation registry for Nemo deficiency|http://structure.bmc.lu.se/idbase/IKBKGbase/,Global Variome shared LOVD|https://databases.lovd.nl/shared/genes/IKBKG,LRG_70|http://ftp.ebi.ac.uk/pub/databases/lrgex/LRG_70.xml</data>
+  <data key="d21">300248</data>
+  <data key="d22">122614.0</data>
+  <data key="d25">HGNC:5961</data>
+  <data key="d26">ENST00000594239.6,NM_001099857.5</data>
+  <data key="d34">HGNC:5961</data>
+  <data key="d27">aaf41256-6bd8-4f34-937c-703cc3b0719d</data>
+</node>
+<node id="JTB">
+  <data key="d0">SL_GENE</data>
+  <data key="d1">HGNC:6201</data>
+  <data key="d2">jumping translocation breakpoint</data>
+  <data key="d3">protein-coding gene</data>
+  <data key="d4">gene with protein product</data>
+  <data key="d5">Approved</data>
+  <data key="d6">1q21.3</data>
+  <data key="d7">hJT,PAR</data>
+  <data key="d28">prostate androgen-regulated gene</data>
+  <data key="d9">2000-01-31</data>
+  <data key="d10">2023-01-20</data>
+  <data key="d11">10899</data>
+  <data key="d12">ENSG00000143543</data>
+  <data key="d13">OTTHUMG00000036590</data>
+  <data key="d14">uc001fds.4</data>
+  <data key="d15">AB016488</data>
+  <data key="d16">NM_006694</data>
+  <data key="d36">CCDS1057</data>
+  <data key="d17">O76095</data>
+  <data key="d32">10321732,27751357,22079049</data>
+  <data key="d18">MGI:1346082</data>
+  <data key="d19">RGD:2942</data>
+  <data key="d21">604671</data>
+  <data key="d25">HGNC:6201</data>
+  <data key="d26">ENST00000271843.9,NM_006694.4</data>
+  <data key="d27">50fb9258-a49a-45dc-9fee-622e37c71fbb</data>
+</node>
+<node id="KIAA1524">
+  <data key="d0">SL_GENE</data>
+</node>
+<node id="KPNA4">
+  <data key="d0">SL_GENE</data>
+  <data key="d1">HGNC:6397</data>
+  <data key="d2">karyopherin subunit alpha 4</data>
+  <data key="d3">protein-coding gene</data>
+  <data key="d4">gene with protein product</data>
+  <data key="d5">Approved</data>
+  <data key="d6">3q25.33</data>
+  <data key="d7">QIP1,SRP3,IPOA3,MGC12217,MGC26703</data>
+  <data key="d28">importin alpha 3</data>
+  <data key="d35">karyopherin alpha 4 (importin alpha 3),karyopherin alpha 4</data>
+  <data key="d29">Armadillo repeat containing,Importins</data>
+  <data key="d30">409,596</data>
+  <data key="d9">1998-08-20</data>
+  <data key="d31">2016-02-01</data>
+  <data key="d10">2023-01-20</data>
+  <data key="d11">3840</data>
+  <data key="d12">ENSG00000186432</data>
+  <data key="d13">OTTHUMG00000159033</data>
+  <data key="d14">uc003fdn.3</data>
+  <data key="d15">AB002533</data>
+  <data key="d16">NM_002268</data>
+  <data key="d36">CCDS3191</data>
+  <data key="d17">O00629</data>
+  <data key="d32">9168958,9395085</data>
+  <data key="d18">MGI:1100848</data>
+  <data key="d19">RGD:1311483</data>
+  <data key="d21">602970</data>
+  <data key="d25">HGNC:6397</data>
+  <data key="d26">ENST00000334256.9,NM_002268.5</data>
+  <data key="d27">557135d0-0184-4058-8335-5e9b10756bb4</data>
+</node>
+<node id="MAPKAP1">
+  <data key="d0">SL_GENE</data>
+  <data key="d1">HGNC:18752</data>
+  <data key="d2">MAPK associated protein 1</data>
+  <data key="d3">protein-coding gene</data>
+  <data key="d4">gene with protein product</data>
+  <data key="d5">Approved</data>
+  <data key="d6">9q33.3</data>
+  <data key="d7">MGC2745,SIN1,MIP1</data>
+  <data key="d28">stress-activated protein kinase-interacting 1</data>
+  <data key="d35">mitogen-activated protein kinase associated protein 1</data>
+  <data key="d29">MTOR complex 2</data>
+  <data key="d30">1333</data>
+  <data key="d9">2002-07-19</data>
+  <data key="d31">2019-04-12</data>
+  <data key="d10">2023-01-20</data>
+  <data key="d11">79109</data>
+  <data key="d12">ENSG00000119487</data>
+  <data key="d13">OTTHUMG00000020683</data>
+  <data key="d14">uc004bpv.3</data>
+  <data key="d15">M37191</data>
+  <data key="d16">NM_001006617</data>
+  <data key="d17">Q9BPZ7</data>
+  <data key="d32">15363842</data>
+  <data key="d18">MGI:2444554</data>
+  <data key="d19">RGD:1305363</data>
+  <data key="d21">610558</data>
+  <data key="d25">HGNC:18752</data>
+  <data key="d26">ENST00000265960.8,NM_001006617.3</data>
+  <data key="d27">02f8804d-e59d-4231-9bf9-53a26e06191c</data>
+</node>
+<node id="MED13">
+  <data key="d0">SL_GENE</data>
+  <data key="d1">HGNC:22474</data>
+  <data key="d2">mediator complex subunit 13</data>
+  <data key="d3">protein-coding gene</data>
+  <data key="d4">gene with protein product</data>
+  <data key="d5">Approved</data>
+  <data key="d6">17q23.2</data>
+  <data key="d7">KIAA0593,TRAP240</data>
+  <data key="d8">THRAP1</data>
+  <data key="d35">thyroid hormone receptor associated protein 1</data>
+  <data key="d29">Mediator complex</data>
+  <data key="d30">1061</data>
+  <data key="d9">2004-03-10</data>
+  <data key="d39">2007-07-30</data>
+  <data key="d31">2007-07-30</data>
+  <data key="d10">2023-01-20</data>
+  <data key="d11">9969</data>
+  <data key="d12">ENSG00000108510</data>
+  <data key="d13">OTTHUMG00000179251</data>
+  <data key="d14">uc002izo.3</data>
+  <data key="d15">AB011165</data>
+  <data key="d16">NM_005121</data>
+  <data key="d36">CCDS42366</data>
+  <data key="d17">Q9UHV7</data>
+  <data key="d32">1019863</data>
+  <data key="d18">MGI:3029632</data>
+  <data key="d19">RGD:1304829</data>
+  <data key="d21">603808</data>
+  <data key="d25">HGNC:22474</data>
+  <data key="d26">ENST00000397786.7,NM_005121.3</data>
+  <data key="d34">HGNC:22474</data>
+  <data key="d27">aec2aebf-e016-4ddc-a4fb-c38268681610</data>
+</node>
+<node id="MPV17">
+  <data key="d0">SL_GENE</data>
+  <data key="d1">HGNC:7224</data>
+  <data key="d2">mitochondrial inner membrane protein MPV17</data>
+  <data key="d3">protein-coding gene</data>
+  <data key="d4">gene with protein product</data>
+  <data key="d5">Approved</data>
+  <data key="d6">2p23.3</data>
+  <data key="d7">SYM1</data>
+  <data key="d28">glomerulosclerosis</data>
+  <data key="d35">MpV17 transgene, murine homolog, glomerulosclerosis</data>
+  <data key="d9">1994-03-21</data>
+  <data key="d31">2018-08-15</data>
+  <data key="d10">2023-01-20</data>
+  <data key="d11">4358</data>
+  <data key="d12">ENSG00000115204</data>
+  <data key="d13">OTTHUMG00000097074</data>
+  <data key="d14">uc002rjs.4</data>
+  <data key="d16">NM_002437</data>
+  <data key="d36">CCDS1748</data>
+  <data key="d17">P39210</data>
+  <data key="d32">8281143,16582910</data>
+  <data key="d18">MGI:97138</data>
+  <data key="d19">RGD:1310512</data>
+  <data key="d21">137960</data>
+  <data key="d22">123470.0</data>
+  <data key="d25">HGNC:7224</data>
+  <data key="d26">ENST00000380044.6,NM_002437.5</data>
+  <data key="d34">HGNC:7224</data>
+  <data key="d27">eea097c8-474e-469e-ac92-fdf610015849</data>
+</node>
+<node id="MTFMT">
+  <data key="d0">SL_GENE</data>
+  <data key="d1">HGNC:29666</data>
+  <data key="d2">mitochondrial methionyl-tRNA formyltransferase</data>
+  <data key="d3">protein-coding gene</data>
+  <data key="d4">gene with protein product</data>
+  <data key="d5">Approved</data>
+  <data key="d6">15q22.31</data>
+  <data key="d7">FMT1</data>
+  <data key="d9">2005-07-19</data>
+  <data key="d39">2005-08-09</data>
+  <data key="d10">2023-01-20</data>
+  <data key="d11">123263</data>
+  <data key="d12">ENSG00000103707</data>
+  <data key="d13">OTTHUMG00000172371</data>
+  <data key="d14">uc002aof.5</data>
+  <data key="d15">AK055688</data>
+  <data key="d16">NM_139242</data>
+  <data key="d36">CCDS45280</data>
+  <data key="d17">Q96DP5</data>
+  <data key="d32">9614118</data>
+  <data key="d18">MGI:1916856</data>
+  <data key="d19">RGD:1309462</data>
+  <data key="d21">611766</data>
+  <data key="d22">299657.0</data>
+  <data key="d24">2.1.2.9</data>
+  <data key="d25">HGNC:29666</data>
+  <data key="d26">ENST00000220058.9,NM_139242.4</data>
+  <data key="d34">HGNC:29666</data>
+  <data key="d27">69b4a5b8-b3ea-4f71-a6f5-53eeb38a6f03</data>
+</node>
+<node id="NDUFB6">
+  <data key="d0">SL_GENE</data>
+  <data key="d1">HGNC:7701</data>
+  <data key="d2">NADH:ubiquinone oxidoreductase subunit B6</data>
+  <data key="d3">protein-coding gene</data>
+  <data key="d4">gene with protein product</data>
+  <data key="d5">Approved</data>
+  <data key="d6">9p21.1</data>
+  <data key="d7">B17,CI</data>
+  <data key="d28">NADH-ubiquinone oxidoreductase beta subunit, 6,NADH-ubiquinone oxidoreductase B17 subunit,complex I, mitochondrial respiratory chain, B17 subunit</data>
+  <data key="d35">NADH dehydrogenase (ubiquinone) 1 beta subcomplex, 6 (17kD, B17),NADH dehydrogenase (ubiquinone) 1 beta subcomplex, 6, 17kDa</data>
+  <data key="d29">NADH:ubiquinone oxidoreductase supernumerary subunits</data>
+  <data key="d30">1150</data>
+  <data key="d9">1997-12-09</data>
+  <data key="d31">2015-11-20</data>
+  <data key="d10">2023-01-20</data>
+  <data key="d11">4712</data>
+  <data key="d12">ENSG00000165264</data>
+  <data key="d13">OTTHUMG00000019741</data>
+  <data key="d14">uc003zre.3</data>
+  <data key="d15">AF035840</data>
+  <data key="d16">NM_002493</data>
+  <data key="d17">O95139</data>
+  <data key="d32">9763677,9760212</data>
+  <data key="d18">MGI:2684983</data>
+  <data key="d19">RGD:1311354</data>
+  <data key="d21">603322</data>
+  <data key="d22">470752.0</data>
+  <data key="d25">HGNC:7701</data>
+  <data key="d26">ENST00000379847.8,NM_002493.5</data>
+  <data key="d27">4cfddc82-5962-49a5-82d3-cb8d62e5adba</data>
+</node>
+<node id="NUP160">
+  <data key="d0">SL_GENE</data>
+  <data key="d1">HGNC:18017</data>
+  <data key="d2">nucleoporin 160</data>
+  <data key="d3">protein-coding gene</data>
+  <data key="d4">gene with protein product</data>
+  <data key="d5">Approved</data>
+  <data key="d6">11p11.2</data>
+  <data key="d7">KIAA0197,FLJ22583</data>
+  <data key="d28">Nuclear pore complex protein Nup160</data>
+  <data key="d35">nucleoporin 160kDa</data>
+  <data key="d29">Nucleoporins</data>
+  <data key="d30">1051</data>
+  <data key="d9">2002-01-18</data>
+  <data key="d31">2016-06-01</data>
+  <data key="d10">2023-06-19</data>
+  <data key="d11">23279</data>
+  <data key="d12">ENSG00000030066</data>
+  <data key="d13">OTTHUMG00000166534</data>
+  <data key="d14">uc001ngm.4</data>
+  <data key="d15">D83781</data>
+  <data key="d16">NM_015231</data>
+  <data key="d36">CCDS31484,CCDS81567</data>
+  <data key="d17">Q12769</data>
+  <data key="d32">11684705</data>
+  <data key="d18">MGI:1926227</data>
+  <data key="d19">RGD:1311052</data>
+  <data key="d21">607614</data>
+  <data key="d25">HGNC:18017</data>
+  <data key="d26">ENST00000378460.7,NM_015231.3</data>
+  <data key="d34">HGNC:18017</data>
+  <data key="d27">bea38402-fcc3-4995-a241-6265f0a379ce</data>
+</node>
+<node id="PARD6B">
+  <data key="d0">SL_GENE</data>
+  <data key="d1">HGNC:16245</data>
+  <data key="d2">par-6 family cell polarity regulator beta</data>
+  <data key="d3">protein-coding gene</data>
+  <data key="d4">gene with protein product</data>
+  <data key="d5">Approved</data>
+  <data key="d6">20q13.13</data>
+  <data key="d7">PAR-6B</data>
+  <data key="d35">par-6 (partitioning defective 6, C.elegans) homolog beta,par-6 partitioning defective 6 homolog beta (C. elegans)</data>
+  <data key="d29">PDZ domain containing</data>
+  <data key="d30">1220</data>
+  <data key="d9">2001-08-01</data>
+  <data key="d31">2013-08-28</data>
+  <data key="d10">2023-01-20</data>
+  <data key="d11">84612</data>
+  <data key="d12">ENSG00000124171</data>
+  <data key="d13">OTTHUMG00000032732</data>
+  <data key="d14">uc002xvo.3</data>
+  <data key="d15">AB044555</data>
+  <data key="d16">NM_032521</data>
+  <data key="d36">CCDS33485</data>
+  <data key="d17">Q9BYG5</data>
+  <data key="d32">11260256</data>
+  <data key="d18">MGI:2135605</data>
+  <data key="d19">RGD:1308205</data>
+  <data key="d21">608975</data>
+  <data key="d25">HGNC:16245</data>
+  <data key="d26">ENST00000371610.7,NM_032521.3</data>
+  <data key="d27">f518108a-cd0c-4737-b398-7531593c5f49</data>
+</node>
+<node id="PDIA3">
+  <data key="d0">SL_GENE</data>
+  <data key="d1">HGNC:4606</data>
+  <data key="d2">protein disulfide isomerase family A member 3</data>
+  <data key="d3">protein-coding gene</data>
+  <data key="d4">gene with protein product</data>
+  <data key="d5">Approved</data>
+  <data key="d6">15q15.3</data>
+  <data key="d7">P58,ERp61,ERp57,ERp60,GRP57,PI-PLC,HsT17083</data>
+  <data key="d8">GRP58</data>
+  <data key="d35">glucose regulated protein, 58kDa,protein disulfide isomerase-associated 3,protein disulfide isomerase family A, member 3</data>
+  <data key="d29">Protein disulfide isomerases</data>
+  <data key="d30">692</data>
+  <data key="d9">1997-06-09</data>
+  <data key="d39">2005-03-03</data>
+  <data key="d31">2015-11-16</data>
+  <data key="d10">2023-01-20</data>
+  <data key="d11">2923</data>
+  <data key="d12">ENSG00000167004</data>
+  <data key="d13">OTTHUMG00000044444</data>
+  <data key="d14">uc001zsu.4</data>
+  <data key="d16">NM_005313</data>
+  <data key="d36">CCDS10101</data>
+  <data key="d17">P30101</data>
+  <data key="d32">8974399</data>
+  <data key="d18">MGI:95834</data>
+  <data key="d19">RGD:68430</data>
+  <data key="d21">602046</data>
+  <data key="d23">objectId:3293</data>
+  <data key="d24">5.3.4.1</data>
+  <data key="d25">HGNC:4606</data>
+  <data key="d26">ENST00000300289.10,NM_005313.5</data>
+  <data key="d27">b3abf99f-c531-4b1b-b136-37b3daea91e4</data>
+</node>
+<node id="PDS5A">
+  <data key="d0">SL_GENE</data>
+  <data key="d1">HGNC:29088</data>
+  <data key="d2">PDS5 cohesin associated factor A</data>
+  <data key="d3">protein-coding gene</data>
+  <data key="d4">gene with protein product</data>
+  <data key="d5">Approved</data>
+  <data key="d6">4p14</data>
+  <data key="d7">KIAA0648,PIG54,SCC-112</data>
+  <data key="d35">PDS5, regulator of cohesion maintenance, homolog A (S. cerevisiae)</data>
+  <data key="d29">Armadillo like helical domain containing</data>
+  <data key="d30">1492</data>
+  <data key="d9">2007-06-20</data>
+  <data key="d31">2014-11-17</data>
+  <data key="d10">2023-03-15</data>
+  <data key="d11">23244</data>
+  <data key="d12">ENSG00000121892</data>
+  <data key="d13">OTTHUMG00000160582</data>
+  <data key="d14">uc003guv.4</data>
+  <data key="d15">AF294791</data>
+  <data key="d16">NM_015200</data>
+  <data key="d36">CCDS47045,CCDS54759</data>
+  <data key="d17">Q29RF7</data>
+  <data key="d32">11076961,15855230,24141881</data>
+  <data key="d18">MGI:1918771</data>
+  <data key="d19">RGD:1307094</data>
+  <data key="d21">613200</data>
+  <data key="d22">470848.0</data>
+  <data key="d25">HGNC:29088</data>
+  <data key="d26">ENST00000303538.13,NM_001100399.2</data>
+  <data key="d27">57a892dc-5464-4cfc-9924-2e9b7c5fec92</data>
+</node>
+<node id="PIN1">
+  <data key="d0">SL_GENE</data>
+  <data key="d1">HGNC:8988</data>
+  <data key="d2">peptidylprolyl cis/trans isomerase, NIMA-interacting 1</data>
+  <data key="d3">protein-coding gene</data>
+  <data key="d4">gene with protein product</data>
+  <data key="d5">Approved</data>
+  <data key="d6">19p13</data>
+  <data key="d7">dod</data>
+  <data key="d28">protein interacting with never in mitosis A1,parvulin PIN1</data>
+  <data key="d35">protein (peptidyl-prolyl cis/trans isomerase) NIMA-interacting 1</data>
+  <data key="d29">Parvulins</data>
+  <data key="d30">920</data>
+  <data key="d9">1996-12-16</data>
+  <data key="d31">2008-03-25</data>
+  <data key="d10">2023-01-20</data>
+  <data key="d11">5300</data>
+  <data key="d12">ENSG00000127445</data>
+  <data key="d13">OTTHUMG00000180388</data>
+  <data key="d14">uc002mml.3</data>
+  <data key="d16">NM_006221</data>
+  <data key="d36">CCDS12220</data>
+  <data key="d17">Q13526</data>
+  <data key="d32">8606777</data>
+  <data key="d18">MGI:1346036</data>
+  <data key="d19">RGD:1310299</data>
+  <data key="d20">LRG_847|http://ftp.ebi.ac.uk/pub/databases/lrgex/LRG_847.xml</data>
+  <data key="d21">601052</data>
+  <data key="d23">objectId:3171</data>
+  <data key="d25">HGNC:8988</data>
+  <data key="d26">ENST00000247970.9,NM_006221.4</data>
+  <data key="d27">0ce903c5-b19b-459a-a14a-0c3ec9d9a303</data>
+</node>
+<node id="PSMF1">
+  <data key="d0">SL_GENE</data>
+  <data key="d1">HGNC:9571</data>
+  <data key="d2">proteasome inhibitor subunit 1</data>
+  <data key="d3">protein-coding gene</data>
+  <data key="d4">gene with protein product</data>
+  <data key="d5">Approved</data>
+  <data key="d6">20p13</data>
+  <data key="d7">PI31</data>
+  <data key="d28">proteasome inhibitor hP131 subunit</data>
+  <data key="d35">proteasome (prosome, macropain) inhibitor subunit 1 (PI31)</data>
+  <data key="d29">Proteasome</data>
+  <data key="d30">690</data>
+  <data key="d9">1999-04-15</data>
+  <data key="d31">2015-08-12</data>
+  <data key="d10">2023-01-20</data>
+  <data key="d11">9491</data>
+  <data key="d12">ENSG00000125818</data>
+  <data key="d13">OTTHUMG00000031656</data>
+  <data key="d14">uc002wel.4</data>
+  <data key="d15">D88378</data>
+  <data key="d16">NM_178578</data>
+  <data key="d36">CCDS13010,CCDS82589</data>
+  <data key="d17">Q92530</data>
+  <data key="d32">10363639</data>
+  <data key="d18">MGI:1346072</data>
+  <data key="d19">RGD:1587528</data>
+  <data key="d21">617858</data>
+  <data key="d25">HGNC:9571</data>
+  <data key="d26">ENST00000335877.11,NM_006814.5</data>
+  <data key="d27">c7ea0693-4dfd-4564-b3d1-a0883f4ad5ac</data>
+</node>
+<node id="RAD54L">
+  <data key="d0">SL_GENE</data>
+  <data key="d1">HGNC:9826</data>
+  <data key="d2">RAD54 like</data>
+  <data key="d3">protein-coding gene</data>
+  <data key="d4">gene with protein product</data>
+  <data key="d5">Approved</data>
+  <data key="d6">1p34.1</data>
+  <data key="d7">hHR54,hRAD54,RAD54A</data>
+  <data key="d35">RAD54 (S.cerevisiae)-like,RAD54 like (S. cerevisiae)</data>
+  <data key="d29">SNF2 related family</data>
+  <data key="d30">1190</data>
+  <data key="d9">1998-11-04</data>
+  <data key="d31">2017-08-08</data>
+  <data key="d10">2023-01-20</data>
+  <data key="d11">8438</data>
+  <data key="d12">ENSG00000085999</data>
+  <data key="d13">OTTHUMG00000007772</data>
+  <data key="d14">uc009vye.2</data>
+  <data key="d15">X97795</data>
+  <data key="d16">NM_003579</data>
+  <data key="d36">CCDS532</data>
+  <data key="d17">Q92698</data>
+  <data key="d32">8805304</data>
+  <data key="d18">MGI:894697</data>
+  <data key="d19">RGD:1310600</data>
+  <data key="d20">LRG_1414|http://ftp.ebi.ac.uk/pub/databases/lrgex/LRG_1414.xml</data>
+  <data key="d21">603615</data>
+  <data key="d22">437664.0</data>
+  <data key="d25">HGNC:9826</data>
+  <data key="d26">ENST00000371975.9,NM_003579.4</data>
+  <data key="d27">9afbb9bf-2df3-495c-888e-b5c961aa7439</data>
+</node>
+<node id="RMI2">
+  <data key="d0">SL_GENE</data>
+  <data key="d1">HGNC:28349</data>
+  <data key="d2">RecQ mediated genome instability 2</data>
+  <data key="d3">protein-coding gene</data>
+  <data key="d4">gene with protein product</data>
+  <data key="d5">Approved</data>
+  <data key="d6">16p13.13</data>
+  <data key="d7">MGC24665,BLAP18</data>
+  <data key="d8">C16orf75</data>
+  <data key="d35">chromosome 16 open reading frame 75,RMI2, RecQ mediated genome instability 2, homolog (S. cerevisiae)</data>
+  <data key="d9">2006-07-04</data>
+  <data key="d39">2011-06-09</data>
+  <data key="d31">2013-06-10</data>
+  <data key="d10">2023-01-20</data>
+  <data key="d11">116028</data>
+  <data key="d12">ENSG00000175643</data>
+  <data key="d13">OTTHUMG00000129793</data>
+  <data key="d14">uc059quq.1</data>
+  <data key="d15">AK123764</data>
+  <data key="d16">NM_152308</data>
+  <data key="d36">CCDS10548</data>
+  <data key="d17">Q96E14</data>
+  <data key="d32">18923083,20826341</data>
+  <data key="d18">MGI:2685383</data>
+  <data key="d19">RGD:1563163</data>
+  <data key="d33">RMI2</data>
+  <data key="d21">612426</data>
+  <data key="d25">HGNC:28349</data>
+  <data key="d26">ENST00000312499.6,NM_152308.3</data>
+  <data key="d27">5e23b446-d355-4a95-9899-faadd6fefcce</data>
+</node>
+<node id="RRAS2">
+  <data key="d0">SL_GENE</data>
+  <data key="d1">HGNC:17271</data>
+  <data key="d2">RAS related 2</data>
+  <data key="d3">protein-coding gene</data>
+  <data key="d4">gene with protein product</data>
+  <data key="d5">Approved</data>
+  <data key="d6">11p15.2</data>
+  <data key="d7">TC21</data>
+  <data key="d35">related RAS viral (r-ras) oncogene homolog 2</data>
+  <data key="d29">RAS type GTPase family</data>
+  <data key="d30">389</data>
+  <data key="d9">2001-11-30</data>
+  <data key="d31">2017-08-02</data>
+  <data key="d10">2023-01-20</data>
+  <data key="d11">22800</data>
+  <data key="d12">ENSG00000133818</data>
+  <data key="d13">OTTHUMG00000165756</data>
+  <data key="d14">uc001mlf.5</data>
+  <data key="d15">M31468</data>
+  <data key="d16">NM_012250</data>
+  <data key="d17">P62070</data>
+  <data key="d32">2108320,8052619</data>
+  <data key="d18">MGI:1914172</data>
+  <data key="d19">RGD:1310793</data>
+  <data key="d33">RRAS2</data>
+  <data key="d21">600098</data>
+  <data key="d25">HGNC:17271</data>
+  <data key="d26">ENST00000256196.9,NM_012250.6</data>
+  <data key="d34">HGNC:17271</data>
+  <data key="d27">a0303add-0a84-44de-9bb9-ac6e3f62670f</data>
+</node>
+<node id="SDHD">
+  <data key="d0">SL_GENE</data>
+  <data key="d1">HGNC:10683</data>
+  <data key="d2">succinate dehydrogenase complex subunit D</data>
+  <data key="d3">protein-coding gene</data>
+  <data key="d4">gene with protein product</data>
+  <data key="d5">Approved</data>
+  <data key="d6">11q23.1</data>
+  <data key="d7">cybS</data>
+  <data key="d28">small subunit of cytochrome b</data>
+  <data key="d8">PGL,PGL1</data>
+  <data key="d35">succinate dehydrogenase complex, subunit D, integral membrane protein</data>
+  <data key="d29">Mitochondrial complex II: succinate dehydrogenase subunits</data>
+  <data key="d30">641</data>
+  <data key="d9">1997-10-21</data>
+  <data key="d31">2016-01-28</data>
+  <data key="d10">2023-01-20</data>
+  <data key="d11">6392</data>
+  <data key="d12">ENSG00000204370</data>
+  <data key="d13">OTTHUMG00000166997</data>
+  <data key="d14">uc001pmz.5</data>
+  <data key="d15">AB006202</data>
+  <data key="d16">NM_003002</data>
+  <data key="d17">O14521</data>
+  <data key="d32">9533030,1301144</data>
+  <data key="d18">MGI:1914175</data>
+  <data key="d19">RGD:735231</data>
+  <data key="d20">SDHD @ LOVD|http://www.LOVD.nl/SDHD,Global Variome shared LOVD|https://databases.lovd.nl/shared/genes/SDHD,LRG_9|http://ftp.ebi.ac.uk/pub/databases/lrgex/LRG_9.xml</data>
+  <data key="d33">SDHD</data>
+  <data key="d21">602690</data>
+  <data key="d22">118561.0</data>
+  <data key="d25">HGNC:10683</data>
+  <data key="d26">ENST00000375549.8,NM_003002.4</data>
+  <data key="d34">HGNC:10683</data>
+  <data key="d27">a047a819-acfa-4406-8689-ec43b4fd19a1</data>
+</node>
+<node id="SHBG">
+  <data key="d0">SL_GENE</data>
+  <data key="d1">HGNC:10839</data>
+  <data key="d2">sex hormone binding globulin</data>
+  <data key="d3">protein-coding gene</data>
+  <data key="d4">gene with protein product</data>
+  <data key="d5">Approved</data>
+  <data key="d6">17p13.1</data>
+  <data key="d7">ABP,TEBG,MGC126834,MGC138391</data>
+  <data key="d28">androgen binding protein</data>
+  <data key="d35">sex hormone-binding globulin</data>
+  <data key="d9">1990-03-14</data>
+  <data key="d31">2016-04-04</data>
+  <data key="d10">2023-01-20</data>
+  <data key="d11">6462</data>
+  <data key="d12">ENSG00000129214</data>
+  <data key="d13">OTTHUMG00000108153</data>
+  <data key="d14">uc002gie.4</data>
+  <data key="d16">NM_001040</data>
+  <data key="d17">P04278</data>
+  <data key="d32">2587256</data>
+  <data key="d18">MGI:98295</data>
+  <data key="d19">RGD:3671</data>
+  <data key="d21">182205</data>
+  <data key="d25">HGNC:10839</data>
+  <data key="d26">ENST00000380450.9,NM_001040.5</data>
+  <data key="d27">33acc57a-71c4-4856-bdbc-f13781b2e547</data>
+</node>
+<node id="STAC2">
+  <data key="d0">SL_GENE</data>
+  <data key="d1">HGNC:23990</data>
+  <data key="d2">SH3 and cysteine rich domain 2</data>
+  <data key="d3">protein-coding gene</data>
+  <data key="d4">gene with protein product</data>
+  <data key="d5">Approved</data>
+  <data key="d6">17q12</data>
+  <data key="d7">24b2</data>
+  <data key="d29">SH3 and cysteine rich domain family</data>
+  <data key="d30">2308</data>
+  <data key="d9">2004-05-19</data>
+  <data key="d10">2024-01-17</data>
+  <data key="d11">342667</data>
+  <data key="d12">ENSG00000141750</data>
+  <data key="d13">OTTHUMG00000179039</data>
+  <data key="d14">uc002hrs.4</data>
+  <data key="d15">AJ608762</data>
+  <data key="d16">NM_198993</data>
+  <data key="d36">CCDS11335</data>
+  <data key="d17">Q6ZMT1</data>
+  <data key="d32">25548159,29363593</data>
+  <data key="d18">MGI:2144518</data>
+  <data key="d19">RGD:1305548</data>
+  <data key="d25">HGNC:23990</data>
+  <data key="d26">ENST00000333461.6,NM_198993.5</data>
+  <data key="d27">8206483b-f2b4-41b4-af32-6d5f05cd38e4</data>
+</node>
+<node id="STUB1">
+  <data key="d0">SL_GENE</data>
+  <data key="d1">HGNC:11427</data>
+  <data key="d2">STIP1 homology and U-box containing protein 1</data>
+  <data key="d3">protein-coding gene</data>
+  <data key="d4">gene with protein product</data>
+  <data key="d5">Approved</data>
+  <data key="d6">16p13.3</data>
+  <data key="d7">UBOX1,CHIP,SDCCAG7,HSPABP2,NY-CO-7</data>
+  <data key="d29">U-box domain containing,Tetratricopeptide repeat domain containing</data>
+  <data key="d30">365,769</data>
+  <data key="d9">1999-11-25</data>
+  <data key="d31">2016-03-23</data>
+  <data key="d10">2023-01-20</data>
+  <data key="d11">10273</data>
+  <data key="d12">ENSG00000103266</data>
+  <data key="d13">OTTHUMG00000121140</data>
+  <data key="d14">uc002cit.4</data>
+  <data key="d15">AF039689</data>
+  <data key="d16">NM_005861</data>
+  <data key="d36">CCDS10419,CCDS76797</data>
+  <data key="d17">Q9UNE7</data>
+  <data key="d32">10330192,9610721</data>
+  <data key="d18">MGI:1891731</data>
+  <data key="d19">RGD:1306167</data>
+  <data key="d21">607207</data>
+  <data key="d22">395106.0</data>
+  <data key="d23">objectId:3202</data>
+  <data key="d25">HGNC:11427</data>
+  <data key="d26">ENST00000219548.9,NM_005861.4</data>
+  <data key="d34">HGNC:11427</data>
+  <data key="d27">e3e1e1d8-561d-493b-af33-857043aa16dc</data>
+</node>
+<node id="TADA1">
+  <data key="d0">SL_GENE</data>
+  <data key="d1">HGNC:30631</data>
+  <data key="d2">transcriptional adaptor 1</data>
+  <data key="d3">protein-coding gene</data>
+  <data key="d4">gene with protein product</data>
+  <data key="d5">Approved</data>
+  <data key="d6">1q24.1</data>
+  <data key="d7">STAF42,ADA1,hADA1,HFI1</data>
+  <data key="d8">TADA1L</data>
+  <data key="d35">transcriptional adaptor 1 (HFI1 homolog, yeast)-like,transcriptional adaptor 1 (HFI1 homolog, yeast)</data>
+  <data key="d29">SAGA complex</data>
+  <data key="d30">1059</data>
+  <data key="d9">2005-06-10</data>
+  <data key="d39">2009-10-02</data>
+  <data key="d31">2009-10-02</data>
+  <data key="d10">2023-01-20</data>
+  <data key="d11">117143</data>
+  <data key="d12">ENSG00000152382</data>
+  <data key="d13">OTTHUMG00000034321</data>
+  <data key="d14">uc001gdw.4</data>
+  <data key="d15">BC015401</data>
+  <data key="d16">NM_053053</data>
+  <data key="d36">CCDS1255</data>
+  <data key="d17">Q96BN2</data>
+  <data key="d32">11564863</data>
+  <data key="d18">MGI:1196415</data>
+  <data key="d19">RGD:1306774</data>
+  <data key="d21">612763</data>
+  <data key="d25">HGNC:30631</data>
+  <data key="d26">ENST00000367874.5,NM_053053.4</data>
+  <data key="d27">5b2623c7-5d77-478c-a809-ff35f76b6242</data>
+</node>
+<node id="TMCO6">
+  <data key="d0">SL_GENE</data>
+  <data key="d1">HGNC:28814</data>
+  <data key="d2">transmembrane and coiled-coil domains 6</data>
+  <data key="d3">protein-coding gene</data>
+  <data key="d4">gene with protein product</data>
+  <data key="d5">Approved</data>
+  <data key="d6">5q31.3</data>
+  <data key="d7">FLJ39769,PRO1580</data>
+  <data key="d29">Armadillo like helical domain containing</data>
+  <data key="d30">1492</data>
+  <data key="d9">2006-08-21</data>
+  <data key="d10">2023-01-20</data>
+  <data key="d11">55374</data>
+  <data key="d12">ENSG00000113119</data>
+  <data key="d13">OTTHUMG00000129497</data>
+  <data key="d14">uc003lgl.4</data>
+  <data key="d15">BC001910</data>
+  <data key="d16">NM_018502</data>
+  <data key="d36">CCDS4233,CCDS75320</data>
+  <data key="d17">Q96DC7</data>
+  <data key="d32">12477932</data>
+  <data key="d18">MGI:1919233</data>
+  <data key="d19">RGD:1309263</data>
+  <data key="d25">HGNC:28814</data>
+  <data key="d26">ENST00000394671.8,NM_018502.5</data>
+  <data key="d27">1e6a4dd2-4ca2-4632-8839-db83b3150204</data>
+</node>
+<node id="DMAC1">
+  <data key="d0">SL_GENE</data>
+  <data key="d1">HGNC:30536</data>
+  <data key="d2">distal membrane arm assembly component 1</data>
+  <data key="d3">protein-coding gene</data>
+  <data key="d4">gene with protein product</data>
+  <data key="d5">Approved</data>
+  <data key="d6">9p24.1</data>
+  <data key="d7">MGC4730</data>
+  <data key="d8">C9orf123,TMEM261</data>
+  <data key="d35">chromosome 9 open reading frame 123,transmembrane protein 261,distal membrane arm assembly complex 1</data>
+  <data key="d29">Mitochondrial respiratory chain complex assembly factors</data>
+  <data key="d30">645</data>
+  <data key="d9">2004-04-15</data>
+  <data key="d39">2017-06-01</data>
+  <data key="d31">2021-02-05</data>
+  <data key="d10">2023-01-20</data>
+  <data key="d11">90871</data>
+  <data key="d12">ENSG00000137038</data>
+  <data key="d13">OTTHUMG00000019539</data>
+  <data key="d15">BC009510</data>
+  <data key="d16">NM_033428</data>
+  <data key="d36">CCDS34989</data>
+  <data key="d17">Q96GE9</data>
+  <data key="d32">21666724,27626371</data>
+  <data key="d18">MGI:1914178</data>
+  <data key="d19">RGD:1309148</data>
+  <data key="d21">617261</data>
+  <data key="d25">HGNC:30536</data>
+  <data key="d26">ENST00000358227.5,NM_033428.3</data>
+  <data key="d27">27b562f3-2be5-4dcb-b8e0-2dfb0a19c9e3</data>
+</node>
+<node id="TOR4A">
+  <data key="d0">SL_GENE</data>
+  <data key="d1">HGNC:25981</data>
+  <data key="d2">torsin family 4 member A</data>
+  <data key="d3">protein-coding gene</data>
+  <data key="d4">gene with protein product</data>
+  <data key="d5">Approved</data>
+  <data key="d6">9q34.3</data>
+  <data key="d7">FLJ20245</data>
+  <data key="d8">C9orf167</data>
+  <data key="d35">chromosome 9 open reading frame 167,torsin family 4, member A</data>
+  <data key="d29">Torsins</data>
+  <data key="d30">1831</data>
+  <data key="d9">2007-02-08</data>
+  <data key="d39">2012-04-03</data>
+  <data key="d31">2016-01-25</data>
+  <data key="d10">2023-01-20</data>
+  <data key="d11">54863</data>
+  <data key="d12">ENSG00000198113</data>
+  <data key="d13">OTTHUMG00000131779</data>
+  <data key="d14">uc004cmn.4</data>
+  <data key="d15">AK023361</data>
+  <data key="d16">NM_017723</data>
+  <data key="d36">CCDS7041</data>
+  <data key="d17">Q9NXH8</data>
+  <data key="d18">MGI:2442720</data>
+  <data key="d19">RGD:1308019</data>
+  <data key="d25">HGNC:25981</data>
+  <data key="d26">ENST00000357503.3,NM_017723.3</data>
+  <data key="d27">e46a6c88-929d-4ef8-96f3-940d85a2fd1c</data>
+</node>
+<node id="TUSC2">
+  <data key="d0">SL_GENE</data>
+  <data key="d1">HGNC:17034</data>
+  <data key="d2">tumor suppressor 2, mitochondrial calcium regulator</data>
+  <data key="d3">protein-coding gene</data>
+  <data key="d4">gene with protein product</data>
+  <data key="d5">Approved</data>
+  <data key="d6">3p21.31</data>
+  <data key="d7">FUS1,PAP,C3orf11</data>
+  <data key="d8">PDAP2</data>
+  <data key="d35">PDGFA associated protein 2,tumor suppressor candidate 2</data>
+  <data key="d9">2003-09-25</data>
+  <data key="d39">2004-01-21</data>
+  <data key="d31">2018-02-23</data>
+  <data key="d10">2023-01-20</data>
+  <data key="d11">11334</data>
+  <data key="d12">ENSG00000114383</data>
+  <data key="d13">OTTHUMG00000156877</data>
+  <data key="d14">uc003czy.2</data>
+  <data key="d15">AF055479</data>
+  <data key="d16">NM_007275</data>
+  <data key="d36">CCDS2819</data>
+  <data key="d17">O75896</data>
+  <data key="d32">8780057,11593436</data>
+  <data key="d18">MGI:1931086</data>
+  <data key="d19">RGD:1561664</data>
+  <data key="d21">607052</data>
+  <data key="d25">HGNC:17034</data>
+  <data key="d26">ENST00000232496.5,NM_007275.3</data>
+  <data key="d27">e0126842-7a76-4abe-8b75-6309735e64eb</data>
+</node>
+<node id="UNC13D">
+  <data key="d0">SL_GENE</data>
+  <data key="d1">HGNC:23147</data>
+  <data key="d2">unc-13 homolog D</data>
+  <data key="d3">protein-coding gene</data>
+  <data key="d4">gene with protein product</data>
+  <data key="d5">Approved</data>
+  <data key="d6">17q25.3</data>
+  <data key="d7">Munc13-4</data>
+  <data key="d35">unc-13 homolog D (C. elegans)</data>
+  <data key="d29">UNC13 homologs</data>
+  <data key="d30">836</data>
+  <data key="d9">2003-10-16</data>
+  <data key="d31">2016-04-05</data>
+  <data key="d10">2024-01-16</data>
+  <data key="d11">201294</data>
+  <data key="d12">ENSG00000092929</data>
+  <data key="d13">OTTHUMG00000179895</data>
+  <data key="d14">uc002jpp.5</data>
+  <data key="d15">AK024474</data>
+  <data key="d16">NM_199242</data>
+  <data key="d36">CCDS11730</data>
+  <data key="d17">Q70J99</data>
+  <data key="d32">17993578</data>
+  <data key="d18">MGI:1917700</data>
+  <data key="d19">RGD:628593</data>
+  <data key="d20">UNC13Dbase: Mutation registry for Familial hemophagocytic lymphohistiocytosis 3|http://structure.bmc.lu.se/idbase/UNC13Dbase/,CCHMC-BMI &amp; UC Hearing Loss Mutation Database|https://research.cchmc.org/LOVD/home.php?select_db=UNC13D,LRG_122|http://ftp.ebi.ac.uk/pub/databases/lrgex/LRG_122.xml</data>
+  <data key="d21">608897</data>
+  <data key="d22">120416.0</data>
+  <data key="d25">HGNC:23147</data>
+  <data key="d26">ENST00000207549.9,NM_199242.3</data>
+  <data key="d34">HGNC:23147</data>
+  <data key="d27">9df77aac-e404-4007-92ad-897f72a70930</data>
+</node>
+<node id="USH1G">
+  <data key="d0">SL_GENE</data>
+  <data key="d1">HGNC:16356</data>
+  <data key="d2">USH1 protein network component sans</data>
+  <data key="d3">protein-coding gene</data>
+  <data key="d4">gene with protein product</data>
+  <data key="d5">Approved</data>
+  <data key="d6">17q25.1</data>
+  <data key="d7">Sans,FLJ33924,ANKS4A</data>
+  <data key="d35">Usher syndrome 1G (autosomal recessive)</data>
+  <data key="d29">Ankyrin repeat domain containing,Sterile alpha motif domain containing</data>
+  <data key="d30">403,760</data>
+  <data key="d9">2001-12-07</data>
+  <data key="d31">2016-02-17</data>
+  <data key="d10">2023-01-20</data>
+  <data key="d11">124590</data>
+  <data key="d12">ENSG00000182040</data>
+  <data key="d13">OTTHUMG00000178864</data>
+  <data key="d14">uc032fra.2</data>
+  <data key="d15">AK091243</data>
+  <data key="d16">NM_173477</data>
+  <data key="d36">CCDS32725</data>
+  <data key="d17">Q495M9</data>
+  <data key="d32">12588794</data>
+  <data key="d18">MGI:2450757</data>
+  <data key="d19">RGD:1304551</data>
+  <data key="d20">CCHMC-BMI &amp; UC Hearing Loss Mutation Database|https://research.cchmc.org/LOVD/home.php?select_db=USH1G,LRG_1416|http://ftp.ebi.ac.uk/pub/databases/lrgex/LRG_1416.xml</data>
+  <data key="d21">607696</data>
+  <data key="d22">120442.0</data>
+  <data key="d25">HGNC:16356</data>
+  <data key="d26">ENST00000614341.5,NM_173477.5</data>
+  <data key="d34">HGNC:16356</data>
+  <data key="d27">9b1a4f34-dce9-4875-9191-cf024111b5c9</data>
+</node>
+<node id="USP1">
+  <data key="d0">SL_GENE</data>
+  <data key="d1">HGNC:12607</data>
+  <data key="d2">ubiquitin specific peptidase 1</data>
+  <data key="d3">protein-coding gene</data>
+  <data key="d4">gene with protein product</data>
+  <data key="d5">Approved</data>
+  <data key="d6">1p31.3</data>
+  <data key="d28">Ubiquitinyl hydrolase 1, Ubiquitin carboxyl-terminal hydrolase 1, ubiquitin thiolesterase 1</data>
+  <data key="d35">ubiquitin specific protease 1</data>
+  <data key="d29">Ubiquitin specific peptidases</data>
+  <data key="d30">366</data>
+  <data key="d9">1998-06-08</data>
+  <data key="d31">2005-08-08</data>
+  <data key="d10">2023-01-20</data>
+  <data key="d11">7398</data>
+  <data key="d12">ENSG00000162607</data>
+  <data key="d13">OTTHUMG00000008972</data>
+  <data key="d14">uc001daj.3</data>
+  <data key="d16">NM_001017415</data>
+  <data key="d36">CCDS621</data>
+  <data key="d17">O94782</data>
+  <data key="d32">12838346</data>
+  <data key="d18">MGI:2385198</data>
+  <data key="d19">RGD:1306461</data>
+  <data key="d21">603478</data>
+  <data key="d40">C19.019</data>
+  <data key="d23">objectId:2428</data>
+  <data key="d24">3.4.19.12</data>
+  <data key="d25">HGNC:12607</data>
+  <data key="d26">ENST00000339950.5,NM_003368.5</data>
+  <data key="d34">HGNC:12607</data>
+  <data key="d27">591bb6a9-2148-4654-95bd-6a565f7eba46</data>
+</node>
+<node id="USP48">
+  <data key="d0">SL_GENE</data>
+  <data key="d1">HGNC:18533</data>
+  <data key="d2">ubiquitin specific peptidase 48</data>
+  <data key="d3">protein-coding gene</data>
+  <data key="d4">gene with protein product</data>
+  <data key="d5">Approved</data>
+  <data key="d6">1p36.12</data>
+  <data key="d7">FLJ23277,FLJ11328,FLJ20103,FLJ23054,MGC14879</data>
+  <data key="d8">USP31</data>
+  <data key="d35">ubiquitin specific protease 31,ubiquitin specific protease 48</data>
+  <data key="d29">Ubiquitin specific peptidases</data>
+  <data key="d30">366</data>
+  <data key="d9">2003-05-29</data>
+  <data key="d39">2004-04-07</data>
+  <data key="d31">2005-08-08</data>
+  <data key="d10">2023-03-17</data>
+  <data key="d11">84196</data>
+  <data key="d12">ENSG00000090686</data>
+  <data key="d13">OTTHUMG00000007798</data>
+  <data key="d14">uc001bfb.4</data>
+  <data key="d15">AF502942</data>
+  <data key="d16">NM_032236</data>
+  <data key="d17">Q86UV5</data>
+  <data key="d32">12838346,15354349</data>
+  <data key="d18">MGI:2158502</data>
+  <data key="d19">RGD:735213</data>
+  <data key="d21">617445</data>
+  <data key="d40">C19.068</data>
+  <data key="d25">HGNC:18533</data>
+  <data key="d26">ENST00000308271.14,NM_032236.8</data>
+  <data key="d34">HGNC:18533</data>
+  <data key="d27">4e0cddea-e0fa-4bff-ab58-b3e91c8c8bb2</data>
+</node>
+<node id="VGLL3">
+  <data key="d0">SL_GENE</data>
+  <data key="d1">HGNC:24327</data>
+  <data key="d2">vestigial like family member 3</data>
+  <data key="d3">protein-coding gene</data>
+  <data key="d4">gene with protein product</data>
+  <data key="d5">Approved</data>
+  <data key="d6">3p12.1</data>
+  <data key="d7">VGL-3</data>
+  <data key="d35">vestigial like 3 (Drosophila),vestigial-like family member 3</data>
+  <data key="d29">Vestigial like family</data>
+  <data key="d30">367</data>
+  <data key="d9">2005-12-30</data>
+  <data key="d31">2015-11-23</data>
+  <data key="d10">2023-01-20</data>
+  <data key="d11">389136</data>
+  <data key="d12">ENSG00000206538</data>
+  <data key="d13">OTTHUMG00000158984</data>
+  <data key="d14">uc003dqn.4</data>
+  <data key="d15">AF099505</data>
+  <data key="d16">NM_016206</data>
+  <data key="d36">CCDS43110,CCDS82807</data>
+  <data key="d17">A8MV65</data>
+  <data key="d32">12376544</data>
+  <data key="d18">MGI:1920819</data>
+  <data key="d19">RGD:1560030</data>
+  <data key="d21">609980</data>
+  <data key="d25">HGNC:24327</data>
+  <data key="d26">ENST00000398399.7,NM_016206.4</data>
+  <data key="d27">61b910b1-3d7e-4ba1-96f2-84c99b785f06</data>
+</node>
+<node id="WRAP53">
+  <data key="d0">SL_GENE</data>
+  <data key="d1">HGNC:25522</data>
+  <data key="d2">WD repeat containing antisense to TP53</data>
+  <data key="d3">protein-coding gene</data>
+  <data key="d4">gene with protein product</data>
+  <data key="d5">Approved</data>
+  <data key="d6">17p13.1</data>
+  <data key="d7">FLJ10385,TCAB1</data>
+  <data key="d28">telomerase cajal body protein 1,WD-encoding RNA antisense to p53</data>
+  <data key="d8">WDR79</data>
+  <data key="d35">WD repeat domain 79,WD repeat containing, antisense to TP53</data>
+  <data key="d29">WD repeat domain containing</data>
+  <data key="d30">362</data>
+  <data key="d9">2005-08-12</data>
+  <data key="d39">2009-02-16</data>
+  <data key="d31">2016-04-25</data>
+  <data key="d10">2023-01-20</data>
+  <data key="d11">55135</data>
+  <data key="d12">ENSG00000141499</data>
+  <data key="d13">OTTHUMG00000134323</data>
+  <data key="d14">uc010vuh.2</data>
+  <data key="d15">AK001247,DQ431240</data>
+  <data key="d16">NM_018081</data>
+  <data key="d36">CCDS11119</data>
+  <data key="d17">Q9BUR4</data>
+  <data key="d32">19179534,19250907,19571673,19342896,20494116,21441950</data>
+  <data key="d18">MGI:2384933</data>
+  <data key="d19">RGD:1359624</data>
+  <data key="d20">LRG_375|http://ftp.ebi.ac.uk/pub/databases/lrgex/LRG_375.xml</data>
+  <data key="d21">612661</data>
+  <data key="d22">266162.0</data>
+  <data key="d25">HGNC:25522</data>
+  <data key="d26">ENST00000396463.7,NM_001143992.2</data>
+  <data key="d34">HGNC:25522</data>
+  <data key="d27">956e0fc3-76d8-4b08-b166-94ce7b8b1b7b</data>
+</node>
+<node id="YPEL5">
+  <data key="d0">SL_GENE</data>
+  <data key="d1">HGNC:18329</data>
+  <data key="d2">yippee like 5</data>
+  <data key="d3">protein-coding gene</data>
+  <data key="d4">gene with protein product</data>
+  <data key="d5">Approved</data>
+  <data key="d6">2p23.1</data>
+  <data key="d7">CGI-127</data>
+  <data key="d35">yippee-like 5 (Drosophila)</data>
+  <data key="d29">Yippee like family</data>
+  <data key="d30">1130</data>
+  <data key="d9">2004-06-28</data>
+  <data key="d31">2015-11-05</data>
+  <data key="d10">2023-01-20</data>
+  <data key="d11">51646</data>
+  <data key="d12">ENSG00000119801</data>
+  <data key="d13">OTTHUMG00000097839</data>
+  <data key="d14">uc002rna.5</data>
+  <data key="d15">AF135161</data>
+  <data key="d16">NM_016061</data>
+  <data key="d36">CCDS1771</data>
+  <data key="d17">P62699</data>
+  <data key="d32">15556292</data>
+  <data key="d18">MGI:1916937</data>
+  <data key="d19">RGD:1309657</data>
+  <data key="d21">609726</data>
+  <data key="d25">HGNC:18329</data>
+  <data key="d26">ENST00000261353.9,NM_016061.3</data>
+  <data key="d27">aa2a0171-72f1-40aa-a49c-f7d8352b96a0</data>
+</node>
+<edge source="TYMS" target="LKB1">
+  <data key="d43">synthetic_lethality</data>
+</edge>
+<edge source="TYMS" target="NF1">
+  <data key="d43">synthetic_lethality</data>
+</edge>
+<edge source="TYMS" target="NF2">
+  <data key="d43">synthetic_lethality</data>
+</edge>
+<edge source="TYMS" target="PBRM1">
+  <data key="d43">synthetic_lethality</data>
+</edge>
+<edge source="TYMS" target="PTEN">
+  <data key="d43">synthetic_lethality</data>
+</edge>
+<edge source="TYMS" target="TP53">
+  <data key="d43">synthetic_lethality</data>
+</edge>
+<edge source="TYMS" target="TP53BP1">
+  <data key="d43">synthetic_lethality</data>
+</edge>
+<edge source="UBE2T" target="CDH1">
+  <data key="d43">synthetic_lethality</data>
+</edge>
+<edge source="UBE2T" target="LKB1">
+  <data key="d43">synthetic_lethality</data>
+</edge>
+<edge source="UBE2T" target="NF1">
+  <data key="d43">synthetic_lethality</data>
+</edge>
+<edge source="UBE2T" target="NF2">
+  <data key="d43">synthetic_lethality</data>
+</edge>
+<edge source="UBE2T" target="PBRM1">
+  <data key="d43">synthetic_lethality</data>
+</edge>
+<edge source="UBE2T" target="TP53BP1">
+  <data key="d43">synthetic_lethality</data>
+</edge>
+<edge source="BRIP1" target="LKB1">
+  <data key="d43">synthetic_lethality</data>
+</edge>
+<edge source="BRIP1" target="NF1">
+  <data key="d43">synthetic_lethality</data>
+</edge>
+<edge source="BRIP1" target="NF2">
+  <data key="d43">synthetic_lethality</data>
+</edge>
+<edge source="BRIP1" target="PBRM1">
+  <data key="d43">synthetic_lethality</data>
+</edge>
+<edge source="BRIP1" target="VHL">
+  <data key="d43">synthetic_lethality</data>
+</edge>
+<edge source="DDX19A" target="ARID1A">
+  <data key="d43">synthetic_lethality</data>
+</edge>
+<edge source="DDX19A" target="CDH1">
+  <data key="d43">synthetic_lethality</data>
+</edge>
+<edge source="DDX19A" target="NF2">
+  <data key="d43">synthetic_lethality</data>
+</edge>
+<edge source="DDX19A" target="PBRM1">
+  <data key="d43">synthetic_lethality</data>
+</edge>
+<edge source="DDX19A" target="RB1">
+  <data key="d43">synthetic_lethality</data>
+</edge>
+<edge source="PPP2R3C" target="CDH1">
+  <data key="d43">synthetic_lethality</data>
+</edge>
+<edge source="PPP2R3C" target="LKB1">
+  <data key="d43">synthetic_lethality</data>
+</edge>
+<edge source="PPP2R3C" target="NF2">
+  <data key="d43">synthetic_lethality</data>
+</edge>
+<edge source="PPP2R3C" target="RB1">
+  <data key="d43">synthetic_lethality</data>
+</edge>
+<edge source="PPP2R3C" target="VHL">
+  <data key="d43">synthetic_lethality</data>
+</edge>
+<edge source="RPRD1B" target="LKB1">
+  <data key="d43">synthetic_lethality</data>
+</edge>
+<edge source="RPRD1B" target="NF1">
+  <data key="d43">synthetic_lethality</data>
+</edge>
+<edge source="RPRD1B" target="PTEN">
+  <data key="d43">synthetic_lethality</data>
+</edge>
+<edge source="RPRD1B" target="TP53">
+  <data key="d43">synthetic_lethality</data>
+</edge>
+<edge source="RPRD1B" target="VHL">
+  <data key="d43">synthetic_lethality</data>
+</edge>
+<edge source="BPTF" target="ARID1A">
+  <data key="d43">synthetic_lethality</data>
+</edge>
+<edge source="BPTF" target="KEAP1">
+  <data key="d43">synthetic_lethality</data>
+</edge>
+<edge source="BPTF" target="PBRM1">
+  <data key="d43">synthetic_lethality</data>
+</edge>
+<edge source="BPTF" target="TP53">
+  <data key="d43">synthetic_lethality</data>
+</edge>
+<edge source="FANCA" target="LKB1">
+  <data key="d43">synthetic_lethality</data>
+</edge>
+<edge source="FANCA" target="NF2">
+  <data key="d43">synthetic_lethality</data>
+</edge>
+<edge source="FANCA" target="PBRM1">
+  <data key="d43">synthetic_lethality</data>
+</edge>
+<edge source="FANCA" target="VHL">
+  <data key="d43">synthetic_lethality</data>
+</edge>
+<edge source="FANCD2" target="CDH1">
+  <data key="d43">synthetic_lethality</data>
+</edge>
+<edge source="FANCD2" target="NF2">
+  <data key="d43">synthetic_lethality</data>
+</edge>
+<edge source="FANCD2" target="PBRM1">
+  <data key="d43">synthetic_lethality</data>
+</edge>
+<edge source="FANCD2" target="TP53BP1">
+  <data key="d43">synthetic_lethality</data>
+</edge>
+<edge source="FANCF" target="CDH1">
+  <data key="d43">synthetic_lethality</data>
+</edge>
+<edge source="FANCF" target="LKB1">
+  <data key="d43">synthetic_lethality</data>
+</edge>
+<edge source="FANCF" target="NF2">
+  <data key="d43">synthetic_lethality</data>
+</edge>
+<edge source="FANCF" target="PBRM1">
+  <data key="d43">synthetic_lethality</data>
+</edge>
+<edge source="MCM9" target="LKB1">
+  <data key="d43">synthetic_lethality</data>
+</edge>
+<edge source="MCM9" target="NF2">
+  <data key="d43">synthetic_lethality</data>
+</edge>
+<edge source="MCM9" target="VHL">
+  <data key="d43">synthetic_lethality</data>
+</edge>
+<edge source="MCM9" target="TP53BP1">
+  <data key="d43">synthetic_lethality</data>
+</edge>
+<edge source="SDHB" target="BAP1">
+  <data key="d43">synthetic_lethality</data>
+</edge>
+<edge source="SDHB" target="LKB1">
+  <data key="d43">synthetic_lethality</data>
+</edge>
+<edge source="SDHB" target="PBRM1">
+  <data key="d43">synthetic_lethality</data>
+</edge>
+<edge source="SDHB" target="VHL">
+  <data key="d43">synthetic_lethality</data>
+</edge>
+<edge source="USPL1" target="BAP1">
+  <data key="d43">synthetic_lethality</data>
+</edge>
+<edge source="USPL1" target="NF2">
+  <data key="d43">synthetic_lethality</data>
+</edge>
+<edge source="USPL1" target="PTEN">
+  <data key="d43">synthetic_lethality</data>
+</edge>
+<edge source="USPL1" target="TP53BP1">
+  <data key="d43">synthetic_lethality</data>
+</edge>
+<edge source="ATG9A" target="LKB1">
+  <data key="d43">synthetic_lethality</data>
+</edge>
+<edge source="ATG9A" target="NF1">
+  <data key="d43">synthetic_lethality</data>
+</edge>
+<edge source="ATG9A" target="VHL">
+  <data key="d43">synthetic_lethality</data>
+</edge>
+<edge source="C16orf72" target="ARID1A">
+  <data key="d43">synthetic_lethality</data>
+</edge>
+<edge source="C16orf72" target="BAP1">
+  <data key="d43">synthetic_lethality</data>
+</edge>
+<edge source="C16orf72" target="NF1">
+  <data key="d43">synthetic_lethality</data>
+</edge>
+<edge source="COQ2" target="BAP1">
+  <data key="d43">synthetic_lethality</data>
+</edge>
+<edge source="COQ2" target="KEAP1">
+  <data key="d43">synthetic_lethality</data>
+</edge>
+<edge source="COQ2" target="RB1">
+  <data key="d43">synthetic_lethality</data>
+</edge>
+<edge source="FAM106A" target="LKB1">
+  <data key="d43">synthetic_lethality</data>
+</edge>
+<edge source="FAM106A" target="NF1">
+  <data key="d43">synthetic_lethality</data>
+</edge>
+<edge source="FAM106A" target="PTEN">
+  <data key="d43">synthetic_lethality</data>
+</edge>
+<edge source="FBXW11" target="LKB1">
+  <data key="d43">synthetic_lethality</data>
+</edge>
+<edge source="FBXW11" target="NF1">
+  <data key="d43">synthetic_lethality</data>
+</edge>
+<edge source="FBXW11" target="VHL">
+  <data key="d43">synthetic_lethality</data>
+</edge>
+<edge source="NDUFC1" target="NF1">
+  <data key="d43">synthetic_lethality</data>
+</edge>
+<edge source="NDUFC1" target="PBRM1">
+  <data key="d43">synthetic_lethality</data>
+</edge>
+<edge source="NDUFC1" target="PTEN">
+  <data key="d43">synthetic_lethality</data>
+</edge>
+<edge source="PMVK" target="BAP1">
+  <data key="d43">synthetic_lethality</data>
+</edge>
+<edge source="PMVK" target="NF1">
+  <data key="d43">synthetic_lethality</data>
+</edge>
+<edge source="PMVK" target="NF2">
+  <data key="d43">synthetic_lethality</data>
+</edge>
+<edge source="PRDX1" target="NF1">
+  <data key="d43">synthetic_lethality</data>
+</edge>
+<edge source="PRDX1" target="NF2">
+  <data key="d43">synthetic_lethality</data>
+</edge>
+<edge source="PRDX1" target="PBRM1">
+  <data key="d43">synthetic_lethality</data>
+</edge>
+<edge source="PRKRA" target="LKB1">
+  <data key="d43">synthetic_lethality</data>
+</edge>
+<edge source="PRKRA" target="NF1">
+  <data key="d43">synthetic_lethality</data>
+</edge>
+<edge source="PRKRA" target="VHL">
+  <data key="d43">synthetic_lethality</data>
+</edge>
+<edge source="SLC25A33" target="LKB1">
+  <data key="d43">synthetic_lethality</data>
+</edge>
+<edge source="SLC25A33" target="VHL">
+  <data key="d43">synthetic_lethality</data>
+</edge>
+<edge source="SLC25A33" target="TP53BP1">
+  <data key="d43">synthetic_lethality</data>
+</edge>
+<edge source="UIMC1" target="CDH1">
+  <data key="d43">synthetic_lethality</data>
+</edge>
+<edge source="UIMC1" target="KEAP1">
+  <data key="d43">synthetic_lethality</data>
+</edge>
+<edge source="UIMC1" target="NF1">
+  <data key="d43">synthetic_lethality</data>
+</edge>
+<edge source="UMPS" target="PBRM1">
+  <data key="d43">synthetic_lethality</data>
+</edge>
+<edge source="UMPS" target="RB1">
+  <data key="d43">synthetic_lethality</data>
+</edge>
+<edge source="UMPS" target="VHL">
+  <data key="d43">synthetic_lethality</data>
+</edge>
+<edge source="ARID2" target="LKB1">
+  <data key="d43">synthetic_lethality</data>
+</edge>
+<edge source="ARID2" target="NF2">
+  <data key="d43">synthetic_lethality</data>
+</edge>
+<edge source="BIRC6" target="LKB1">
+  <data key="d43">synthetic_lethality</data>
+</edge>
+<edge source="BIRC6" target="VHL">
+  <data key="d43">synthetic_lethality</data>
+</edge>
+<edge source="BUB1" target="ARID1A">
+  <data key="d43">synthetic_lethality</data>
+</edge>
+<edge source="BUB1" target="CDH1">
+  <data key="d43">synthetic_lethality</data>
+</edge>
+<edge source="BZW1" target="BAP1">
+  <data key="d43">synthetic_lethality</data>
+</edge>
+<edge source="BZW1" target="NF2">
+  <data key="d43">synthetic_lethality</data>
+</edge>
+<edge source="C12orf44" target="LKB1">
+  <data key="d43">synthetic_lethality</data>
+</edge>
+<edge source="C12orf44" target="VHL">
+  <data key="d43">synthetic_lethality</data>
+</edge>
+<edge source="C1orf228" target="CDH1">
+  <data key="d43">synthetic_lethality</data>
+</edge>
+<edge source="C1orf228" target="VHL">
+  <data key="d43">synthetic_lethality</data>
+</edge>
+<edge source="CAB39" target="TP53">
+  <data key="d43">synthetic_lethality</data>
+</edge>
+<edge source="CAB39" target="VHL">
+  <data key="d43">synthetic_lethality</data>
+</edge>
+<edge source="CAPRIN1" target="CDH1">
+  <data key="d43">synthetic_lethality</data>
+</edge>
+<edge source="CAPRIN1" target="VHL">
+  <data key="d43">synthetic_lethality</data>
+</edge>
+<edge source="CHMP6" target="ARID1A">
+  <data key="d43">synthetic_lethality</data>
+</edge>
+<edge source="CHMP6" target="TP53BP1">
+  <data key="d43">synthetic_lethality</data>
+</edge>
+<edge source="CNKSR2" target="NF1">
+  <data key="d43">synthetic_lethality</data>
+</edge>
+<edge source="CNKSR2" target="TP53">
+  <data key="d43">synthetic_lethality</data>
+</edge>
+<edge source="CNOT4" target="PTEN">
+  <data key="d43">synthetic_lethality</data>
+</edge>
+<edge source="CNOT4" target="VHL">
+  <data key="d43">synthetic_lethality</data>
+</edge>
+<edge source="CTBP2" target="KEAP1">
+  <data key="d43">synthetic_lethality</data>
+</edge>
+<edge source="CTBP2" target="RB1">
+  <data key="d43">synthetic_lethality</data>
+</edge>
+<edge source="DHODH" target="BAP1">
+  <data key="d43">synthetic_lethality</data>
+</edge>
+<edge source="DHODH" target="VHL">
+  <data key="d43">synthetic_lethality</data>
+</edge>
+<edge source="DHX35" target="LKB1">
+  <data key="d43">synthetic_lethality</data>
+</edge>
+<edge source="DHX35" target="VHL">
+  <data key="d43">synthetic_lethality</data>
+</edge>
+<edge source="EBNA1BP2" target="NF1">
+  <data key="d43">synthetic_lethality</data>
+</edge>
+<edge source="EBNA1BP2" target="RB1">
+  <data key="d43">synthetic_lethality</data>
+</edge>
+<edge source="ELMO2" target="KEAP1">
+  <data key="d43">synthetic_lethality</data>
+</edge>
+<edge source="ELMO2" target="RB1">
+  <data key="d43">synthetic_lethality</data>
+</edge>
+<edge source="FBXO42" target="LKB1">
+  <data key="d43">synthetic_lethality</data>
+</edge>
+<edge source="FBXO42" target="VHL">
+  <data key="d43">synthetic_lethality</data>
+</edge>
+<edge source="G6PC" target="KEAP1">
+  <data key="d43">synthetic_lethality</data>
+</edge>
+<edge source="G6PC" target="NF1">
+  <data key="d43">synthetic_lethality</data>
+</edge>
+<edge source="GAK" target="RB1">
+  <data key="d43">synthetic_lethality</data>
+</edge>
+<edge source="GAK" target="VHL">
+  <data key="d43">synthetic_lethality</data>
+</edge>
+<edge source="GART" target="PBRM1">
+  <data key="d43">synthetic_lethality</data>
+</edge>
+<edge source="GART" target="RB1">
+  <data key="d43">synthetic_lethality</data>
+</edge>
+<edge source="GTPBP2" target="LKB1">
+  <data key="d43">synthetic_lethality</data>
+</edge>
+<edge source="GTPBP2" target="VHL">
+  <data key="d43">synthetic_lethality</data>
+</edge>
+<edge source="IGFALS" target="ARID1A">
+  <data key="d43">synthetic_lethality</data>
+</edge>
+<edge source="IGFALS" target="VHL">
+  <data key="d43">synthetic_lethality</data>
+</edge>
+<edge source="IKBKG" target="LKB1">
+  <data key="d43">synthetic_lethality</data>
+</edge>
+<edge source="IKBKG" target="TP53BP1">
+  <data key="d43">synthetic_lethality</data>
+</edge>
+<edge source="JTB" target="LKB1">
+  <data key="d43">synthetic_lethality</data>
+</edge>
+<edge source="JTB" target="NF1">
+  <data key="d43">synthetic_lethality</data>
+</edge>
+<edge source="KIAA1524" target="NF1">
+  <data key="d43">synthetic_lethality</data>
+</edge>
+<edge source="KIAA1524" target="VHL">
+  <data key="d43">synthetic_lethality</data>
+</edge>
+<edge source="KPNA4" target="LKB1">
+  <data key="d43">synthetic_lethality</data>
+</edge>
+<edge source="KPNA4" target="VHL">
+  <data key="d43">synthetic_lethality</data>
+</edge>
+<edge source="MAPKAP1" target="PBRM1">
+  <data key="d43">synthetic_lethality</data>
+</edge>
+<edge source="MAPKAP1" target="TP53BP1">
+  <data key="d43">synthetic_lethality</data>
+</edge>
+<edge source="MED13" target="KEAP1">
+  <data key="d43">synthetic_lethality</data>
+</edge>
+<edge source="MED13" target="RB1">
+  <data key="d43">synthetic_lethality</data>
+</edge>
+<edge source="MPV17" target="LKB1">
+  <data key="d43">synthetic_lethality</data>
+</edge>
+<edge source="MPV17" target="VHL">
+  <data key="d43">synthetic_lethality</data>
+</edge>
+<edge source="MTFMT" target="LKB1">
+  <data key="d43">synthetic_lethality</data>
+</edge>
+<edge source="MTFMT" target="VHL">
+  <data key="d43">synthetic_lethality</data>
+</edge>
+<edge source="NDUFB6" target="LKB1">
+  <data key="d43">synthetic_lethality</data>
+</edge>
+<edge source="NDUFB6" target="NF1">
+  <data key="d43">synthetic_lethality</data>
+</edge>
+<edge source="NUP160" target="ARID1A">
+  <data key="d43">synthetic_lethality</data>
+</edge>
+<edge source="NUP160" target="PBRM1">
+  <data key="d43">synthetic_lethality</data>
+</edge>
+<edge source="PARD6B" target="PBRM1">
+  <data key="d43">synthetic_lethality</data>
+</edge>
+<edge source="PARD6B" target="PTEN">
+  <data key="d43">synthetic_lethality</data>
+</edge>
+<edge source="PDIA3" target="PBRM1">
+  <data key="d43">synthetic_lethality</data>
+</edge>
+<edge source="PDIA3" target="VHL">
+  <data key="d43">synthetic_lethality</data>
+</edge>
+<edge source="PDS5A" target="LKB1">
+  <data key="d43">synthetic_lethality</data>
+</edge>
+<edge source="PDS5A" target="VHL">
+  <data key="d43">synthetic_lethality</data>
+</edge>
+<edge source="PIN1" target="KEAP1">
+  <data key="d43">synthetic_lethality</data>
+</edge>
+<edge source="PIN1" target="RB1">
+  <data key="d43">synthetic_lethality</data>
+</edge>
+<edge source="PSMF1" target="LKB1">
+  <data key="d43">synthetic_lethality</data>
+</edge>
+<edge source="PSMF1" target="VHL">
+  <data key="d43">synthetic_lethality</data>
+</edge>
+<edge source="RAD54L" target="PTEN">
+  <data key="d43">synthetic_lethality</data>
+</edge>
+<edge source="RAD54L" target="VHL">
+  <data key="d43">synthetic_lethality</data>
+</edge>
+<edge source="RMI2" target="CDH1">
+  <data key="d43">synthetic_lethality</data>
+</edge>
+<edge source="RMI2" target="TP53BP1">
+  <data key="d43">synthetic_lethality</data>
+</edge>
+<edge source="RRAS2" target="BAP1">
+  <data key="d43">synthetic_lethality</data>
+</edge>
+<edge source="RRAS2" target="KEAP1">
+  <data key="d43">synthetic_lethality</data>
+</edge>
+<edge source="SDHD" target="BAP1">
+  <data key="d43">synthetic_lethality</data>
+</edge>
+<edge source="SDHD" target="VHL">
+  <data key="d43">synthetic_lethality</data>
+</edge>
+<edge source="SHBG" target="KEAP1">
+  <data key="d43">synthetic_lethality</data>
+</edge>
+<edge source="SHBG" target="NF1">
+  <data key="d43">synthetic_lethality</data>
+</edge>
+<edge source="STAC2" target="KEAP1">
+  <data key="d43">synthetic_lethality</data>
+</edge>
+<edge source="STAC2" target="RB1">
+  <data key="d43">synthetic_lethality</data>
+</edge>
+<edge source="STUB1" target="BAP1">
+  <data key="d43">synthetic_lethality</data>
+</edge>
+<edge source="STUB1" target="NF1">
+  <data key="d43">synthetic_lethality</data>
+</edge>
+<edge source="TADA1" target="RB1">
+  <data key="d43">synthetic_lethality</data>
+</edge>
+<edge source="TADA1" target="TP53">
+  <data key="d43">synthetic_lethality</data>
+</edge>
+<edge source="TMCO6" target="KEAP1">
+  <data key="d43">synthetic_lethality</data>
+</edge>
+<edge source="TMCO6" target="PTEN">
+  <data key="d43">synthetic_lethality</data>
+</edge>
+<edge source="DMAC1" target="BAP1">
+  <data key="d43">synthetic_lethality</data>
+</edge>
+<edge source="DMAC1" target="NF1">
+  <data key="d43">synthetic_lethality</data>
+</edge>
+<edge source="TOR4A" target="NF1">
+  <data key="d43">synthetic_lethality</data>
+</edge>
+<edge source="TOR4A" target="VHL">
+  <data key="d43">synthetic_lethality</data>
+</edge>
+<edge source="TUSC2" target="CDH1">
+  <data key="d43">synthetic_lethality</data>
+</edge>
+<edge source="TUSC2" target="KEAP1">
+  <data key="d43">synthetic_lethality</data>
+</edge>
+<edge source="UNC13D" target="RB1">
+  <data key="d43">synthetic_lethality</data>
+</edge>
+<edge source="UNC13D" target="TP53">
+  <data key="d43">synthetic_lethality</data>
+</edge>
+<edge source="USH1G" target="KEAP1">
+  <data key="d43">synthetic_lethality</data>
+</edge>
+<edge source="USH1G" target="NF1">
+  <data key="d43">synthetic_lethality</data>
+</edge>
+<edge source="USP1" target="PTEN">
+  <data key="d43">synthetic_lethality</data>
+</edge>
+<edge source="USP1" target="TP53BP1">
+  <data key="d43">synthetic_lethality</data>
+</edge>
+<edge source="USP48" target="NF1">
+  <data key="d43">synthetic_lethality</data>
+</edge>
+<edge source="USP48" target="NF2">
+  <data key="d43">synthetic_lethality</data>
+</edge>
+<edge source="VGLL3" target="KEAP1">
+  <data key="d43">synthetic_lethality</data>
+</edge>
+<edge source="VGLL3" target="RB1">
+  <data key="d43">synthetic_lethality</data>
+</edge>
+<edge source="WRAP53" target="NF1">
+  <data key="d43">synthetic_lethality</data>
+</edge>
+<edge source="WRAP53" target="TP53">
+  <data key="d43">synthetic_lethality</data>
+</edge>
+<edge source="YPEL5" target="LKB1">
+  <data key="d43">synthetic_lethality</data>
+</edge>
+<edge source="YPEL5" target="PBRM1">
+  <data key="d43">synthetic_lethality</data>
+</edge>
+</graph></graphml>
