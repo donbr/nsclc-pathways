@@ -44,6 +44,15 @@
         "COLLECTION_NAME": "PICK-NAME-BASED-ON-USE-CASE",
         "EMBEDDING_MODEL": "sentence-transformers/all-MiniLM-L6-v2"
       }
+    },
+    "sequential-thinking": {
+      "command": "cmd",
+      "args": [
+        "/c",
+        "npx",
+        "-y",
+        "@modelcontextprotocol/server-sequential-thinking"
+      ]
     }
   }
 }
