@@ -27,7 +27,7 @@ By standardizing this interaction, MCP eliminates the need for custom integratio
 
 ## VS Code Insiders and MCP Integration
 
-As of March 2025 (version 1.99), Visual Studio Code now officially supports Model Context Protocol (MCP) servers in agent mode. This significant addition enables VS Code and its GitHub Copilot integration to interact with a wide variety of external tools and data sources through a standardized protocol.
+As of March 2025 (version 1.99), [Visual Studio Code - Insiders](https://code.visualstudio.com/insiders/) now officially supports Model Context Protocol (MCP) servers in agent mode. This significant addition enables VS Code and its GitHub Copilot integration to interact with a wide variety of external tools and data sources through a standardized protocol.
 
 The March 2025 release included several key features related to MCP:
 - Full MCP server support in agent mode
