@@ -1,0 +1,46 @@
+graph LR
+    %% Define database and special shapes
+    P[Prompt]
+    SG[(Semantic Graph)]
+    VD[(Vector Database)]
+    LLM[LLM]
+    Z[Response]
+    
+    %% Main flow paths
+    P --> Q[Generated Query]
+    P --> EM[Embedding Model]
+    
+    %% Upper path through graph elements
+    Q --> SG
+    SG --> W[Semantic<br/>Random Walk]
+    T[Thesaurus] --> W
+    W --> GA[Graph Analytics]
+    
+    %% Lower path through vector elements
+    EM --> SS[Vector<br/>Similarity Search]
+    SS --> VD
+    
+    %% Node embeddings and chunk references
+    SG -.-|Chunk references| VD
+    SS -->|Node embeddings| SG
+    
+    %% Final convergence
+    GA --> RI[Ranked Index]
+    VD --> RI
+    RI --> LLM
+    LLM --> Z
+
+    %% Styling classes
+    classDef dataSource fill:#f4f4f4,stroke:#666,stroke-width:2px;
+    classDef storage fill:#e6f3ff,stroke:#4a90e2,stroke-width:2px;
+    classDef embedding fill:#fff3e6,stroke:#f5a623,stroke-width:2px;
+    classDef lexical fill:#f0e6ff,stroke:#4a90e2,stroke-width:2px;
+    classDef semantic fill:#f0e6ff,stroke:#9013fe,stroke-width:2px;
+    classDef reference fill:#e6ffe6,stroke:#417505,stroke-width:2px;
+
+    %% Apply styles by layer/type
+    class SG,VD storage;
+    class EM embedding;
+    class LG lexical;
+    class SG semantic;
+    class T reference;

@@ -1,0 +1,49 @@
+{
+  "mcpServers": {
+    "mcp-server-time": {
+      "command": "uvx",
+      "args": [
+        "mcp-server-time",
+        "--local-timezone=America/Los_Angeles"
+      ],
+      "env": {}
+    },
+    "brave-search": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@modelcontextprotocol/server-brave-search"
+      ],
+      "env": {
+        "BRAVE_API_KEY": "MASKED"
+      }
+    },
+    "fetch": {
+      "command": "uvx",
+      "args": [
+        "mcp-server-fetch"
+      ]
+    },
+    "filesystem": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@modelcontextprotocol/server-filesystem",
+        "\\\\wsl.localhost\\Ubuntu\\home\\MASKED\\aim"
+      ],
+      "env": {}
+    },
+    "qdrant": {
+      "command": "uvx",
+      "args": [
+        "mcp-server-qdrant"
+      ],
+      "env": {
+        "QDRANT_URL": "MASKED.us-east4-0.gcp.cloud.qdrant.io:6333",
+        "QDRANT_API_KEY": "MASKED",
+        "COLLECTION_NAME": "PICK-NAME-BASED-ON-USE-CASE",
+        "EMBEDDING_MODEL": "sentence-transformers/all-MiniLM-L6-v2"
+      }
+    }
+  }
+}
