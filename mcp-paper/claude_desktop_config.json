@@ -29,7 +29,7 @@
       "args": [
         "-y",
         "@modelcontextprotocol/server-filesystem",
-        "\\\\wsl.localhost\\Ubuntu\\home\\MASKED\\aim"
+        "\\\\wsl.localhost\\Ubuntu\\home\\donbr\\aim\\nsclc-pathways\\README.md"
       ],
       "env": {}
     },

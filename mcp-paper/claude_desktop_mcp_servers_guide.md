@@ -26,6 +26,23 @@ graph TD
     M4 --- T4[File Operations]
     M5 --- T5[Vector Database]
     M6 --- T6[Structured Reasoning]
+    
+    %% Style definitions for dark theme
+    classDef core fill:#2C3E50,stroke:#5DADE2,stroke-width:2px,color:#E0E0E0;
+    classDef servers fill:#1A365D,stroke:#4299E1,stroke-width:2px,color:#E0E0E0;
+    classDef resources fill:#44337A,stroke:#9F7AEA,stroke-width:2px,color:#E0E0E0;
+    classDef serverInstance fill:#663399,stroke:#B19CD9,stroke-width:2px,color:#E0E0E0;
+    classDef services fill:#22543D,stroke:#48BB78,stroke-width:2px,color:#E0E0E0;
+    
+    %% Apply styles to nodes
+    class A,B core;
+    class C servers;
+    class D,E resources;
+    class M1,M2,M3,M4,M5,M6 serverInstance;
+    class T1,T2,T3,T4,T5,T6 services;
+    
+    %% Edge styling
+    linkStyle default stroke:#718096,stroke-width:1.5px;
 ```
 
 The MCP architecture consists of several key components working together:
@@ -273,8 +290,10 @@ The Model Context Protocol enables powerful capabilities through arbitrary data 
 
 - [Cursor Documentation on MCP](https://docs.cursor.com/context/model-context-protocol)
 - [Introduction to Model Context Protocol](https://modelcontextprotocol.io)
+- [Sample MCP Servers](https://modelcontextprotocol.io/examples)
 - [MCP on GitHub](https://github.com/modelcontextprotocol)
 - [Cursor Community Forum](https://forum.cursor.com/)
+- [Stanford's Co-STORM](https://storm.genie.stanford.edu/) - a great free resource with similar capabilities that I recommend using in parallel with Claude Desktop and MCP
 
 ## Appendix: API Key Setup Guide
 
@@ -286,7 +305,7 @@ This appendix provides detailed, step-by-step instructions for obtaining and con
 
 1. **Visit the Brave Search API page**
    - Navigate to [brave.com/search/api/](https://brave.com/search/api/)
-   - Click on "Get 2,000 free queries" or "Get started for FREE" [1][4]
+   - Click on "Get 2,000 free queries" or "Get started for FREE" [1]
 
 2. **Register for an account**
    - Complete the registration form at [api-dashboard.search.brave.com/register](https://api-dashboard.search.brave.com/register)
@@ -297,7 +316,7 @@ This appendix provides detailed, step-by-step instructions for obtaining and con
    - Select your desired plan based on usage needs (Data for AI, Data for Search, or Data w/ storage rights) [1]
 
 4. **Generate an API key**
-   - Once subscribed, navigate to the "API Keys" section in your dashboard [2][4]
+   - Once subscribed, navigate to the "API Keys" section in your dashboard [2]
    - Click on the option to create a new API key [2]
    - Your API key will be displayed - save it securely as it cannot be retrieved later [3]
 
@@ -418,7 +437,7 @@ This appendix provides detailed, step-by-step instructions for obtaining and con
 
 [3] Brave Search API launch blog: https://brave.com/blog/search-api-launch/
 
-[4] Web Search Beta Release guide: https://github.com/nomic-ai/gpt4all/wiki/Web-Search-Beta-Release/59ae33f3ca5082113dc06ab30ef4f4bad04378a8
+[4] *removed*
 
 [5] Qdrant Cloud homepage: https://cloud.qdrant.io/
 
